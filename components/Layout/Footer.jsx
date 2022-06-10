@@ -5,68 +5,71 @@ import {
   FaTwitter,
   FaLinkedinIn,
   FaTelegramPlane,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { AiOutlineLine } from "react-icons/ai";
 
 export default function Footer() {
   return (
-    <footer className="pb-20 text-center">
-      <h1 className="text-6xl">Telickers</h1>
-      <article className="mt-4">
-        <span className="text-3xl font-bold">{"{"}</span>
-        <nav className="inline">
-          <Link href="">
-            <a className="mx-4">Services</a>
+    <footer className="bg-[#F6F6F6] py-10 text-center">
+      <Link href="/">
+        <img
+          src="/telickers.svg"
+          alt="Telickers Logo"
+          className="mx-auto w-60"
+        />
+      </Link>
+      <section className="pt-2">
+        <span className="pr-4 text-2xl font-bold md:text-3xl">{"{"}</span>
+        <nav className="inline-flex space-x-4">
+          <Link href="/about">
+            <a className="">About</a>
           </Link>
-          <Link href="">
-            <a className="mx-4">Work</a>
+          <Link href="/services">
+            <a className="">Services</a>
           </Link>
-          <Link href="">
-            <a className="mx-4">About</a>
+          <Link href="/work">
+            <a className="">Work</a>
           </Link>
-          <Link href="">
-            <a className="mx-4">Contacts</a>
+          <Link href="/contact">
+            <a className="">Contacts</a>
           </Link>
         </nav>
-        <span className="text-3xl font-bold">{"}"}</span>
-      </article>
+        <span className="pl-4 text-2xl font-bold md:text-3xl">{"}"}</span>
+      </section>
       <div className="mt-4 flex justify-center text-black">
-        <article className="mt-6 flex">
-          <Link href="">
-            <a>
-              <FaFacebookF className=" text-xl" />
-            </a>
-          </Link>
-          <AiOutlineLine className="mx-5 rotate-90 text-xl" />
-          <Link href="">
-            <a>
-              <FaInstagram className=" text-xl" />
-            </a>
-          </Link>
-          <AiOutlineLine className="mx-5 rotate-90 text-xl" />
-          <Link href="">
-            <a>
-              <FaTwitter className=" text-xl" />
-            </a>
-          </Link>
-          <AiOutlineLine className="mx-5 rotate-90 text-xl" />
-          <Link href="">
-            <a>
-              <FaLinkedinIn className=" text-xl" />
-            </a>
-          </Link>
-          <AiOutlineLine className="mx-5 rotate-90 text-xl" />
-          <Link href="">
-            <a>
-              <FaTelegramPlane className=" text-xl" />
-            </a>
-          </Link>
+        <article className="text-md mt-6 flex space-x-5 md:text-xl lg:text-2xl">
+          <a>
+            <FaWhatsapp />
+          </a>
+          <AiOutlineLine className="rotate-90 " />
+          <a>
+            <FaFacebookF />
+          </a>
+          <AiOutlineLine className="rotate-90 " />
+          <a>
+            <FaInstagram />
+          </a>
+          <AiOutlineLine className="rotate-90 " />
+          <a>
+            <FaTwitter />
+          </a>
+          <AiOutlineLine className="rotate-90 " />
+          <a>
+            <FaLinkedinIn />
+          </a>
+          <AiOutlineLine className="rotate-90 " />
+          <a>
+            <FaTelegramPlane />
+          </a>
         </article>
       </div>
-      <h1 className="mt-7 text-2xl">e-mail: hello@telickers.net</h1>
-      <h1 className="text-md mt-3 text-gray-300">
+      <p className="pt-7 text-2xl">
+        e-mail: <a href="mailto:hello@telickers.net">hello@telickers.net</a>{" "}
+      </p>
+      <p className="pt-2 text-sm text-gray-400">
         © 2022 Telickers. All rights reserved
-      </h1>
+      </p>
     </footer>
   );
 }

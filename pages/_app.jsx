@@ -50,10 +50,10 @@ function MyApp({ Component, pageProps, router }) {
             transition={animation.transition}
           >
             <Component {...pageProps} />
+      <Footer/>
           </motion.div>
         </AnimatePresence>
       </LazyMotion>
-      <Footer/>
     </>
   );
 }

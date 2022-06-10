@@ -5,7 +5,7 @@ import Work from "@/components/Work";
 export default function Home() {
   return (
     <>
-      <div id="behind-the-animation" className=" ">
+      <div id="behind-the-animation">
         <About />
         <Services />
         <Work />
