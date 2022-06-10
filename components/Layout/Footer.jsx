@@ -5,8 +5,8 @@ import {
   FaTwitter,
   FaLinkedinIn,
   FaTelegramPlane,
-} from "../node_modules/react-icons/fa";
-import { AiOutlineLine } from "../node_modules/react-icons/ai";
+} from "react-icons/fa";
+import { AiOutlineLine } from "react-icons/ai";
 
 export default function Footer() {
   return (

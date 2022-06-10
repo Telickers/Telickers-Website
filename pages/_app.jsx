@@ -7,6 +7,7 @@ import {
 } from "framer-motion";
 
 import Navbar from "@/components/Layout/Navbar";
+import Footer from '@/components/Layout/Footer'
 import runAnimationIntro from "helpers/runAnimationIntro";
 import "@/styles/globals.css";
 
@@ -52,6 +53,7 @@ function MyApp({ Component, pageProps, router }) {
           </motion.div>
         </AnimatePresence>
       </LazyMotion>
+      <Footer/>
     </>
   );
 }
