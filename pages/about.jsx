@@ -3,7 +3,7 @@ export default function About() {
     <>
       <div
         id="behind-the-animation"
-        className="flex h-screen w-screen items-center justify-center bg-green-500"
+        className="flex h-screen w-screen items-center justify-center"
       >
         <h1 className="text-5xl font-bold text-black">About us</h1>
       </div>

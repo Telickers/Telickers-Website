@@ -7,36 +7,36 @@ export default function Services() {
       src: "/icons/code.svg",
       title: "Web Development",
       desc: [
-        "Advise businesses regarding software use",
-        "Set up online software tools test test test",
-        "Assess the technological needs of a company",
+        "will enter the text here later",
+        "will enter the text here later",
+        "will enter the text here later",
       ],
     },
     {
       src: "/icons/palet.svg",
       title: "UI / UX Design",
       desc: [
-        "Advise businesses regarding software use",
-        "Set up online software tools test test test",
-        "Assess the technological needs of a company",
+        "will enter the text here later",
+        "will enter the text here later",
+        "will enter the text here later",
       ],
     },
     {
       src: "/icons/brain.svg",
       title: "Tutoring",
       desc: [
-        "Advise businesses regarding software use",
-        "Set up online software tools test test test",
-        "Assess the technological needs of a company",
+        "will enter the text here later",
+        "will enter the text here later",
+        "will enter the text here later",
       ],
     },
     {
       src: "/icons/lamp.svg",
       title: "Software Consultation",
       desc: [
-        "Advise businesses regarding software use",
-        "Set up online software tools test test test",
-        "Assess the technological needs of a company",
+        "will enter the text here later",
+        "will enter the text here later",
+        "will enter the text here later",
       ],
     },
   ];
