@@ -1,16 +1,13 @@
 import { IoIosArrowDown, IoIosArrowUp } from "../node_modules/react-icons/io";
 import { useState } from "react";
-import { motion } from "framer-motion";
 
 export default function About() {
   let [show, setShow] = useState(false);
 
   return (
-    <>
+    <section className="py-4">
       <div className="text-center">
-        <header className="my-10 flex justify-center text-7xl">
-          Who we are?
-        </header>
+        <h2 className="my-10 flex justify-center text-7xl">Who we are?</h2>
         <p className="mx-auto mb-14 flex w-1/3 justify-center text-center text-5xl">
           Telickers team involved in software technology
         </p>
@@ -19,10 +16,10 @@ export default function About() {
         {show === true ? (
           <>
             <div className="text mt-4">
-              <header className="text-5xl font-light">
+              <h3 className="text-5xl font-light">
                 “Here we could put a small quote about programming that attracts
                 customer”
-              </header>
+              </h3>
               <p className="mx-auto mt-8 w-2/3 text-4xl font-extralight">
                 A short description about who we are and how we are involved in
                 programmiong, and we are a team of designers and programmers and
@@ -47,6 +44,6 @@ export default function About() {
           {show === true ? <IoIosArrowUp /> : <IoIosArrowDown />}
         </button>
       </div>
-    </>
+    </section>
   );
 }
