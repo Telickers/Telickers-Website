@@ -40,15 +40,24 @@ function LargeNavbar() {
 
 function MobileNavbar() {
   return (
-    <nav className="flex items-center justify-between md:hidden py-4 pr-3">
+    <nav className="flex items-center justify-between md:hidden p-4">
       <Link href="/">
         <img
           src="/telickers.svg"
           alt="Telickers Logo"
-          className="mx-5 w-40 cursor-pointer"
+          className="w-40 cursor-pointer"
         />
       </Link>
-      <p>Menu</p>
+      <MobileDropDown/>
     </nav>
+  );
+}
+
+function MobileDropDown() {
+  return (
+    <div>
+      <p className="rotate-90 text-2xl font-bold -mb-3">{"{"}</p>
+      <p className="rotate-90 text-2xl font-bold">{"}"}</p>
+    </div>
   );
 }
