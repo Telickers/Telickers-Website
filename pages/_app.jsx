@@ -7,7 +7,7 @@ import {
 } from "framer-motion";
 
 import Navbar from "@/components/Layout/Navbar";
-import Footer from '@/components/Layout/Footer'
+import Footer from "@/components/Layout/Footer";
 import runAnimationIntro from "helpers/runAnimationIntro";
 import "@/styles/globals.css";
 
@@ -38,22 +38,22 @@ function MyApp({ Component, pageProps, router }) {
   return (
     <>
       <Navbar />
-      <LazyMotion features={domAnimation}>
-        <AnimatePresence exitBeforeEnter={true}>
-          <motion.div
-            key={router.route.concat(animation.name)}
-            className="page-wrap"
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            variants={animation.variants}
-            transition={animation.transition}
-          >
-            <Component {...pageProps} />
-      <Footer/>
-          </motion.div>
-        </AnimatePresence>
-      </LazyMotion>
+      {/* <LazyMotion features={domAnimation}>
+        <AnimatePresence exitBeforeEnter={true}> */}
+      <motion.div
+        key={router.route.concat(animation.name)}
+        className="page-wrap"
+        // initial="initial"
+        // animate="animate"
+        // exit="exit"
+        variants={animation.variants}
+        transition={animation.transition}
+      >
+        <Component {...pageProps} />
+        <Footer />
+      </motion.div>
+      {/* </AnimatePresence>
+      </LazyMotion> */}
     </>
   );
 }
