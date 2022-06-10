@@ -16,7 +16,7 @@ export default function Footer() {
         <img
           src="/telickers.svg"
           alt="Telickers Logo"
-          className="mx-auto w-60"
+          className="mx-auto w-60 cursor-pointer"
         />
       </Link>
       <section className="pt-2">
