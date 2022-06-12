@@ -1,6 +1,6 @@
 export default function Work() {
   return (
-    <section className="py-4">
+    <section className="relative">
       <div className="mb-44 text-center">
         <h2 className="my-10 text-7xl">Featured Work</h2>
 
@@ -101,6 +101,7 @@ export default function Work() {
           </article>
         </div>
       </div>
+      <div className="curve"></div>
     </section>
   );
 }
