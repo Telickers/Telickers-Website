@@ -30,11 +30,13 @@ let data = [
 
 export default function Reviews() {
   return (
-    <section className="h-screen">
+    <section id="behind-the-animation" className="h-screen">
       <Swiper
         pagination={{
           dynamicBullets: true,
+          clickable: true,
         }}
+        grabCursor={true}
         modules={[Pagination]}
         loop={true}
         className="mySwiper"

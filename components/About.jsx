@@ -33,13 +33,7 @@ export default function About() {
 
         <button
           className="mx-auto text-5xl"
-          onClick={() => {
-            if (show === true) {
-              setShow(false);
-            } else {
-              setShow(true);
-            }
-          }}
+          onClick={() => setShow(!show)}
         >
           {show === true ? <IoIosArrowUp /> : <IoIosArrowDown />}
         </button>
