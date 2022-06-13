@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section className="py-4">
       <div className="text-center">
-        <h2 className="my-10 flex justify-center text-7xl">Who we are?</h2>
+        <h2 className="pb-16 text-center text-5xl font-bold">Who we are?</h2>
         <p className="mx-auto mb-14 flex w-1/3 justify-center text-center text-5xl">
           Telickers team involved in software technology
         </p>
