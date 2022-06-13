@@ -49,56 +49,6 @@ function MobileNavbar() {
           className="w-40 cursor-pointer"
         />
       </Link>
-      <MobileDropDown />
     </nav>
-  );
-}
-
-function MobileDropDown() {
-  const [toggleMenu, setToggleMenu] = useState(false);
-
-  return (
-    <div className="relative">
-      <nav className={`nav ${toggleMenu && "active"}`}>
-        <p
-          className="-mb-3 rotate-90 cursor-pointer text-2xl font-bold"
-          onClick={() => setToggleMenu(!toggleMenu)}
-        >
-          {"{"}
-        </p>
-
-        <ul>
-          <li>
-            <Link href="/about" passHref>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link href="/services" passHref>
-              Services
-            </Link>
-          </li>
-          <li>
-            {" "}
-            <Link href="/work" passHref>
-              Work
-            </Link>
-          </li>
-          <li>
-            {" "}
-            <Link href="/contact" passHref>
-              Contact
-            </Link>
-          </li>
-        </ul>
-
-        <p
-          onClick={() => setToggleMenu(!toggleMenu)}
-          className="line2 rotate-90 cursor-pointer text-2xl font-bold"
-        >
-          {"}"}
-        </p>
-      </nav>
-    </div>
   );
 }
