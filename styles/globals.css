@@ -144,4 +144,24 @@ body.revealed canvas {
 .swiper-pagination-bullet-active {
   background-color: #8c8c8c !important;
 }
-/*swiper-pagination-bullet swiper-pagination-bullet-active swiper-pagination-bullet-active-main*/
+
+.triangle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.triangle svg {
+  position: relative;
+  display: block;
+  width: calc(295% + 1.3px);
+  height: 252px;
+}
+
+.triangle .shape-fill {
+  fill: #ffffff;
+}
