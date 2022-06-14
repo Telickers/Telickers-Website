@@ -1,107 +1,80 @@
+import Image from "next/image";
+import { useState } from "react";
+
+const data = [
+  {
+    name: "A2Solution",
+    imageSrc: "/projects/a2solution-project.png",
+    link: "https://a2solution.ca",
+  },
+  {
+    name: "Elotarz Media",
+    imageSrc: "/projects/elotarzmedia-project.png",
+    link: "https://elotarzmedia.net",
+  },
+  {
+    name: "ABIS",
+    imageSrc: "/projects/abis-project.png",
+    link: "https://ahlul-bayt.ca",
+  },
+  {
+    name: "Deebee",
+    imageSrc: "/projects/deebee-project.png",
+    link: "https://deebee.shop",
+  },
+  {
+    name: "Window Design",
+    imageSrc: "/projects/window-design-project.png",
+    link: "https://window-design.vercel.app",
+  },
+  {
+    name: "Al-Amir Agriculture",
+    imageSrc: "/projects/al-amir-project.png",
+    link: "https://al-amir-agriculture.vercel.app",
+  },
+];
+
 export default function Work() {
   return (
-    <section className="relative">
-      <div className="mb-44 text-center">
-        <h2 className="my-10 text-7xl">Featured Work</h2>
-
-        <p className="mx-auto mt-8 w-2/3 text-4xl font-extralight">
-          Collection of the best websites <br /> we have worked on. Dont wait,
-          start yours!
-        </p>
-
-        <div className="mx-20 mt-20 grid grid-cols-1 gap-28 md:grid-cols-2 lg:grid-cols-3">
-          <article>
-            <img
-              src="/t.jpg"
-              alt=""
-              className="mb-5 shadow-[10px_10px_15px_4px_rgba(0,0,0,0.3)]"
-            />
-            <div className="text-left">
-              <h3 className="mb-5 mt-10 text-5xl">Samsung</h3>
-              <p className="ml-7 font-serif text-lg text-gray-400">
-                review : 9.0
-                <span className="ml-10">9/6/2009</span>
-              </p>
-            </div>
+    <section className="relative py-28">
+      <h2 className="text-center text-5xl font-bold">Featured Work</h2>
+      <p className="mx-auto mt-5 px-4 text-center text-2xl font-extralight lg:px-0">
+        Collection of the best websites we have worked on. Dont wait, start
+        yours!
+      </p>
+      <div className="mx-20 mt-20 grid grid-cols-1 gap-28 md:grid-cols-2 lg:grid-cols-3">
+        {data.map((project) => (
+          <article key={project.name}>
+            <a href={project.link} target="_blank">
+              <BlurImage imageSrc={project.imageSrc} />
+              <div className="text-left">
+                <h3 className="mb-5 mt-4 text-4xl">{project.name}</h3>
+              </div>
+            </a>
           </article>
-
-          <article>
-            <img
-              src="/t.jpg"
-              alt=""
-              className="mb-5 shadow-[10px_10px_15px_4px_rgba(0,0,0,0.3)]"
-            />
-            <div className="text-left">
-              <h3 className="mb-5 mt-10 text-5xl">Samsung</h3>
-              <p className="ml-7 font-serif text-lg text-gray-400">
-                review : 9.0
-                <span className="ml-10">9/6/2009</span>
-              </p>
-            </div>
-          </article>
-
-          <article>
-            <img
-              src="/t.jpg"
-              alt=""
-              className="mb-5 shadow-[10px_10px_15px_4px_rgba(0,0,0,0.3)]"
-            />
-            <div className="text-left">
-              <h3 className="mb-5 mt-10 text-5xl">Samsung</h3>
-              <p className="ml-7 font-serif text-lg text-gray-400">
-                review : 9.0
-                <span className="ml-10">9/6/2009</span>
-              </p>
-            </div>
-          </article>
-
-          <article>
-            <img
-              src="/t.jpg"
-              alt=""
-              className="mb-5 shadow-[10px_10px_15px_4px_rgba(0,0,0,0.3)]"
-            />
-            <div className="text-left">
-              <h3 className="mb-5 mt-10 text-5xl">Samsung</h3>
-              <p className="ml-7 font-serif text-lg text-gray-400">
-                review : 9.0
-                <span className="ml-10">9/6/2009</span>
-              </p>
-            </div>
-          </article>
-
-          <article>
-            <img
-              src="/t.jpg"
-              alt=""
-              className="mb-5 shadow-[10px_10px_15px_4px_rgba(0,0,0,0.3)]"
-            />
-            <div className="text-left">
-              <h3 className="mb-5 mt-10 text-5xl">Samsung</h3>
-              <p className="ml-7 font-serif text-lg text-gray-400">
-                review : 9.0
-                <span className="ml-10">9/6/2009</span>
-              </p>
-            </div>
-          </article>
-
-          <article>
-            <img
-              src="/t.jpg"
-              alt=""
-              className="mb-5 shadow-[10px_10px_15px_4px_rgba(0,0,0,0.3)]"
-            />
-            <div className="text-left">
-              <h3 className="mb-5 mt-10 text-5xl">Samsung</h3>
-              <p className="ml-7 font-serif text-lg text-gray-400">
-                review : 9.0
-                <span className="ml-10">9/6/2009</span>
-              </p>
-            </div>
-          </article>
-        </div>
+        ))}
       </div>
-      <div className="curve"></div>
     </section>
+  );
+}
+
+function BlurImage({ imageSrc }) {
+  const [isLoading, setLoading] = useState(true);
+
+  return (
+    <div className="aspect-w-3 aspect-h-2 w-full overflow-hidden rounded-lg bg-gray-200">
+      <Image
+        alt={imageSrc}
+        src={imageSrc}
+        layout="fill"
+        objectFit="cover"
+        className={`duration-700 ease-in-out ${
+          isLoading
+            ? "scale-110 blur-2xl grayscale"
+            : "scale-100 blur-0 grayscale-0"
+        }`}
+        onLoadingComplete={() => setLoading(false)}
+      />
+    </div>
   );
 }
