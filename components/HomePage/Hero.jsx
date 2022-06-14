@@ -1,5 +1,5 @@
-import { BsArrowRightCircle } from "../node_modules/react-icons/bs";
-import { AiOutlineLine } from "../node_modules/react-icons/ai";
+import { BsArrowRightCircle } from "react-icons/bs";
+import { AiOutlineLine } from "react-icons/ai";
 
 export default function Intro() {
   return (

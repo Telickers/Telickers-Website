@@ -14,7 +14,7 @@ export default function Footer() {
     <footer className="behind-the-animation bg-[#F6F6F6] py-10 text-center">
       <Link href="/">
         <img
-          src="/telickers.svg"
+          src="/telickers-logo.svg"
           alt="Telickers Logo"
           className="mx-auto w-60 cursor-pointer"
         />

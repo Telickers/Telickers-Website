@@ -1,18 +1,18 @@
-import Services from "@/components/Services";
-import About from "@/components/About";
-import Work from "@/components/Work";
-import Feedbacks from "@/components/Feedbacks";
-import Intro from "@/components/Intro";
+import ClientsFeedback from "@/components/HomePage/ClientsFeedback";
+import FeaturedWork from "@/components/HomePage/FeaturedWork";
+import Services from "@/components/HomePage/Services";
+import About from "@/components/HomePage/About";
+import Hero from "@/components/HomePage/Hero";
 
 export default function Home() {
   return (
     <>
       <div className="behind-the-animation">
-        <Intro />
+        <Hero />
         <About />
         <Services />
-        <Work />
-        <Feedbacks />
+        <FeaturedWork />
+        <ClientsFeedback />
       </div>
     </>
   );
