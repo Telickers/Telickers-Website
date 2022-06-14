@@ -41,7 +41,7 @@ export default function Services() {
   ];
 
   return (
-    <section className="py-4">
+    <section className="py-24">
       <div className="flex flex-col items-center justify-center">
         <h2 className="pb-16 text-center text-5xl font-bold">Our Services</h2>
         <div className="grid w-screen grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-4">

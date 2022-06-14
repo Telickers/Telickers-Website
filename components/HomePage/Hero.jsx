@@ -1,35 +1,79 @@
 import { BsArrowRightCircle } from "react-icons/bs";
 import { AiOutlineLine } from "react-icons/ai";
+import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 
-export default function Intro() {
+const statements = [
+  {
+    text: "1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, magni",
+  },
+  {
+    text: "2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, magni",
+  },
+  {
+    text: "3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, magni",
+  },
+];
+
+const animation = {
+  name: "Fade Back",
+  variants: {
+    initial: {
+      opacity: 0,
+      scale: 0.4,
+    },
+    animate: {
+      opacity: 1,
+      scale: 1,
+    },
+    exit: {
+      opacity: 0,
+      scale: 0.4,
+    },
+  },
+  transition: {
+    duration: 0.7,
+  },
+};
+
+export default function Hero() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handleChange = () => {
+    if (currentIndex === 2) setCurrentIndex(0);
+    else setCurrentIndex(currentIndex + 1);
+  };
+
   return (
-    <section className="relative flex flex-col items-center justify-center bg-black py-72 text-white">
-      <div className="content">
-        <h2 className="text-6xl font-bold">
-          Move Your Business Into <br /> the New World Of Technology.
-        </h2>
-        <div className="mt-6 flex items-center space-x-2">
-          <button className="flex items-center space-x-3 text-xl">
-            <span>FIND OUT MORE</span> <BsArrowRightCircle />
-          </button>
-          <AiOutlineLine className="rotate-90" />
-          <button className="text-md rounded-3xl bg-white p-1 px-2 text-black">
-            Request a meeting
-          </button>
-        </div>
-      </div>
-      <div className="triangle">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
+    <section className="hero relative flex flex-col items-center justify-center bg-black text-white md:items-start md:pl-24">
+      <AnimatePresence exitBeforeEnter={true}>
+        {statements
+          .filter((s, idx) => idx === currentIndex)
+          .map((s, index) => (
+            <motion.h1
+              key={index}
+              initial="initial"
+              animate="animate"
+              exit="exit"
+              variants={animation.variants}
+              transition={animation.transition}
+              className="text-center text-3xl font-bold md:text-start md:text-6xl"
+            >
+              Lorem ipsum dolor sit amet consectetur.
+            </motion.h1>
+          ))}
+      </AnimatePresence>
+      <div className="mt-6 flex items-center space-x-2">
+        <button
+          className="flex items-center space-x-3 text-xl"
+          onClick={handleChange}
         >
-          <path
-            d="M1200 0L0 0 598.97 114.72 1200 0z"
-            className="shape-fill"
-          ></path>
-        </svg>
+          <span>FIND OUT MORE</span> <BsArrowRightCircle />
+        </button>
+        <AiOutlineLine className="rotate-90" />
+        <button className="text-md rounded-3xl bg-white py-2 px-4 text-black">
+          Request a meeting
+        </button>
       </div>
     </section>
   );

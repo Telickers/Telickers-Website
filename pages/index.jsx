@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <div className="behind-the-animation">
         <Hero />
-        <About />
+        {/* <About /> */}
         <Services />
         <FeaturedWork />
         <ClientsFeedback />
