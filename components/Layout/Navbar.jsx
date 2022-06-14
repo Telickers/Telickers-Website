@@ -13,8 +13,7 @@ export default function Navbar() {
 function LargeNavbar() {
   return (
     <nav
-      id="behind-the-animation"
-      className="hidden w-full items-center justify-center space-x-6 py-4 md:flex "
+      className="behind-the-animation hidden w-full items-center justify-center space-x-6 py-4 md:flex "
     >
       <Link href="/about" passHref>
         About Us
@@ -41,7 +40,7 @@ function LargeNavbar() {
 
 function MobileNavbar() {
   return (
-    <nav  id="behind-the-animation" className="flex items-center justify-between p-4 pr-6 md:hidden">
+    <nav className="behind-the-animation flex items-center justify-between p-4 pr-6 md:hidden">
       <Link href="/">
         <img
           src="/telickers.svg"

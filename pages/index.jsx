@@ -1,18 +1,18 @@
 import Services from "@/components/Services";
 import About from "@/components/About";
 import Work from "@/components/Work";
-import Reviews from "@/components/Slider/Reviews";
+import Feedbacks from "@/components/Feedbacks";
 import Intro from "@/components/Intro";
 
 export default function Home() {
   return (
     <>
-      <div id="behind-the-animation">
+      <div className="behind-the-animation">
         <Intro />
         <About />
         <Services />
         <Work />
-        <Reviews />
+        <Feedbacks />
       </div>
     </>
   );

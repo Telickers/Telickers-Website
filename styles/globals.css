@@ -14,13 +14,13 @@ canvas {
   height: 100%;
   opacity: 0;
 }
-#behind-the-animation {
+.behind-the-animation {
   visibility: hidden;
 }
 body {
   background-color: white;
 }
-body.loaded #behind-the-animation {
+body.loaded .behind-the-animation {
   visibility: visible;
 }
 body.loaded canvas {
@@ -28,6 +28,9 @@ body.loaded canvas {
 }
 body.revealed canvas {
   display: none !important;
+}
+canvas {
+  z-index: 100;
 }
 
 .curve {
@@ -60,7 +63,6 @@ body.revealed canvas {
   text-align: center;
   font-size: 18px;
   background: #fff;
-
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -77,12 +79,11 @@ body.revealed canvas {
 }
 
 .swiper-pagination {
-  margin-bottom: 45px;
+  margin-bottom: 10px;
 }
-
 .swiper-pagination-bullet {
-  width: 40px !important;
-  height: 40px !important;
+  width: 20px !important;
+  height: 20px !important;
   display: inline-block;
   border-radius: 50%;
   background: var(--swiper-pagination-bullet-inactive-color, #000);
