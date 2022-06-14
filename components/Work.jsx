@@ -45,7 +45,7 @@ export default function Work() {
       <div className="mx-20 mt-20 grid grid-cols-1 gap-28 md:grid-cols-2 lg:grid-cols-3">
         {data.map((project) => (
           <article key={project.name}>
-            <a href={project.link} target="_blank">
+            <a href={project.link} target="_blank" rel="noreferrer">
               <BlurImage imageSrc={project.imageSrc} />
               <div className="text-left">
                 <h3 className="mb-5 mt-4 text-4xl">{project.name}</h3>
