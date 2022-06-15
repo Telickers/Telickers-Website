@@ -5,7 +5,7 @@ export default function About() {
   let [show, setShow] = useState(false);
 
   return (
-    <section className="mx-auto w-[95%] py-10 md:w-[70%]">
+    <section className="mx-auto w-[80%] py-10 md:w-[70%]">
       <div className="text-center">
         <img
           src="/icons/personsfull.svg"

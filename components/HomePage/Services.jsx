@@ -50,7 +50,7 @@ export default function Services() {
               <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full">
                 <img
                   src={serv.src}
-                  className="mx-auto h-10 w-10"
+                  className="mx-auto h-96 w-96"
                   alt={serv.title}
                 />
               </div>

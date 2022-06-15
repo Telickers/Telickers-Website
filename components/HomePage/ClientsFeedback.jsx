@@ -75,10 +75,10 @@ export default function Reviews() {
 
 function SlideItem({ feedback }) {
   return (
-    <article className="relative flex h-screen flex-col bg-[#D9D9D9]">
-      <div className="grid grid-cols-1 items-center lg:grid-cols-2 lg:pr-10">
+    <article className="relative flex h-screen flex-col ">
+      <div className="z-10 grid grid-cols-1 items-center lg:grid-cols-2 lg:pr-10">
         {/* Client Details */}
-        <div className="pt-44 text-center md:pt-40 lg:pt-12">
+        <div className=" pt-44 text-center md:pt-40 lg:pt-12">
           <img
             src={feedback.img}
             alt={feedback.name}
@@ -95,8 +95,8 @@ function SlideItem({ feedback }) {
           <p className="text-[165px]  md:text-[400px]">{"}"}</p>
         </div>
       </div>
-      <div className="curve">
-        <svg
+      <div className="curve z-0">
+        {/* <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1200 120"
@@ -106,6 +106,18 @@ function SlideItem({ feedback }) {
             d="M20285.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
             className="shape-fill"
           ></path>
+  </svg>*/}
+        <svg
+          width="1920"
+          height="1080"
+          viewBox="1920 1080"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 1052V37.5643C0 37.5643 398.147 -44.7054 800 37.5643C1201.85 119.834 1600 37.5643 1600 37.5643V1052H0Z"
+            fill="#D9D9D9"
+          />
         </svg>
       </div>
     </article>
