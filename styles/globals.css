@@ -7,33 +7,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Intro Animation */
-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  z-index: 100;
-}
-.behind-the-animation {
-  visibility: hidden;
-}
-body {
-  background-color: #fff;
-  height: 100vh;
-}
-body.loaded .behind-the-animation {
-  visibility: visible;
-}
-body.loaded canvas {
-  opacity: 1;
-}
-body.revealed canvas {
-  display: none !important;
-}
-
 /* Feedbacks Carousel */
 .curve {
   position: absolute;
