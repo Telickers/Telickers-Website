@@ -1,7 +1,5 @@
 import Link from "next/link";
 
-import MobileMenu from "./MobileMenu";
-
 export default function Navbar() {
   return (
     <>
@@ -39,7 +37,7 @@ function LargeNavbar() {
 
 function MobileNavbar() {
   return (
-    <nav className="behind-the-animation flex p-4 py-6 pr-6 md:hidden">
+    <nav className="behind-the-animation flex py-6 pl-4 md:hidden">
       <Link href="/">
         <img
           src="/telickers-logo.svg"
@@ -47,7 +45,6 @@ function MobileNavbar() {
           className="w-40 cursor-pointer"
         />
       </Link>
-      <MobileMenu />
     </nav>
   );
 }
