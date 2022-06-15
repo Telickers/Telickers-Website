@@ -47,7 +47,7 @@ export default function Services() {
         <div className="grid w-screen grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
           {services.map((serv) => (
             <article key={serv.src}>
-              <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-black">
+              <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full">
                 <img
                   src={serv.src}
                   className="mx-auto h-10 w-10"

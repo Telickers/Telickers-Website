@@ -5,35 +5,34 @@ export default function About() {
   let [show, setShow] = useState(false);
 
   return (
-    <section className="py-4">
+    <section className="mx-auto w-[95%] py-10 md:w-[70%]">
       <div className="text-center">
-        <h2 className="pb-8 text-center text-5xl font-bold">Who we are?</h2>
-        <p className="mx-auto mb-14 flex w-1/3 justify-center text-center text-3xl">
-          Telickers is a team involved in software technology
-        </p>
-        <p className="mx-auto h-0.5 w-1/5 bg-orange-600"></p>
+        <img
+          src="/icons/personsfull.svg"
+          alt="personsfull"
+          className="-mb-10 hidden md:block"
+        />
+        <img
+          src="/icons/cloudTel.svg"
+          alt="cloudTel"
+          className="-mb-32 block md:hidden"
+        />
+        <img
+          src="/icons/persons.svg"
+          alt="persons"
+          className="-mb-10 block md:hidden"
+        />
 
-        {show === true ? (
-          <>
-            <div className="mt-4 text-4xl">
-              <h3 className="font-light">
-                “Here we could put a small quote about programming that attracts
-                customer”
-              </h3>
-              <p className="mx-auto mt-8 w-2/3 font-extralight">
-                A short description about who we are and how we are involved in
-                programmiong, and we are a team of designers and programmers and
-                how we are expecting to reach new records or we are expecting to
-                be worldwide..
-              </p>
-            </div>
-            <p className="mx-auto mt-10 h-0.5 w-1/5 bg-orange-600"></p>
-          </>
-        ) : null}
-
-        <button className="mx-auto text-5xl" onClick={() => setShow(!show)}>
-          {show === true ? <IoIosArrowUp /> : <IoIosArrowDown />}
-        </button>
+        <article className="m-4 mt-10 rounded-2xl p-5 text-lg shadow-2xl shadow-slate-400 md:m-10 md:p-10 md:text-4xl">
+          <p className="mb-5 block font-mono sm:hidden">
+            Here we could put a small quate about programmin
+          </p>
+          <p className="font-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            architecto sint atque tempora vitae, ab aut dolor magnam beatae
+            corrupti.
+          </p>
+        </article>
       </div>
     </section>
   );
