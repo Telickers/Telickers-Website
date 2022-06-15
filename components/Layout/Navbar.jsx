@@ -11,7 +11,7 @@ export default function Navbar() {
 
 function LargeNavbar() {
   return (
-    <nav className="behind-the-animation hidden w-full items-center justify-center space-x-6 py-4 md:flex ">
+    <nav className="hidden w-full items-center justify-center space-x-6 py-4 md:flex ">
       <Link href="/about" passHref>
         About Us
       </Link>
@@ -37,7 +37,7 @@ function LargeNavbar() {
 
 function MobileNavbar() {
   return (
-    <nav className="behind-the-animation flex py-6 pl-4 md:hidden">
+    <nav className="flex py-6 pl-4 md:hidden">
       <Link href="/">
         <img
           src="/telickers-logo.svg"

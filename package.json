@@ -12,14 +12,11 @@
   },
   "dependencies": {
     "framer-motion": "^6.3.6",
-    "gsap": "^3.10.4",
     "next": "^12.1.6",
     "react": "^18.1.0",
-    "react-burger-menu": "^3.0.8",
     "react-dom": "^18.1.0",
     "react-icons": "^4.4.0",
-    "swiper": "^8.2.3",
-    "three": "^0.141.0"
+    "swiper": "^8.2.3"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.0",

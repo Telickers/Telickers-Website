@@ -7,37 +7,37 @@ import "swiper/css/navigation";
 
 let data = [
   {
-    name: "Mosh Hamedani",
+    name: "Mosh Hamedani 1",
     comp: "Code With Mosh",
     img: "/clients/im1.png",
     text: " I’ve worked with many companies my business needs fast and organized work. Telickers gave me what I needed. Great thanks",
   },
   {
-    name: "Bill Gates",
+    name: "Bill Gates 1",
     comp: "Microsoft",
     img: "/clients/im2.png",
     text: "None of my employess worked better than Telickers team. Trust them, they should lead your website.",
   },
   {
-    name: "Steve Jobs",
+    name: "Steve Jobs 1",
     comp: "Apple",
     img: "/clients/im3.jpg",
     text: "I wish I'am still alive, so that I can deal with Telickers. People are so lucky to have this company",
   },
   {
-    name: "Mosh Hamedani",
+    name: "Mosh Hamedani 2",
     comp: "Code With Mosh",
     img: "/clients/im1.png",
     text: " I’ve worked with many companies my business needs fast and organized work. Telickers gave me what I needed. Great thanks",
   },
   {
-    name: "Bill Gates",
+    name: "Bill Gates 2",
     comp: "Microsoft",
     img: "/clients/im2.png",
     text: "None of my employess worked better than Telickers team. Trust them, they should lead your website.",
   },
   {
-    name: "Steve Jobs",
+    name: "Steve Jobs 2",
     comp: "Apple",
     img: "/clients/im3.jpg",
     text: "I wish I'am still alive, so that I can deal with Telickers. People are so lucky to have this company",
