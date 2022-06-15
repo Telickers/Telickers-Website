@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { useState } from "react";
+
+import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
   return (
@@ -38,7 +39,7 @@ function LargeNavbar() {
 
 function MobileNavbar() {
   return (
-    <nav className="behind-the-animation flex items-center justify-between p-4 pr-6 md:hidden">
+    <nav className="behind-the-animation flex p-4 py-6 pr-6 md:hidden">
       <Link href="/">
         <img
           src="/telickers-logo.svg"
@@ -46,6 +47,7 @@ function MobileNavbar() {
           className="w-40 cursor-pointer"
         />
       </Link>
+      <MobileMenu />
     </nav>
   );
 }
