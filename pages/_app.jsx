@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import {
   AnimatePresence,
   domAnimation,
@@ -8,7 +7,6 @@ import {
 
 import Navbar from "@/components/Layout/Navbar";
 import Footer from "@/components/Layout/Footer";
-import runAnimationIntro from "helpers/runAnimationIntro";
 import "@/styles/globals.css";
 
 const animation = {
@@ -33,7 +31,6 @@ const animation = {
 };
 
 function MyApp({ Component, pageProps, router }) {
-  useEffect(() => runAnimationIntro(), []);
 
   return (
     <>

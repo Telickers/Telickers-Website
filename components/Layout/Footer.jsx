@@ -11,7 +11,7 @@ import { AiOutlineLine } from "react-icons/ai";
 
 export default function Footer() {
   return (
-    <footer className="behind-the-animation bg-[#F6F6F6] py-10 text-center">
+    <footer className="bg-[#F6F6F6] py-10 text-center">
       <Link href="/">
         <img
           src="/telickers-logo.svg"

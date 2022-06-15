@@ -7,7 +7,7 @@ import Hero from "@/components/HomePage/Hero";
 export default function Home() {
   return (
     <>
-      <div className="behind-the-animation">
+      <div>
         <Hero />
         <About />
         <Services />
