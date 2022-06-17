@@ -38,9 +38,6 @@ export default function Hero() {
           </div>
         </Link>
       </div>
-      <div className="hidden lg:block relative w-full h-full">
-        <img src="/test.png" className="absolute top-[20px] -right-[250px] w-[700px]"/>
-      </div>
     </section>
   );
 }

@@ -1,11 +1,9 @@
 export default function Services() {
   return (
     <>
-      <div
-        className="flex h-screen w-screen items-center justify-center "
-      >
-        <h1 className="text-5xl font-bold text-black">Services</h1>
-      </div>
+       <section className="bg-[linear-gradient(38.54deg,#0F1A29_-58.14%,#080E17_32.07%,#0F1A29_106.6%)] flex flex-col items-center justify-center h-screen">
+        <h1 className="text-5xl font-bold text-white">Services</h1>
+      </section>
     </>
   );
 }
