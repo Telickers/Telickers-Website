@@ -10,7 +10,7 @@ export default function About() {
         <img
           src="/icons/cloudTel.svg"
           alt="cloudTel"
-          className="-mb-32 block md:hidden"
+          className="-mb-24 block md:hidden"
         />
         <img
           src="/icons/persons.svg"
