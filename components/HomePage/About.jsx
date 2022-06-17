@@ -19,8 +19,8 @@ export default function About() {
         />
         <article className="m-4 mt-10 rounded-2xl p-5 text-lg shadow-2xl shadow-slate-400 md:m-10 md:p-10">
           <p className="mb-5 font-bold md:text-3xl">
-            "Great things in business are never done by one person. They're done
-            by a team of people."
+            &quot;Great things in business are never done by one person. They&apos;re done
+            by a team of people.&quot;
           </p>
           <p className="text-gray-600 md:text-2xl">
             We are a team of{" "}
