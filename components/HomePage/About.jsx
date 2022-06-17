@@ -19,8 +19,8 @@ export default function About() {
         />
         <article className="m-4 mt-10 rounded-2xl p-5 text-lg shadow-2xl shadow-slate-400 md:m-10 md:p-10">
           <p className="mb-5 font-bold md:text-3xl">
-            "Great things in business are never done by one person. They're done
-            by a team of people."
+            Great things in business are never done by one person. They're done
+            by a team of people.
           </p>
           <p className="text-gray-600 md:text-2xl">
             We are a team of{" "}
@@ -29,13 +29,13 @@ export default function About() {
             <span className="font-semibold text-cyan-300">
               programming tutors
             </span>{" "}
-             and
+            and
             <span className="font-semibold text-cyan-300">
               {" "}
               software consultants
             </span>{" "}
-            having a structure and the motivation for researching,
-            prototyping and building.
+            having a structure and the motivation for researching, prototyping
+            and building.
           </p>
         </article>
       </div>
