@@ -46,7 +46,7 @@ let data = [
 
 export default function Reviews() {
   return (
-    <section className="bg-brand h-screen pb-10">
+    <section className="h-screen bg-brand pb-10">
       <Swiper
         pagination={{
           dynamicBullets: true,

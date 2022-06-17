@@ -29,13 +29,13 @@ export default function About() {
             <span className="font-semibold text-cyan-300">
               programming tutors
             </span>{" "}
-             and
+            and
             <span className="font-semibold text-cyan-300">
               {" "}
               software consultants
             </span>{" "}
-            having a structure and the motivation for researching,
-            prototyping and building.
+            having a structure and the motivation for researching, prototyping
+            and building.
           </p>
         </article>
       </div>
