@@ -45,7 +45,7 @@ function MobileNavbar() {
 
   return (
     <>
-      <nav className="flex absolute items-center justify-between py-7 px-4 md:hidden w-full">
+      <nav className="flex absolute top-3 items-center justify-between py-7 px-4 md:hidden w-full">
         {/* Logo */}
         <Link href="/">
           <img
@@ -112,7 +112,7 @@ function SideMenu({ isOpen, toggleOpen }) {
 
   return (
     <div
-      className="absolute right-0 top-[75px] z-50 h-[265px] md:hidden"
+      className="absolute right-0 top-[95px] z-50 h-[265px] md:hidden"
       style={{ direction: "rtl" }}
     >
       <AnimatePresence>
