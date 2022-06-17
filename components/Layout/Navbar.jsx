@@ -14,7 +14,7 @@ export default function Navbar() {
 
 function LargeNavbar() {
   return (
-    <nav className="hidden w-full items-center justify-center space-x-6 py-4 md:flex ">
+    <nav className="hidden w-full absolute items-center justify-center space-x-6 py-4 md:flex text-gray-300 top-3">
       <Link href="/about" passHref>
         About Us
       </Link>
@@ -45,7 +45,7 @@ function MobileNavbar() {
 
   return (
     <>
-      <nav className="flex items-center justify-between py-6 px-4 md:hidden">
+      <nav className="flex absolute items-center justify-between py-7 px-4 md:hidden w-full">
         {/* Logo */}
         <Link href="/">
           <img
@@ -112,7 +112,7 @@ function SideMenu({ isOpen, toggleOpen }) {
 
   return (
     <div
-      className="absolute right-0 top-[90px] z-50 h-[265px] md:hidden"
+      className="absolute right-0 top-[75px] z-50 h-[265px] md:hidden"
       style={{ direction: "rtl" }}
     >
       <AnimatePresence>

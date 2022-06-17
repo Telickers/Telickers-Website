@@ -41,7 +41,7 @@ export default function Services() {
   ];
 
   return (
-    <section className="py-24">
+    <section className="bg-brand py-24">
       <div className="flex flex-col items-center justify-center">
         <h2 className="pb-16 text-center text-5xl font-bold">Our Services</h2>
         <div className="grid w-screen grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
@@ -72,7 +72,9 @@ export default function Services() {
 
       <div className="mt-20 flex justify-center">
         <Link href="/services">
-          <a className="rounded-3xl bg-black px-8 py-3 text-white">Read More</a>
+          <a className="px-4 flex py-3 items-center justify-center rounded-full border border-white/10 bg-slate-700/40 font-semibold text-white hover:border-white/20 hover:bg-slate-700/60 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-slate-900">
+            Read More
+          </a>
         </Link>
       </div>
     </section>

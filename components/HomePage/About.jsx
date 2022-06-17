@@ -1,11 +1,6 @@
-import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
-import { useState } from "react";
-
 export default function About() {
-  let [show, setShow] = useState(false);
-
   return (
-    <section className="mx-auto w-[80%] py-10 md:w-[70%]">
+    <section className="mx-auto w-[80%] py-20 md:w-[70%]">
       <div className="text-center">
         <img
           src="/icons/personsfull.svg"
@@ -22,9 +17,8 @@ export default function About() {
           alt="persons"
           className="-mb-10 block md:hidden"
         />
-
         <article className="m-4 mt-10 rounded-2xl p-5 text-lg shadow-2xl shadow-slate-400 md:m-10 md:p-10 md:text-4xl">
-          <p className="mb-5 block font-mono sm:hidden">
+          <p className="mb-5 font-mono">
             Here we could put a small quate about programmin
           </p>
           <p className="font-light">

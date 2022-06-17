@@ -10,25 +10,6 @@ body {
   position: relative;
 }
 /* Feedbacks Carousel */
-.curve {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100vw;
-  overflow: hidden;
-  line-height: 0;
-}
-.curve svg {
-  position: relative;
-  display: block;
-  width: calc(126% + 1.3px);
-  height: 100vh;
-  width: 100%;
-}
-.curve .shape-fill {
-  fill: gray;
-  width: 100%;
-}
 .swiper {
   width: 100%;
   height: 100%;
@@ -36,7 +17,6 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -67,11 +47,6 @@ body {
   background-color: #8c8c8c !important;
 }
 
-/* Hero */
-.hero {
-  height: calc(100vh - 73px);
-}
-
 /* Mobile Side Menu */
 .hamburger {
   min-height: 24px;
@@ -80,7 +55,7 @@ body {
 
 .hamburger line {
   /* `currentColor` means inherit color from the text color */
-  stroke: currentColor;
+  stroke: #fff;
   stroke-width: 3;
   transition: transform 0.3s ease-in-out;
 }

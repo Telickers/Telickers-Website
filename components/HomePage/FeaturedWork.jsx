@@ -3,6 +3,11 @@ import { useState } from "react";
 
 const data = [
   {
+    name: "Mogetee Menu",
+    imageSrc: "/projects/mogetee.png",
+    link: "https://mogetee-menu.vercel.app",
+  },
+  {
     name: "A2Solution",
     imageSrc: "/projects/a2solution-project.png",
     link: "https://a2solution.ca",
@@ -13,24 +18,19 @@ const data = [
     link: "https://elotarzmedia.net",
   },
   {
-    name: "ABIS",
-    imageSrc: "/projects/abis-project.png",
-    link: "https://ahlul-bayt.ca",
-  },
-  {
     name: "Deebee",
     imageSrc: "/projects/deebee-project.png",
     link: "https://deebee.shop",
   },
   {
+    name: "ABIS",
+    imageSrc: "/projects/abis-project.png",
+    link: "https://ahlul-bayt.ca",
+  },
+  {
     name: "Window Design",
     imageSrc: "/projects/window-design-project.png",
     link: "https://window-design.vercel.app",
-  },
-  {
-    name: "Al-Amir Agriculture",
-    imageSrc: "/projects/al-amir-project.png",
-    link: "https://al-amir-agriculture.vercel.app",
   },
 ];
 
