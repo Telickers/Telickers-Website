@@ -46,7 +46,7 @@ let data = [
 
 export default function Reviews() {
   return (
-    <section className="h-screen bg-brand pb-10">
+    <section className="h-screen pb-10">
       <Swiper
         pagination={{
           dynamicBullets: true,
@@ -75,7 +75,7 @@ export default function Reviews() {
 
 function SlideItem({ feedback }) {
   return (
-    <article className="relative flex h-screen flex-col ">
+    <article className="relative flex flex-col bg-[url('/cloud3.svg')] bg-cover">
       <div className="z-10 grid grid-cols-1 items-center lg:grid-cols-2 lg:pr-10">
         {/* Client Details */}
         <div className="pt-44 text-center md:pt-40 lg:pt-12">
