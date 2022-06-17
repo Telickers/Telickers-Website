@@ -14,7 +14,7 @@ export default function Navbar() {
 
 function LargeNavbar() {
   return (
-    <nav className="hidden w-full absolute items-center justify-center space-x-6 py-4 md:flex text-gray-300 top-3">
+    <nav className="hidden w-full absolute z-50 items-center justify-center space-x-6 py-4 md:flex text-gray-300 top-3">
       <Link href="/about" passHref>
         About Us
       </Link>

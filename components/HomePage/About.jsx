@@ -17,14 +17,25 @@ export default function About() {
           alt="persons"
           className="-mb-10 block md:hidden"
         />
-        <article className="m-4 mt-10 rounded-2xl p-5 text-lg shadow-2xl shadow-slate-400 md:m-10 md:p-10 md:text-4xl">
-          <p className="mb-5 font-mono">
-            Here we could put a small quate about programmin
+        <article className="m-4 mt-10 rounded-2xl p-5 text-lg shadow-2xl shadow-slate-400 md:m-10 md:p-10">
+          <p className="mb-5 font-bold md:text-3xl">
+            "Great things in business are never done by one person. They're done
+            by a team of people."
           </p>
-          <p className="font-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            architecto sint atque tempora vitae, ab aut dolor magnam beatae
-            corrupti.
+          <p className="text-gray-600 md:text-2xl">
+            We are a team of{" "}
+            <span className="font-semibold text-cyan-300">developers</span>,{" "}
+            <span className="font-semibold text-cyan-300">designers</span>,{" "}
+            <span className="font-semibold text-cyan-300">
+              programming tutors
+            </span>{" "}
+             and
+            <span className="font-semibold text-cyan-300">
+              {" "}
+              software consultants
+            </span>{" "}
+            having a structure and the motivation for researching,
+            prototyping and building.
           </p>
         </article>
       </div>
