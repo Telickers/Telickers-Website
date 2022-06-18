@@ -22,7 +22,7 @@ export default function TeamGrid() {
               </p>
             </div>
             <div className="mt-4 flex w-[350px] flex-col items-center rounded-lg p-4 text-center shadow-xl">
-              <p className="font-medium text-slate-500">{member.bio}</p>
+              <p className="font-medium text-slate-500 py-1.5">{member.bio}</p>
               <div className="flex space-x-3 pt-5">
                 <a>
                   <FaFacebookF />
