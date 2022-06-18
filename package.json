@@ -11,6 +11,7 @@
     "add": "npm run format && git add ."
   },
   "dependencies": {
+    "body-scroll-lock": "^4.0.0-beta.0",
     "framer-motion": "^6.3.6",
     "next": "^12.1.6",
     "react": "^18.1.0",
