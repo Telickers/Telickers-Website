@@ -1,6 +1,6 @@
-import Link from "next/link";
 import { BsArrowRightCircle } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
+import Link from "next/link";
 
 export default function Hero() {
   return (

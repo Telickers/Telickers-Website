@@ -85,7 +85,6 @@ body {
 
 .modal {
   width: clamp(50%, 700px, 90%);
-  height: min(50%, 300px);
 }
 
 .radial-bg {
@@ -101,4 +100,16 @@ body {
       rgba(255, 255, 255, 0) 100%
     ),
     linear-gradient(38.54deg, #0f1a29 -58.14%, #080e17 32.07%, #0f1a29 106.6%);
+}
+
+.text-linear {
+  background: linear-gradient(90deg, #00d1ff -3.9%, #405fff 109.86%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+textarea {
+  resize: none;
 }

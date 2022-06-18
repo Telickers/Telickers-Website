@@ -1,6 +1,9 @@
 import { AnimatePresence, motion } from "framer-motion";
+import { AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 
+import Backdrop from "./Backdrop";
+import Form from "./Form";
 import useScrollBlock from "@/hooks/useScrollBlock";
 
 export default function RequestMeeting() {
@@ -45,35 +48,29 @@ export default function RequestMeeting() {
       </button>
       <AnimatePresence>
         {modalOpen && (
-          <Backdrop onClick={close}>
+          <Backdrop>
             <motion.div
-              className="modal z-50 m-auto flex flex-col items-center rounded-xl bg-white py-0 px-[2rem]"
+              className="modal z-50 m-auto w-full rounded-xl bg-white p-5"
               onClick={(e) => e.stopPropagation()}
               variants={dropIn}
               initial="hidden"
               animate="visible"
               exit="exit"
             >
-              <button onClick={close}>Close</button>
+              <div className="flex w-full items-center justify-between">
+                <span className="text-lg font-bold">Meeting Request</span>
+                <AiOutlineClose
+                  onClick={close}
+                  className="cursor-pointer"
+                  size={20}
+                />
+              </div>
+
+              <Form />
             </motion.div>
           </Backdrop>
         )}
       </AnimatePresence>
     </>
-  );
-}
-
-function Backdrop({ children, onClick }) {
-  return (
-    <motion.div
-      style={{ margin: 0 }}
-      className="fixed inset-0 z-40 flex h-full w-full items-center justify-center overflow-y-hidden bg-[#4e4e4ee1] backdrop-blur"
-      onClick={onClick}
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-    >
-      {children}
-    </motion.div>
   );
 }

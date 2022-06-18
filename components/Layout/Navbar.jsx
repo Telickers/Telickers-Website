@@ -14,7 +14,7 @@ export default function Navbar() {
 
 function LargeNavbar() {
   return (
-    <nav className="hidden w-full absolute z-50 items-center justify-center space-x-6 py-4 md:flex text-gray-300 top-3">
+    <nav className="absolute top-3 z-50 hidden w-full items-center justify-center space-x-6 py-4 text-gray-300 md:flex">
       <Link href="/about" passHref>
         About Us
       </Link>
@@ -45,7 +45,7 @@ function MobileNavbar() {
 
   return (
     <>
-      <nav className="flex absolute top-3 items-center justify-between py-7 px-4 md:hidden w-full">
+      <nav className="absolute top-3 flex w-full items-center justify-between py-7 px-4 md:hidden">
         {/* Logo */}
         <Link href="/">
           <img
