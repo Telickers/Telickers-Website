@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="flex h-screen flex-col items-center justify-center overflow-hidden bg-[linear-gradient(38.54deg,#0F1A29_-58.14%,#080E17_32.07%,#0F1A29_106.6%)]">
+    <section className="radial-bg flex h-screen flex-col items-center justify-center overflow-hidden">
       <div className="flex flex-col items-center space-y-10 text-center text-3xl text-[#00D1FF] md:mx-16 md:flex-row md:space-x-24 md:text-left md:text-4xl">
         <img src="/abouticons/hero.svg" alt="hero" />
         <p>

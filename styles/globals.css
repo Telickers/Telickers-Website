@@ -87,3 +87,18 @@ body {
   width: clamp(50%, 700px, 90%);
   height: min(50%, 300px);
 }
+
+.radial-bg {
+  background: radial-gradient(
+      50.22% 45.81% at 23.51% -1.56%,
+      rgba(152, 156, 255, 0.144) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    radial-gradient(
+      69.9% 32.5% at 27.76% 82.49%,
+      rgba(175, 168, 255, 0.122) 0%,
+      rgba(0, 0, 0, 0) 100%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(38.54deg, #0f1a29 -58.14%, #080e17 32.07%, #0f1a29 106.6%);
+}
