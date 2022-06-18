@@ -127,7 +127,7 @@ function SideMenu({ isOpen, toggleOpen }) {
             }}
             exit={{
               width: 0,
-              transition: { delay: 0.55, duration: 0.5 },
+              transition: { delay: 0.2, duration: 0.35 },
             }}
           >
             <motion.div
@@ -142,7 +142,7 @@ function SideMenu({ isOpen, toggleOpen }) {
                   key={id}
                   className="cursor-pointer"
                   onClick={() => {
-                    setTimeout(() => router.push(to), 1000);
+                    setTimeout(() => router.push(to), 500);
                     toggleOpen();
                   }}
                   variants={itemVariants}
