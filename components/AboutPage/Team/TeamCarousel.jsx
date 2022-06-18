@@ -23,7 +23,7 @@ const imageVariants = {
   },
 };
 
-export default function Team() {
+export default function TeamCarousel() {
   const [[page], setPage] = useState([0, 0]);
 
   const memberIndex = wrap(0, members.length, page);
@@ -33,8 +33,9 @@ export default function Team() {
   };
 
   return (
-    <section className="py-24">
+    <section className="block lg:hidden py-24">
       <div className="flex flex-col items-center justify-center">
+        <h2 className="pb-16 text-5xl font-bold">Meet Our Team</h2>
         <div className="flex items-center md:space-x-3 lg:space-x-8">
           <img
             src="/icons/left-arrow.svg"
@@ -56,10 +57,9 @@ export default function Team() {
                 className="h-[200px] w-[200px] rounded-full border-8 border-white object-cover shadow-md md:h-[300px] md:w-[300px]"
               />
             </AnimatePresence>
-            <div className="flex space-x-5 font-bold text-[#B7B7B7]">
-              <span>{members[memberIndex].roleType}</span>
-              <span>{members[memberIndex].workType}</span>
-            </div>
+            <p className="text-center font-bold text-[#B7B7B7]">
+              {members[memberIndex].role}
+            </p>
           </div>
           <img
             src="/icons/right-arrow.svg"

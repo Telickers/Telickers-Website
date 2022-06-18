@@ -3,22 +3,19 @@ export const members = [
     name: "Hussein Hassan",
     image: "/team/hussein.jpg",
     bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consequuntur voluptatem aliquam nemo quo quae nesciunt, omnis sint commodi voluptatibus",
-    roleType: "Founder",
-    workType: "Full-Stack Developer",
-  }, 
+    role: "Founder | 3D Creative Developer",
+  },
   {
     name: "Jawad Nouredeen",
     image: "/team/jwd.png",
     bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consequuntur voluptatem aliquam nemo quo quae ff4f43f 4f 4f 4nt commodi voluptatibus",
-    roleType: "Co-Founder",
-    workType: "UI/UX Designer",
+    role: "Co-Founder | UI/UX Designer",
   },
   {
     name: "Abed Al-Hussein Saade",
     image: "/team/abed.jpg",
     bio: "Lorem ipsum 4f4f4f4 f4f4f4fdipisicing elit. Incidunt consequuntur voluptatem aliquam nemo quo quae nesciunt, omnis sint commodi voluptatibus",
-    roleType: "Co-Founder",
-    workType: "Frontend Developer",
+    role: "Co-Founder | Full-Stack Developer",
   },
 ];
 
