@@ -75,7 +75,7 @@ export default function Reviews() {
 
 function SlideItem({ feedback }) {
   return (
-    <article className="relative flex flex-col bg-[url('/cloud3.svg')] bg-cover">
+    <article className="relative flex flex-col bg-[url('/cloud3.svg')] bg-contain bg-no-repeat md:bg-cover">
       <div className="z-10 grid grid-cols-1 items-center lg:grid-cols-2 lg:pr-10">
         {/* Client Details */}
         <div className="pt-44 text-center md:pt-40 lg:pt-12">
