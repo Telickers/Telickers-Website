@@ -11,7 +11,7 @@ import { AiOutlineLine } from "react-icons/ai";
 
 export default function Footer() {
   return (
-    <footer className="pb-6 pt-10 text-center">
+    <footer className="pb-6 pt-14 text-center">
       <Link href="/">
         <img
           src="/telickers-logo-dark.svg"
