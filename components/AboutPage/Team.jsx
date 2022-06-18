@@ -18,8 +18,9 @@ export default function Team() {
           in a nutshell, we are a group of developers and designers who found
           that our skills are valuable. So we decided to merge our skills into
           one team having a structure and the motivation for researching
-          prototyping and building technology. That’s how we got to build our
-          team, and since then we have helped businesses freelancers, companies
+          prototyping and building technology. That&apos;s how we got to build
+          our team, and since then we have helped businesses freelancers,
+          companies
         </p>
       </div>
       <img
