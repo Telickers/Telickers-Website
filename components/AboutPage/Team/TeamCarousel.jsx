@@ -33,7 +33,7 @@ export default function TeamCarousel() {
   };
 
   return (
-    <section className="block lg:hidden py-24">
+    <section className="block py-24 lg:hidden">
       <div className="flex flex-col items-center justify-center">
         <h2 className="pb-16 text-5xl font-bold">Meet Our Team</h2>
         <div className="flex items-center md:space-x-3 lg:space-x-8">

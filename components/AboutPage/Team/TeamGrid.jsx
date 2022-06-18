@@ -5,14 +5,13 @@ import { members } from "data";
 
 export default function TeamGrid() {
   return (
-    <section className="hidden lg:block py-24">
+    <section className="hidden py-24 lg:block">
       <h2 className="pb-16 text-center text-5xl font-bold">Meet Our Team</h2>
       <div className="grid grid-cols-3 place-items-center gap-5">
         {members.map((member) => (
-          <div className="flex flex-col items-center">
+          <div key={member.name} className="flex flex-col items-center">
             <div className="flex w-[270px] flex-col items-center space-y-2 md:w-[300px]">
               <img
-                key={member.name}
                 src={member.image}
                 alt="Team Member"
                 loading="lazy"

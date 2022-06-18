@@ -43,7 +43,7 @@ export default function RequestMeeting() {
 
   return (
     <>
-      <button onClick={open} className="rounded-[50px] bg-white p-4 shadow-xl">
+      <button onClick={open} className="rounded-[50px] bg-white p-4 shadow-xl text-black">
         REQUEST A MEETING
       </button>
       <AnimatePresence>
@@ -57,7 +57,7 @@ export default function RequestMeeting() {
               animate="visible"
               exit="exit"
             >
-              <div className="flex w-full items-center justify-between">
+              <div className="flex w-full items-center justify-between text-black">
                 <span className="text-lg font-bold">Meeting Request</span>
                 <AiOutlineClose
                   onClick={close}

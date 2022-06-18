@@ -10,7 +10,7 @@ export default function About() {
       <Hero />
       <OurStory />
       <ChallengeAccepted />
-      <Team/>
+      <Team />
       <Why />
     </>
   );
