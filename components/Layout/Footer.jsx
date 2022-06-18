@@ -33,7 +33,7 @@ export default function Footer() {
             <a className="">Work</a>
           </NoScrollLink>
           <NoScrollLink href="/contact" passhref>
-            <a className="">Contacts</a>
+            <a className="">Contact</a>
           </NoScrollLink>
         </nav>
         <span className="pl-4 text-2xl font-bold md:text-3xl">{"}"}</span>
