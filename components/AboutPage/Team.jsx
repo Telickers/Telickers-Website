@@ -1,9 +1,10 @@
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { wrap } from "popmotion";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { motion, AnimatePresence } from "framer-motion";
 import { AiOutlineLine } from "react-icons/ai";
-import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
+import { useState } from "react";
+import { wrap } from "popmotion";
+
+import { members } from "data";
 
 const imageVariants = {
   hidden: {
@@ -21,30 +22,6 @@ const imageVariants = {
     },
   },
 };
-
-const members = [
-  {
-    name: "Hussein Hassan",
-    image: "/team/hussein.jpg",
-    bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consequuntur voluptatem aliquam nemo quo quae nesciunt, omnis sint commodi voluptatibus",
-    roleType: "Founder",
-    workType: "Full-Stack Developer",
-  },
-  {
-    name: "Jawad Nouredeen",
-    image: "/team/jawad.png",
-    bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consequuntur voluptatem aliquam nemo quo quae ff4f43f 4f 4f 4nt commodi voluptatibus",
-    roleType: "Co-Founder",
-    workType: "UI/UX Designer",
-  },
-  {
-    name: "Abed Al-Hussein Saade",
-    image: "/team/abed.jpg",
-    bio: "Lorem ipsum 4f4f4f4 f4f4f4fdipisicing elit. Incidunt consequuntur voluptatem aliquam nemo quo quae nesciunt, omnis sint commodi voluptatibus",
-    roleType: "Co-Founder",
-    workType: "Frontend Developer",
-  },
-];
 
 export default function Team() {
   const [[page], setPage] = useState([0, 0]);

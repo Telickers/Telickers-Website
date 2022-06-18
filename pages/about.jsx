@@ -9,7 +9,7 @@ export default function About() {
     <>
       <Hero />
       <OurStory />
-      <ChallengeAccepted/>
+      <ChallengeAccepted />
       <Team />
       <Why />
     </>

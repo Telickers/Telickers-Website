@@ -1,45 +1,8 @@
 import Link from "next/link";
 
-export default function Services() {
-  let services = [
-    {
-      src: "/icons/code.svg",
-      title: "Web Development",
-      desc: [
-        "will enter the text here later",
-        "will enter the text here later",
-        "will enter the text here later",
-      ],
-    },
-    {
-      src: "/icons/palet.svg",
-      title: "UI / UX Design",
-      desc: [
-        "will enter the text here later",
-        "will enter the text here later",
-        "will enter the text here later",
-      ],
-    },
-    {
-      src: "/icons/brain.svg",
-      title: "Tutoring",
-      desc: [
-        "will enter the text here later",
-        "will enter the text here later",
-        "will enter the text here later",
-      ],
-    },
-    {
-      src: "/icons/lamp.svg",
-      title: "Software Consultation",
-      desc: [
-        "will enter the text here later",
-        "will enter the text here later",
-        "will enter the text here later",
-      ],
-    },
-  ];
+import { services } from "data";
 
+export default function Services() {
   return (
     <section className="bg-brand py-24">
       <div className="flex flex-col items-center justify-center">
