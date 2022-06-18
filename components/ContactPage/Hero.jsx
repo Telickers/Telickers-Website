@@ -11,7 +11,7 @@ export default function ContactHero() {
           <p className="mt-4 text-xl font-bold md:text-2xl lg:mt-10">
             Interested in hiring us?
           </p>
-          <p className="mt-1 text-xl font-thin md:text-2xl">
+          <p className="-mt-1 lg:mt-1 text-xl font-thin md:text-2xl">
             Contact us and let&apos;s talk it over.
           </p>
         </div>
