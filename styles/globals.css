@@ -116,3 +116,9 @@ textarea {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.bordered-font {
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
