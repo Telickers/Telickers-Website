@@ -43,7 +43,10 @@ export default function RequestMeeting() {
 
   return (
     <>
-      <button onClick={open} className="rounded-[50px] bg-white p-4 shadow-xl text-black">
+      <button
+        onClick={open}
+        className="rounded-[50px] bg-white p-4 text-black shadow-xl"
+      >
         REQUEST A MEETING
       </button>
       <AnimatePresence>

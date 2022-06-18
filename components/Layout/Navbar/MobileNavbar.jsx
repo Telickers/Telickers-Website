@@ -1,7 +1,8 @@
 import { useState } from "react";
-import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { useRouter } from "next/router";
+
+import NoScrollLink from "../../Common/NoScrollLink";
 
 export default function MobileNavbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,13 +13,13 @@ export default function MobileNavbar() {
     <>
       <nav className="absolute top-3 flex w-full items-center justify-between py-7 px-4 md:hidden">
         {/* Logo */}
-        <Link href="/">
+        <NoScrollLink href="/">
           <img
             src="/telickers-logo.svg"
             alt="Telickers Logo"
             className="w-40 cursor-pointer"
           />
-        </Link>
+        </NoScrollLink>
 
         {/* Toggle Button  */}
         <ToggleMenuButton isOpen={isOpen} toggleOpen={toggleOpen} />

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import {
   FaFacebookF,
   FaInstagram,
@@ -9,31 +8,33 @@ import {
 } from "react-icons/fa";
 import { AiOutlineLine } from "react-icons/ai";
 
+import NoScrollLink from "../Common/NoScrollLink";
+
 export default function Footer() {
   return (
     <footer className="pb-6 pt-14 text-center">
-      <Link href="/">
+      <NoScrollLink href="/" passhref>
         <img
           src="/telickers-logo-dark.svg"
           alt="Telickers Logo"
           className="mx-auto w-60 cursor-pointer"
         />
-      </Link>
+      </NoScrollLink>
       <section className="pt-2">
         <span className="pr-4 text-2xl font-bold md:text-3xl">{"{"}</span>
         <nav className="inline-flex space-x-4">
-          <Link href="/about">
+          <NoScrollLink href="/about" passhref>
             <a className="">About</a>
-          </Link>
-          <Link href="/services">
+          </NoScrollLink>
+          <NoScrollLink href="/services" passhref>
             <a className="">Services</a>
-          </Link>
-          <Link href="/work">
+          </NoScrollLink>
+          <NoScrollLink href="/work" passhref>
             <a className="">Work</a>
-          </Link>
-          <Link href="/contact">
+          </NoScrollLink>
+          <NoScrollLink href="/contact" passhref>
             <a className="">Contacts</a>
-          </Link>
+          </NoScrollLink>
         </nav>
         <span className="pl-4 text-2xl font-bold md:text-3xl">{"}"}</span>
       </section>

@@ -1,6 +1,5 @@
-import Link from "next/link";
-
 import { services } from "data";
+import NoScrollLink from "../Common/NoScrollLink";
 
 export default function Services() {
   return (
@@ -34,11 +33,11 @@ export default function Services() {
       </div>
 
       <div className="mt-20 flex justify-center">
-        <Link href="/services">
+        <NoScrollLink href="/services" passhref>
           <a className="flex items-center justify-center rounded-full border border-white/10 bg-slate-700/40 px-4 py-3 font-semibold text-white hover:border-white/20 hover:bg-slate-700/60 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-slate-900">
             Read More
           </a>
-        </Link>
+        </NoScrollLink>
       </div>
     </section>
   );
