@@ -8,7 +8,7 @@ export const members = [
   }, 
   {
     name: "Jawad Nouredeen",
-    image: "/team/jawad.png",
+    image: "/team/jwd.png",
     bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consequuntur voluptatem aliquam nemo quo quae ff4f43f 4f 4f 4nt commodi voluptatibus",
     roleType: "Co-Founder",
     workType: "UI/UX Designer",
