@@ -5,7 +5,7 @@ export const members = [
     bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consequuntur voluptatem aliquam nemo quo quae nesciunt, omnis sint commodi voluptatibus",
     roleType: "Founder",
     workType: "Full-Stack Developer",
-  },
+  }, 
   {
     name: "Jawad Nouredeen",
     image: "/team/jawad.png",
