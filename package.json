@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "npx prettier --write ./pages ./components ./helpers ./styles",
+    "format": "npx prettier --write ./pages ./components ./styles",
     "add": "npm run format && git add ."
   },
   "dependencies": {

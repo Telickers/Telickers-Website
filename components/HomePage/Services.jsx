@@ -72,7 +72,7 @@ export default function Services() {
 
       <div className="mt-20 flex justify-center">
         <Link href="/services">
-          <a className="px-4 flex py-3 items-center justify-center rounded-full border border-white/10 bg-slate-700/40 font-semibold text-white hover:border-white/20 hover:bg-slate-700/60 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-slate-900">
+          <a className="flex items-center justify-center rounded-full border border-white/10 bg-slate-700/40 px-4 py-3 font-semibold text-white hover:border-white/20 hover:bg-slate-700/60 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-slate-900">
             Read More
           </a>
         </Link>

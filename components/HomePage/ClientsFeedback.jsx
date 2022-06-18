@@ -76,7 +76,7 @@ export default function Reviews() {
 function SlideItem({ feedback }) {
   return (
     <article className="w-full ">
-      <div className="z-10 grid grid-cols-1 items-center lg:grid-cols-2 lg:pr-10 -mt-24 sm:-mt-20 pb-16 sm:pb-10 lg:pb-5">
+      <div className="z-10 -mt-24 grid grid-cols-1 items-center pb-16 sm:-mt-20 sm:pb-10 lg:grid-cols-2 lg:pr-10 lg:pb-5">
         {/* Client Details */}
         <div className="pt-44 text-center md:pt-40 lg:pt-12">
           <img
