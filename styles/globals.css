@@ -34,10 +34,6 @@ body {
   align-items: center;
 }
 
-.swiper-pagination {
-  margin-bottom: 60px;
-}
-
 .swiper-pagination-bullet {
   width: 20px !important;
   height: 20px !important;
