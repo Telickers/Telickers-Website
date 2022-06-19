@@ -40,29 +40,27 @@ export default function Footer() {
       </section>
       <div className="mt-4 flex justify-center text-black">
         <article className="text-md mt-6 flex space-x-5 md:text-xl lg:text-2xl">
-          <a>
-            <FaWhatsapp />
-          </a>
+          <FaWhatsapp />
+
           <AiOutlineLine className="rotate-90 " />
-          <a>
-            <FaFacebookF />
-          </a>
+
+          <FaFacebookF />
+
           <AiOutlineLine className="rotate-90 " />
-          <a>
-            <FaInstagram />
-          </a>
+
+          <FaInstagram />
+
           <AiOutlineLine className="rotate-90 " />
-          <a>
-            <FaTwitter />
-          </a>
+
+          <FaTwitter />
+
           <AiOutlineLine className="rotate-90 " />
-          <a>
-            <FaLinkedinIn />
-          </a>
+
+          <FaLinkedinIn />
+
           <AiOutlineLine className="rotate-90 " />
-          <a>
-            <FaTelegramPlane />
-          </a>
+
+          <FaTelegramPlane />
         </article>
       </div>
       <p className="pt-7 text-2xl">
