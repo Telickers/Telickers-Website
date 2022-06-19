@@ -3,9 +3,14 @@ import NoScrollLink from "../Common/NoScrollLink";
 
 export default function Services() {
   return (
-    <section className="bg-brand py-24">
+    <section aria-labelledby="services-section" className="bg-brand py-24">
       <div className="flex flex-col items-center justify-center">
-        <h2 className="pb-16 text-center text-5xl font-bold">Our Services</h2>
+        <h2
+          id="services-section"
+          className="pb-16 text-center text-5xl font-bold"
+        >
+          Our Services
+        </h2>
         <div className="grid w-screen grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
           {services.map((serv) => (
             <article key={serv.src}>

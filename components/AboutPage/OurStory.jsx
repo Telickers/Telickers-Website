@@ -1,7 +1,13 @@
 export default function Team() {
   return (
-    <section className="flex flex-col items-center justify-center px-4 pb-24">
-      <h2 className="text-with-shadow my-24 text-center text-6xl font-bold leading-[4rem] tracking-wide">
+    <section
+      aria-labelledby="story-title"
+      className="flex flex-col items-center justify-center px-4 pb-24"
+    >
+      <h2
+        id="story-title"
+        className="text-with-shadow my-24 text-center text-6xl font-bold leading-[4rem] tracking-wide"
+      >
         We <br /> MAKE <br /> IMPACT
       </h2>
       <p className="mb-3 text-3xl font-bold">

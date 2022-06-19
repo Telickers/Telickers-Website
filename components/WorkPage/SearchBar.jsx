@@ -1,9 +1,15 @@
 export default function SearchBar() {
   return (
-    <section className="relative mt-20 mb-44 overflow-hidden text-center">
-      <p className="bordered-font absolute top-0 left-[50%] inline -translate-x-[50%] text-8xl transition-all hover:text-9xl hover:text-black">
+    <section
+      aria-labelledby="projects-title"
+      className="relative mt-20 mb-44 overflow-hidden text-center"
+    >
+      <h2
+        id="projects-title"
+        className="bordered-font absolute top-0 left-[50%] inline -translate-x-[50%] text-8xl transition-all hover:text-9xl hover:text-black"
+      >
         Projects
-      </p>
+      </h2>
 
       <form className="mx-10 mt-44 md:mx-0">
         <label className="relative">

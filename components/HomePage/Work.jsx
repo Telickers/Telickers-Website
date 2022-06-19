@@ -5,8 +5,10 @@ import { work } from "data";
 
 export default function Work() {
   return (
-    <section className="relative py-28">
-      <h2 className="text-center text-5xl font-bold">Featured Work</h2>
+    <section aria-labelledby="featured-work" className="relative py-28">
+      <h2 id="featured-work" className="text-center text-5xl font-bold">
+        Featured Work
+      </h2>
       <p className="mx-auto mt-5 px-4 text-center text-2xl font-extralight lg:px-0">
         Collection of the best websites we have worked on. Dont wait, start
         yours!
