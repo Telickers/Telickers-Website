@@ -30,7 +30,11 @@ export default function MobileNavbar() {
 
 function ToggleMenuButton({ isOpen, toggleOpen }) {
   return (
-    <button className={`${isOpen && "open"}`} onClick={() => toggleOpen()}>
+    <button
+      aria-label="toggle-nav"
+      className={`${isOpen && "open"}`}
+      onClick={() => toggleOpen()}
+    >
       <svg className="hamburger" width={32} height={24}>
         <line id="top" x1={0} y1={2} x2={32} y2={2} />
         <line id="middle" x1={0} y1={12} x2={32} y2={12} />
