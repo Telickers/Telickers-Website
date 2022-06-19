@@ -1,11 +1,10 @@
-import Title from "@/components/Layout/Title";
 import Hero from "@/components/WorkPage/Hero";
+import SEO from "@/components/Common/SEO";
 
 export default function Work() {
   return (
     <>
-      {" "}
-      <Title title={"Work"} />
+      <SEO title="Our Work | Telickers" />
       <Hero />
     </>
   );

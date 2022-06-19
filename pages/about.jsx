@@ -3,12 +3,12 @@ import Hero from "@/components/AboutPage/Hero";
 import OurStory from "@/components/AboutPage/OurStory";
 import Team from "@/components/AboutPage/Team";
 import Why from "@/components/AboutPage/Why";
-import Title from "@/components/Layout/Title";
+import SEO from "@/components/Common/SEO";
 
 export default function About() {
   return (
     <>
-      <Title title={"About"} />
+      <SEO title="About Us | Telickers" />
       <Hero />
       <OurStory />
       <ChallengeAccepted />
