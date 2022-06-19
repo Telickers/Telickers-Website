@@ -91,7 +91,7 @@ function SideMenu({ isOpen, toggleOpen }) {
             }}
             exit={{
               width: 0,
-              transition: { delay: 0.2, duration: 0.35 },
+              transition: { delay: 0.1, duration: 0.35 },
             }}
           >
             <motion.div

@@ -6,7 +6,7 @@ export const members = [
     role: "Founder | 3D Creative Developer",
   },
   {
-    name: "Jawad Nouredeen",
+    name: "Mohamad Nouredeen",
     image: "/team/jwd.png",
     bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consequuntur voluptatem aliquam nemo quo quae ff4f43f 4f 4f 4nt commodi voluptatibus",
     role: "Co-Founder | UI/UX Designer",
