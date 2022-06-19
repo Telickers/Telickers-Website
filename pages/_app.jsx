@@ -1,22 +1,22 @@
 import { motion, AnimatePresence } from "framer-motion";
 
-import Navbar from "@/components/Layout/Navbar";
 import Footer from "@/components/Layout/Footer";
 import "@/styles/globals.css";
 
 const animation = {
   variants: {
-    hidden: {
-      opacity: 0,
-      scale: 0.3,
+    initial: {
+      x: "100%",
     },
-    visible: {
-      opacity: 1,
-      scale: 1,
+    animate: {
+      x: 0,
+    },
+    exit: {
+      x: "-100%",
     },
   },
   transition: {
-    duration: 0.7,
+    duration: 0.55,
   },
 };
 
@@ -28,12 +28,11 @@ function MyApp({ Component, pageProps, router }) {
         initial={false}
         onExitComplete={() => window?.scrollTo(0, 0)}
       >
-        <Navbar />
         <motion.main
           key={router.route}
-          initial="hidden"
-          animate="visible"
-          exit="hidden"
+          initial="initial"
+          animate="animate"
+          exit="exit"
           variants={animation.variants}
           transition={animation.transition}
         >

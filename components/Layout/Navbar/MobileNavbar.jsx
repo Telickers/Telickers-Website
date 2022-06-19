@@ -21,10 +21,8 @@ export default function MobileNavbar() {
           />
         </NoScrollLink>
 
-        {/* Toggle Button  */}
         <ToggleMenuButton isOpen={isOpen} toggleOpen={toggleOpen} />
       </nav>
-      {/* SideMenu */}
       <SideMenu isOpen={isOpen} toggleOpen={toggleOpen} />
     </>
   );
@@ -64,7 +62,7 @@ function SideMenu({ isOpen, toggleOpen }) {
   const parentVariants = {
     closed: {
       transition: {
-        staggerChildren: 0.2,
+        staggerChildren: 0.12,
         staggerDirection: -1,
       },
     },
@@ -108,7 +106,7 @@ function SideMenu({ isOpen, toggleOpen }) {
                   key={id}
                   className="cursor-pointer"
                   onClick={() => {
-                    setTimeout(() => router.push(to), 500);
+                    setTimeout(() => router.push(to), 600);
                     toggleOpen();
                   }}
                   variants={itemVariants}
