@@ -1,4 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
+import { Toaster } from "react-hot-toast";
 
 import Footer from "@/components/Layout/Footer";
 import "@/styles/globals.css";
@@ -23,6 +24,7 @@ const animation = {
 function MyApp({ Component, pageProps, router }) {
   return (
     <>
+      <Toaster />
       <AnimatePresence
         exitBeforeEnter
         initial={false}
