@@ -1,11 +1,9 @@
 import Head from "next/head";
-import React from "react";
 
-export default function Title({ title }) {
+export default function SEO({ title, description, keywords }) {
   return (
     <Head>
       <title>{title}</title>
-      <meta />
     </Head>
   );
 }
