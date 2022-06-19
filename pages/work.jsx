@@ -1,9 +1,13 @@
+import Hero from "@/components/WorkPage/Hero";
+import Projects from "@/components/WorkPage/Projects";
+import SearchBar from "@/components/WorkPage/SearchBar";
+
 export default function Work() {
   return (
     <>
-      <section className="flex h-screen flex-col items-center justify-center bg-[linear-gradient(38.54deg,#0F1A29_-58.14%,#080E17_32.07%,#0F1A29_106.6%)]">
-        <h1 className="text-5xl font-bold text-white">Work</h1>
-      </section>
+      <Hero />
+      <SearchBar />
+      <Projects />
     </>
   );
 }

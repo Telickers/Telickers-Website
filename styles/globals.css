@@ -101,13 +101,12 @@ body {
   background: linear-gradient(90deg, #00d1ff -3.9%, #405fff 109.86%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
 }
 
 textarea {
   resize: none;
 }
+
 .text-with-shadow {
   text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
   -webkit-background-clip: text;
@@ -116,4 +115,10 @@ textarea {
   background: linear-gradient(90deg, #00d1ff -3.9%, #405fff 109.86%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.bordered-font {
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
