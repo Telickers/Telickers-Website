@@ -1,6 +1,9 @@
 export default function ChallengeAccepted() {
   return (
-    <section className="flex items-center py-10">
+    <section
+      aria-label="challenge-accepted-shape"
+      className="flex items-center py-10"
+    >
       <div className="h-1 w-full bg-black"></div>
       <span className="-mt-[2.9px] text-2xl font-bold md:-mt-[13.3px] md:text-5xl lg:-mt-[12.7px]">
         {"{"}

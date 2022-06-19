@@ -8,7 +8,7 @@ import { feedbacks } from "data";
 
 export default function Reviews() {
   return (
-    <section className="bg-brand py-10">
+    <section aria-label="feedbacks" className="bg-brand py-10">
       <Swiper
         pagination={{
           dynamicBullets: true,

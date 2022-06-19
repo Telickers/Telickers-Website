@@ -5,8 +5,14 @@ export default function ContactHero() {
   return (
     <>
       <Navbar />
-      <section className="radial-bg flex h-screen flex-col items-center justify-center text-white lg:items-start lg:px-32">
-        <h1 className="text-left text-5xl font-bold text-linear sm:text-6xl md:text-7xl lg:text-8xl">
+      <section
+        aria-labelledby="contact-title"
+        className="radial-bg flex h-screen flex-col items-center justify-center text-white lg:items-start lg:px-32"
+      >
+        <h1
+          id="contact-title"
+          className="text-linear text-left text-5xl font-bold sm:text-6xl md:text-7xl lg:text-8xl"
+        >
           GET IN TOUCH
         </h1>
         <div className="flex w-full flex-col items-center justify-between space-y-7 lg:flex-row">

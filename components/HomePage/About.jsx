@@ -1,6 +1,9 @@
 export default function About() {
   return (
-    <section className="mx-auto w-[80%] py-20 md:w-[70%]">
+    <section
+      aria-label="about-section"
+      className="mx-auto w-[80%] py-20 md:w-[70%]"
+    >
       <div className="text-center">
         <img
           src="/icons/personsfull.svg"
