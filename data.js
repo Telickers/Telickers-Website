@@ -107,19 +107,16 @@ export const work = [
     link: "https://mogetee-menu.vercel.app",
     details: [
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
       },
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
       },
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
@@ -135,19 +132,16 @@ export const work = [
     link: "https://a2solution.ca",
     details: [
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
       },
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
       },
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
@@ -163,19 +157,16 @@ export const work = [
     link: "https://elotarzmedia.net",
     details: [
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
       },
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
       },
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
@@ -191,19 +182,16 @@ export const work = [
     link: "https://deebee.shop",
     details: [
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
       },
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
       },
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
@@ -219,19 +207,16 @@ export const work = [
     link: "https://ahlul-bayt.ca",
     details: [
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
       },
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
       },
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
@@ -247,19 +232,16 @@ export const work = [
     link: "https://window-design.vercel.app",
     details: [
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
       },
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
       },
       {
-        pageName: "About Us",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
         imageSrc: "/projects/a2solution/a2solution-about.png",
