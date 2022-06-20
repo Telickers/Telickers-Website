@@ -5,6 +5,7 @@ export default function ProjectDetails({ details }) {
     <section className="flex flex-col items-center space-y-32 bg-brand py-28 px-12 lg:px-20 min-h-screen">
       {details?.map((detail, index) => (
         <Detail
+          key={index}
           index={index}
           description={detail.description}
           imageSrc={detail.imageSrc}

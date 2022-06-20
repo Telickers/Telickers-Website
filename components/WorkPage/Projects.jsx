@@ -19,7 +19,7 @@ export default function Projects() {
         className="grid grid-cols-1 place-items-center gap-7 md:grid-cols-2 lg:grid-cols-3"
       >
         {work.map((project) => (
-          <NoScrollLink href={`/work/${project.id}`} passhref>
+          <NoScrollLink href={`/work/${project.id}`} passhref key={project.id}>
             <div className="group relative h-full w-full cursor-pointer transition-all duration-300 ease-in-out lg:hover:scale-95">
               <BlurImage imageSrc={project.imageSrc} />
               <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center rounded-lg bg-black/70 opacity-0 transition-all duration-300 ease-in-out lg:group-hover:opacity-100">
