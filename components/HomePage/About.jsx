@@ -1,6 +1,8 @@
+import { motion } from "framer-motion";
+
 export default function About() {
   return (
-    <section
+    <motion.section
       aria-label="about-section"
       className="mx-auto w-[80%] py-20 md:w-[70%]"
     >
@@ -20,7 +22,18 @@ export default function About() {
           alt="persons"
           className="-mb-10 block md:hidden"
         />
-        <article className="m-4 mt-10 rounded-2xl p-5 text-lg shadow-2xl shadow-slate-400 md:m-10 md:p-10">
+        <motion.article
+          viewport={{ once: false, amount: 0.8 }}
+          whileInView={{
+            rotate: -3,
+            transition: {
+              type: "spring",
+              bounce: 0.4,
+              duration: 0.6,
+            },
+          }}
+          className="m-4 mt-10 rounded-2xl p-5 text-lg shadow-2xl shadow-slate-400 md:m-10 md:p-10"
+        >
           <p className="mb-5 font-bold md:text-3xl">
             &quot;Great things in business are never done by one person.
             They&apos;re done by a team of people.&quot;
@@ -40,8 +53,8 @@ export default function About() {
             having a structure and the motivation for researching, prototyping
             and building.
           </p>
-        </article>
+        </motion.article>
       </div>
-    </section>
+    </motion.section>
   );
 }
