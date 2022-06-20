@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps, router }) {
       <Toaster />
       <AnimatePresence
         exitBeforeEnter
-        initial={false}
+        // initial={false}
         onExitComplete={() => window?.scrollTo(0, 0)}
       >
         <motion.main

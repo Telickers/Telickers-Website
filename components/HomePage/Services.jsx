@@ -10,7 +10,7 @@ export default function Services() {
         <motion.h2
           initial={{ scale: 0, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1, transition: { duration: 0.8 } }}
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once:true, amount: 0.7 }}
           id="services-section"
           className="pb-16 text-center text-5xl font-bold"
         >
@@ -25,7 +25,7 @@ export default function Services() {
                 opacity: 1,
                 transition: { duration: 0.8 },
               }}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once:true, amount: 0.7 }}
               key={serv.src}
             >
               <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full">
@@ -54,7 +54,7 @@ export default function Services() {
       <motion.div
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1, transition: { duration: 0.8 } }}
-        viewport={{ once: false, amount: 0.7 }}
+        viewport={{ once:true, amount: 0.7 }}
         className="mt-20 flex justify-center"
       >
         <NoScrollLink href="/services" passhref>
