@@ -15,7 +15,7 @@ export default function TeamGrid() {
                 src={member.image}
                 alt="Team Member"
                 loading="lazy"
-                className="h-[200px] w-[200px] rounded-full border-8 border-white object-cover shadow-md md:h-[300px] md:w-[300px] mb-3"
+                className="mb-3 h-[200px] w-[200px] rounded-full border-8 border-white object-cover shadow-md md:h-[300px] md:w-[300px]"
               />
               <p className="text-linear font-semibold">{member.name}</p>
               <p className="text-center font-bold text-[#B7B7B7]">

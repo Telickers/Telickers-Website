@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <>
       <Navbar />
-      <section
+      <header
         aria-labelledby="hero-text"
         className="radial-bg flex h-screen flex-col items-center justify-center overflow-hidden text-center text-6xl"
       >
@@ -14,7 +14,7 @@ export default function Hero() {
         >
           We work to sustain you. <br /> Believing in your success
         </h1>
-      </section>
+      </header>
     </>
   );
 }

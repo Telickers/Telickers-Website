@@ -7,7 +7,7 @@ export default function Work() {
     <>
       <SEO title="Our Work | Telickers" />
       <Hero />
-      <Projects/>
+      <Projects />
     </>
   );
 }

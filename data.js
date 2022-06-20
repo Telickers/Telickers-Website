@@ -59,79 +59,211 @@ export const feedbacks = [
 ];
 
 export const services = [
-    {
-      src: "/icons/code.svg",
-      title: "Web Development",
-      desc: [
-        "will enter the text here later",
-        "will enter the text here later",
-        "will enter the text here later",
-      ],
-    },
-    {
-      src: "/icons/palet.svg",
-      title: "UI / UX Design",
-      desc: [
-        "will enter the text here later",
-        "will enter the text here later",
-        "will enter the text here later",
-      ],
-    },
-    {
-      src: "/icons/brain.svg",
-      title: "Tutoring",
-      desc: [
-        "will enter the text here later",
-        "will enter the text here later",
-        "will enter the text here later",
-      ],
-    },
-    {
-      src: "/icons/lamp.svg",
-      title: "Software Consultation",
-      desc: [
-        "will enter the text here later",
-        "will enter the text here later",
-        "will enter the text here later",
-      ],
-    },
+  {
+    src: "/icons/code.svg",
+    title: "Web Development",
+    desc: [
+      "will enter the text here later",
+      "will enter the text here later",
+      "will enter the text here later",
+    ],
+  },
+  {
+    src: "/icons/palet.svg",
+    title: "UI / UX Design",
+    desc: [
+      "will enter the text here later",
+      "will enter the text here later",
+      "will enter the text here later",
+    ],
+  },
+  {
+    src: "/icons/brain.svg",
+    title: "Tutoring",
+    desc: [
+      "will enter the text here later",
+      "will enter the text here later",
+      "will enter the text here later",
+    ],
+  },
+  {
+    src: "/icons/lamp.svg",
+    title: "Software Consultation",
+    desc: [
+      "will enter the text here later",
+      "will enter the text here later",
+      "will enter the text here later",
+    ],
+  },
 ];
-  
+
 export const work = [
   {
     id: 1,
     name: "Mogetee Menu",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
     imageSrc: "/projects/mogetee.png",
     link: "https://mogetee-menu.vercel.app",
+    details: [
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+    ],
   },
   {
     id: 2,
     name: "A2Solution",
-    imageSrc: "/projects/a2solution-project.png",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+    imageSrc: "/projects/a2solution/a2solution-project.png",
     link: "https://a2solution.ca",
+    details: [
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+    ],
   },
   {
     id: 3,
     name: "Elotarz Media",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
     imageSrc: "/projects/elotarzmedia-project.png",
     link: "https://elotarzmedia.net",
+    details: [
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+    ],
   },
   {
     id: 4,
     name: "Deebee",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
     imageSrc: "/projects/deebee-project.png",
     link: "https://deebee.shop",
+    details: [
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+    ],
   },
   {
     id: 5,
     name: "ABIS",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
     imageSrc: "/projects/abis-project.png",
     link: "https://ahlul-bayt.ca",
+    details: [
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+    ],
   },
   {
     id: 6,
     name: "Window Design",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
     imageSrc: "/projects/window-design-project.png",
     link: "https://window-design.vercel.app",
+    details: [
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+      {
+        pageName: "About Us",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/a2solution/a2solution-about.png",
+      },
+    ],
   },
 ];
