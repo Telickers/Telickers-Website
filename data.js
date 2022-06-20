@@ -3,7 +3,7 @@ export const members = [
     name: "Hussein Hassan",
     image: "/team/hussein.jpg",
     bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consequuntur voluptatem aliquam nemo quo quae nesciunt, omnis sint commodi voluptatibus",
-    role: "Founder | 3D Creative Developer",
+    role: "Founder | Creative 3D Developer",
   },
   {
     name: "Mohamad Nouredeen",
@@ -99,31 +99,37 @@ export const services = [
   
 export const work = [
   {
+    id: 1,
     name: "Mogetee Menu",
     imageSrc: "/projects/mogetee.png",
     link: "https://mogetee-menu.vercel.app",
   },
   {
+    id: 2,
     name: "A2Solution",
     imageSrc: "/projects/a2solution-project.png",
     link: "https://a2solution.ca",
   },
   {
+    id: 3,
     name: "Elotarz Media",
     imageSrc: "/projects/elotarzmedia-project.png",
     link: "https://elotarzmedia.net",
   },
   {
+    id: 4,
     name: "Deebee",
     imageSrc: "/projects/deebee-project.png",
     link: "https://deebee.shop",
   },
   {
+    id: 5,
     name: "ABIS",
     imageSrc: "/projects/abis-project.png",
     link: "https://ahlul-bayt.ca",
   },
   {
+    id: 6,
     name: "Window Design",
     imageSrc: "/projects/window-design-project.png",
     link: "https://window-design.vercel.app",
