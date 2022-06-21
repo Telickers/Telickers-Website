@@ -1,3 +1,8 @@
+import { HiOutlineCode } from "react-icons/hi";
+import { BsPaletteFill } from "react-icons/bs";
+import { FaChalkboardTeacher } from "react-icons/fa";
+import { SiMinds } from "react-icons/si";
+
 export const members = [
   {
     name: "Hussein Hassan",
@@ -60,39 +65,83 @@ export const feedbacks = [
 
 export const services = [
   {
-    src: "/icons/code.svg",
-    title: "Web Development",
-    desc: [
-      "will enter the text here later",
-      "will enter the text here later",
-      "will enter the text here later",
-    ],
-  },
-  {
-    src: "/icons/palet.svg",
     title: "UI / UX Design",
+    imageSrc: "",
+    caption: "",
+    Icon: <BsPaletteFill size={45} />,
     desc: [
       "will enter the text here later",
       "will enter the text here later",
       "will enter the text here later",
     ],
+    details: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    ],
   },
   {
-    src: "/icons/brain.svg",
+    title: "Web Development",
+    imageSrc: "",
+    caption: "",
+    Icon: <HiOutlineCode size={45} />,
+    desc: [
+      "will enter the text here later",
+      "will enter the text here later",
+      "will enter the text here later",
+    ],
+    details: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    ],
+  },
+  {
     title: "Tutoring",
+    imageSrc: "",
+    caption: "",
+    Icon: <FaChalkboardTeacher size={45} />,
     desc: [
       "will enter the text here later",
       "will enter the text here later",
       "will enter the text here later",
     ],
+    details: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    ],
   },
   {
-    src: "/icons/lamp.svg",
     title: "Software Consultation",
+    imageSrc: "",
+    caption: "",
+    Icon: <SiMinds size={45} />,
     desc: [
       "will enter the text here later",
       "will enter the text here later",
       "will enter the text here later",
+    ],
+    details: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
     ],
   },
 ];

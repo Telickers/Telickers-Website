@@ -28,12 +28,8 @@ export default function Services() {
               viewport={{ once: true, amount: 0.7 }}
               key={serv.src}
             >
-              <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full">
-                <img
-                  src={serv.src}
-                  className="mx-auto h-full w-full"
-                  alt={serv.title}
-                />
+              <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-white p-4 shadow-md">
+                {serv.Icon}
               </div>
               <div className="text pt-3 text-center">
                 <span className="block pb-1 text-2xl font-bold">
