@@ -1,8 +1,9 @@
 import BlurImage from "@/components/Common/BlurImage";
+import useWindowSize from "@/hooks/useWindowSize";
 
 export default function ProjectDetails({ details }) {
   return (
-    <section className="flex flex-col items-center space-y-20 bg-brand py-16 lg:py-28 px-12 lg:px-20 min-h-screen">
+    <section className="flex min-h-screen flex-col items-center space-y-20 bg-brand py-16 px-12 lg:py-28 lg:px-20">
       {details?.map((detail, index) => (
         <Detail
           key={index}
@@ -16,7 +17,10 @@ export default function ProjectDetails({ details }) {
 }
 
 function Detail({ index, description, imageSrc }) {
-  if (index % 2 === 0)
+  const windowSize = useWindowSize();
+
+  // reverse the rows for small screens (when there is only 1 column instead of 2)
+  if (windowSize.width < 768) {
     return (
       <article className="grid grid-cols-1 gap-7 md:grid-cols-2">
         <div className="flex items-center justify-center">
@@ -27,14 +31,28 @@ function Detail({ index, description, imageSrc }) {
         </div>
       </article>
     );
-  return (
+    // else swap them according to even & odd only
+  } else {
+    if (index % 2 === 0)
+      return (
+        <article className="grid grid-cols-1 gap-7 md:grid-cols-2">
+          <div className="flex items-center justify-center">
+            <p className="text-center md:text-left">{description}</p>
+          </div>
+          <div className="h-full w-full">
+            <BlurImage imageSrc={imageSrc} />
+          </div>
+        </article>
+      );
+    return (
       <article className="grid grid-cols-1 gap-7 md:grid-cols-2">
-      <div className="h-full w-full">
-        <BlurImage imageSrc={imageSrc} />
-      </div>
+        <div className="h-full w-full">
+          <BlurImage imageSrc={imageSrc} />
+        </div>
         <div className="flex items-center justify-center">
-        <p className="text-center md:text-left">{description}</p>
-      </div>
-    </article>
-  );
+          <p className="text-center md:text-left">{description}</p>
+        </div>
+      </article>
+    );
+  }
 }

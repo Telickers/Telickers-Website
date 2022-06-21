@@ -36,7 +36,7 @@ export default function Form({ closeModal }) {
       });
 
       setLoading(false);
-      closeModal();
+      closeModal && closeModal();
       const t = toast.success("Your message was sent successfully!");
       setTimeout(() => toast.dismiss(t.id), 2500);
 
@@ -49,7 +49,7 @@ export default function Form({ closeModal }) {
       message.current.value = "";
     } catch (error) {
       setLoading(false);
-      closeModal();
+      closeModal && closeModal();
       const t = toast.error(
         "An error occured while sending the message. Please try again"
       );
@@ -128,16 +128,14 @@ export default function Form({ closeModal }) {
           cols="40"
         ></textarea>
       </div>
-      <div className="ml-auto">
-        <button
-          disabled={!name || !email || !message}
-          type="submit"
-          aria-label="send"
-          className="w-full rounded-lg  bg-blue-600 py-2 px-4 text-center text-base font-semibold text-white shadow-md transition duration-200 ease-in hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2  focus:ring-offset-indigo-200 "
-        >
-          {loading ? <Spinner /> : "Send"}
-        </button>
-      </div>
+      <button
+        disabled={!name || !email || !message}
+        type="submit"
+        aria-label="send"
+        className="w-full rounded-lg  bg-blue-600 py-2 px-4 text-center text-base font-semibold text-white shadow-md transition duration-200 ease-in hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2  focus:ring-offset-indigo-200 "
+      >
+        {loading ? <Spinner /> : "Send"}
+      </button>
     </form>
   );
 }

@@ -23,7 +23,7 @@ export default function About() {
           className="-mb-10 block md:hidden"
         />
         <motion.article
-          viewport={{once: true, amount: 0.8 }}
+          viewport={{ once: true, amount: 0.8 }}
           whileInView={{
             rotate: -3,
             transition: {

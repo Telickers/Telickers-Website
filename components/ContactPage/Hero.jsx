@@ -1,4 +1,5 @@
-import RequestMeeting from "../Common/RequestMeeting";
+import { BiChevronsDown } from "react-icons/bi";
+
 import Navbar from "../Layout/Navbar";
 
 export default function ContactHero() {
@@ -25,7 +26,20 @@ export default function ContactHero() {
             </p>
           </div>
           <div>
-            <RequestMeeting />
+            <button
+              className="flex items-center justify-center rounded-xl bg-white px-3 py-2 text-black"
+              onClick={() => {
+                window?.scroll({
+                  top: 650,
+                  behavior: "smooth",
+                });
+              }}
+            >
+              <span>Say Hello</span>
+              <span>
+                <BiChevronsDown size={25} />
+              </span>
+            </button>
           </div>
         </div>
       </section>
