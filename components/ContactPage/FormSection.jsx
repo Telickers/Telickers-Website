@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import Form from "../Common/RequestMeeting/Form";
+import Form from "../Common/Form";
 
 export default function ContactForm() {
   return (

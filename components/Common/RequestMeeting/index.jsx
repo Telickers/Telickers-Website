@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import useScrollBlock from "@/hooks/useScrollBlock";
 import Backdrop from "./Backdrop";
-import Form from "./Form";
+import Form from "../Form";
 
 export default function RequestMeeting() {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,7 +49,7 @@ export default function RequestMeeting() {
       {isOpen && <Backdrop />}
       <button
         onClick={open}
-        className="rounded-[50px] bg-white p-4 text-black shadow-xl"
+        className="btn-secondary"
       >
         REQUEST A MEETING
       </button>

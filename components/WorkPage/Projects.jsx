@@ -1,6 +1,7 @@
 import { work } from "data";
 import BlurImage from "../Common/BlurImage";
 import NoScrollLink from "../Common/NoScrollLink";
+import RequestMeeting from "../Common/RequestMeeting";
 
 export default function Projects() {
   return (
@@ -29,6 +30,9 @@ export default function Projects() {
           </NoScrollLink>
         ))}
       </section>
+      <div className="mt-20 flex justify-center">
+        <RequestMeeting />
+      </div>
     </section>
   );
 }
