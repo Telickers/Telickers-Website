@@ -51,7 +51,7 @@ export default function Footer() {
           </a>
           <AiOutlineLine className="rotate-90 " />
           <a
-            href="https://www.instagram.com/telickers_team/"
+            href="https://www.instagram.com/telickers"
             target="_blank"
             rel="noreferrer"
           >
