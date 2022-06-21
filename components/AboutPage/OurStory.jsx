@@ -11,7 +11,7 @@ export default function Team() {
         We <br /> MAKE <br /> IMPACT
       </h2>
       <p className="mb-3 text-3xl font-bold">
-        <span className="text-2xl font-medium">Our Story...</span> Telickers
+        <span className="text-2xl text-linear font-medium italic">Our Story</span> Telickers
         Team
       </p>
       <p className="text-center text-lg lg:mx-auto lg:w-[70vw]">

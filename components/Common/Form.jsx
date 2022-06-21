@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import toast from "react-hot-toast";
 
-import Spinner from "../Spinner";
+import Spinner from "./Spinner";
 
 export default function Form({ closeModal }) {
   const name = useRef();

@@ -51,7 +51,7 @@ function SideMenu({ isOpen, toggleOpen }) {
   const links = [
     { name: "Home", to: "/", id: 1 },
     { name: "About Us", to: "/about", id: 2 },
-    { name: "What We Do", to: "/services", id: 3 },
+    { name: "Our Services", to: "/services", id: 3 },
     { name: "Our Work", to: "/work", id: 4 },
     { name: "Contact Us", to: "/contact", id: 5 },
   ];
@@ -108,7 +108,7 @@ function SideMenu({ isOpen, toggleOpen }) {
               {links.map(({ id, name, to }) => (
                 <motion.span
                   key={id}
-                  className="cursor-pointer"
+                  className={`cursor-pointer ${router.pathname === to && "text-linear font-semibold"}`}
                   onClick={() => {
                     setTimeout(() => router.push(to), 600);
                     toggleOpen();

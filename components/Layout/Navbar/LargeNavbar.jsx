@@ -1,14 +1,12 @@
+import { useRouter } from "next/router";
+
 import NoScrollLink from "../../Common/NoScrollLink";
 
 export default function LargeNavbar() {
   return (
     <nav className="absolute top-3 z-50 hidden w-full items-center justify-center space-x-6 py-4 text-white md:flex">
-      <NoScrollLink href="/about" passHref>
-        About Us
-      </NoScrollLink>
-      <NoScrollLink href="/services" passHref>
-        Services
-      </NoScrollLink>
+      <Link route="/about" text="About Us" />
+      <Link route="/services" text="Services" />
       <NoScrollLink href="/">
         <img
           src="/telickers-logo.svg"
@@ -16,12 +14,26 @@ export default function LargeNavbar() {
           className="mx-5 w-56 cursor-pointer"
         />
       </NoScrollLink>
-      <NoScrollLink href="/work" passHref>
-        Our Work
-      </NoScrollLink>
-      <NoScrollLink href="/contact" passHref>
-        Contact Us
-      </NoScrollLink>
+      <Link route="/work" text="Our Work" />
+      <Link route="/contact" text=" Contact Us" />
     </nav>
+  );
+}
+
+function Link({ route, text }) {
+  const router = useRouter();
+  const pathname = router.pathname;
+  const isActive = route === pathname;
+
+  return (
+    <NoScrollLink href={route} passHref>
+      <span
+        className={`cursor-pointer border-b border-transparent transition-all duration-300 ease-in-out hover:border-b-white ${
+          isActive && "border-b-white font-semibold"
+        }`}
+      >
+        {text}
+      </span>
+    </NoScrollLink>
   );
 }

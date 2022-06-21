@@ -1,5 +1,6 @@
 import BlurImage from "../Common/BlurImage";
 import { work } from "data";
+import NoScrollLink from "../Common/NoScrollLink";
 
 export default function Work() {
   return (
@@ -22,6 +23,11 @@ export default function Work() {
             </a>
           </article>
         ))}
+      </div>
+      <div className="mt-20 flex justify-center">
+        <NoScrollLink href="/work" passhref>
+          <span className="btn-primary">All Our Work</span>
+        </NoScrollLink>
       </div>
     </section>
   );

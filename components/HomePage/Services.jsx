@@ -44,7 +44,6 @@ export default function Services() {
             </motion.article>
           ))}
         </div>
-        {/* <div className="z-0 mx-44 h-0.5 -translate-y-48 bg-black"></div> */}
       </div>
 
       <motion.div
@@ -54,9 +53,9 @@ export default function Services() {
         className="mt-20 flex justify-center"
       >
         <NoScrollLink href="/services" passhref>
-          <a className="flex items-center justify-center rounded-full border border-white/10 bg-slate-700/40 px-4 py-3 font-semibold text-white hover:border-white/20 hover:bg-slate-700/60 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-slate-900">
+          <span className="btn-primary">
             Read More
-          </a>
+          </span>
         </NoScrollLink>
       </motion.div>
     </section>

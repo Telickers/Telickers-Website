@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { GoPrimitiveDot } from "../../node_modules/react-icons/go";
+
+import { GoPrimitiveDot } from "react-icons/go";
 
 export default function ServiceItem({ service }) {
   return (
