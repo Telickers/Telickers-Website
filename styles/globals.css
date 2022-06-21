@@ -109,7 +109,12 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.on-hover-text-linear:hover {
+  background: linear-gradient(90deg, #00d1ff -3.9%, #405fff 109.86%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 textarea {
   resize: none;
 }

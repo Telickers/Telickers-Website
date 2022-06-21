@@ -1,3 +1,5 @@
+import { useRouter } from "next/router";
+
 import {
   FaFacebookF,
   FaInstagram,
@@ -23,18 +25,10 @@ export default function Footer() {
       <section className="pt-2">
         <span className="pr-4 text-2xl font-medium md:text-3xl">{"{"}</span>
         <nav className="inline-flex space-x-4">
-          <NoScrollLink href="/about" passhref>
-            <a className="">About</a>
-          </NoScrollLink>
-          <NoScrollLink href="/services" passhref>
-            <a className="">Services</a>
-          </NoScrollLink>
-          <NoScrollLink href="/work" passhref>
-            <a className="">Work</a>
-          </NoScrollLink>
-          <NoScrollLink href="/contact" passhref>
-            <a className="">Contact</a>
-          </NoScrollLink>
+          <Link route="/about" text="About" />
+          <Link route="/services" text="Services" />
+          <Link route="/work" text="Work" />
+          <Link route="/contact" text="Contact" />
         </nav>
         <span className="pl-4 text-2xl font-medium md:text-3xl">{"}"}</span>
       </section>
@@ -55,7 +49,6 @@ export default function Footer() {
           >
             <FaFacebookF />
           </a>
-
           <AiOutlineLine className="rotate-90 " />
           <a
             href="https://www.instagram.com/telickers_team/"
@@ -64,7 +57,6 @@ export default function Footer() {
           >
             <FaInstagram />
           </a>
-
           <AiOutlineLine className="rotate-90 " />
           <a
             href="https://twitter.com/telickers"
@@ -73,9 +65,7 @@ export default function Footer() {
           >
             <FaTwitter />
           </a>
-
           <AiOutlineLine className="rotate-90 " />
-
           <a
             href="https://www.linkedin.com/in/telickers-team-5abb71242/"
             target="_blank"
@@ -83,9 +73,7 @@ export default function Footer() {
           >
             <FaLinkedinIn />
           </a>
-
           <AiOutlineLine className="rotate-90 " />
-
           <a
             href="https://t.me/Hussein_Ali_Hassan"
             target="_blank"
@@ -102,5 +90,23 @@ export default function Footer() {
         © {new Date().getFullYear()} Telickers. All rights reserved
       </p>
     </footer>
+  );
+}
+
+function Link({ route, text }) {
+  const router = useRouter();
+  const pathname = router.pathname;
+  const isActive = route === pathname;
+
+  return (
+    <NoScrollLink href={route} passHref>
+      <span
+        className={`on-hover-text-linear cursor-pointer ${
+          isActive && "text-linear"
+        }`}
+      >
+        {text}
+      </span>
+    </NoScrollLink>
   );
 }
