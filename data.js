@@ -20,7 +20,7 @@ export const members = [
     role: "Co-Founder | UI/UX Designer",
     facebookUrl: "https://www.facebook.com/mohammad.jawadnouredine.7",
     instagramUrl: "https://www.instagram.com/jawad.n2022/",
-    linkedinUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/mohammad-nouredine-059a0a242/",
   },
   {
     name: "Abed Al-Hussein Saade",
