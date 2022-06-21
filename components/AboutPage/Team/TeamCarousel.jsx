@@ -1,10 +1,9 @@
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
-import { AiOutlineLine } from "react-icons/ai";
 import { useState } from "react";
 import { wrap } from "popmotion";
 
 import { members } from "data";
+import Bio from "./Bio";
 
 const imageVariants = {
   hidden: {
@@ -72,27 +71,12 @@ export default function TeamCarousel() {
           />
         </div>
 
-        <div className="mt-2 flex w-[350px] flex-col items-center rounded-lg p-4 text-center shadow-xl">
-          <p className="py-1.5 font-medium text-slate-500">
-            {members[memberIndex].bio}
-          </p>
-          <div className="flex space-x-3 pt-5">
-            <a>
-              <FaFacebookF />
-            </a>
-            <AiOutlineLine className="rotate-90 " />
-            <a>
-              <FaInstagram />
-            </a>
-            <AiOutlineLine className="rotate-90 " />
-            <a>
-              <FaLinkedinIn />
-            </a>
-          </div>
-          <p className="pt-1.5">
-            <a href="mailto:hello@telickers.net">hello@telickers.net</a>{" "}
-          </p>
-        </div>
+        <Bio
+          bio={members[memberIndex].bio}
+          facebookUrl={members[memberIndex].facebookUrl}
+          instagramUrl={members[memberIndex].instagramUrl}
+          linkedinUrl={members[memberIndex].linkedinUrl}
+        />
       </div>
     </section>
   );

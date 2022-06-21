@@ -1,5 +1,7 @@
+import Image from "next/image";
 import { BsArrowRightCircle } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
+
 import NoScrollLink from "../Common/NoScrollLink";
 import Navbar from "../Layout/Navbar";
 
@@ -45,11 +47,10 @@ export default function Hero() {
           </NoScrollLink>
         </div>
         <div className="relative hidden h-full w-full lg:block">
-          <img
-            src="/hero-img.png"
-            className="absolute top-[15px] -right-[80px] w-[350px]"
-            alt="hero-img"
-          />
+          <div className="absolute top-[15px] -right-[80px]">
+          <Image src="/hero-img.png" alt="hero-img" width={350} height={714} />
+          </div>
+          <img />
         </div>
       </section>
     </>

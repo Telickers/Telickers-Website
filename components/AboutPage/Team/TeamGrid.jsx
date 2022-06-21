@@ -1,7 +1,6 @@
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { AiOutlineLine } from "react-icons/ai";
 
 import { members } from "data";
+import Bio from "./Bio";
 
 export default function TeamGrid() {
   return (
@@ -15,32 +14,19 @@ export default function TeamGrid() {
                 src={member.image}
                 alt="Team Member"
                 loading="lazy"
-                className="mb-3 h-[200px] w-[200px] rounded-full border-8 border-white object-cover shadow-md md:h-[300px] md:w-[300px]"
+                className="mb-3 h-[200px] w-[200px] rounded-full border-8 border-white object-cover shadow-md md:h-[300px] md:w-[300px] hover:opacity-90 transition-opacity duration-300 ease-in-out"
               />
               <p className="text-linear font-semibold">{member.name}</p>
               <p className="text-center font-bold text-[#B7B7B7]">
                 {member.role}
               </p>
             </div>
-            <div className="mt-2 flex w-[350px] flex-col items-center rounded-lg p-4 text-center shadow-xl">
-              <p className="py-1.5 font-medium text-slate-500">{member.bio}</p>
-              <div className="flex space-x-3 pt-5">
-                <a>
-                  <FaFacebookF />
-                </a>
-                <AiOutlineLine className="rotate-90 " />
-                <a>
-                  <FaInstagram />
-                </a>
-                <AiOutlineLine className="rotate-90 " />
-                <a>
-                  <FaLinkedinIn />
-                </a>
-              </div>
-              <p className="pt-1.5">
-                <a href="mailto:hello@telickers.net">hello@telickers.net</a>{" "}
-              </p>
-            </div>
+            <Bio
+              bio={member.bio}
+              facebookUrl={member.facebookUrl}
+              instagramUrl={member.instagramUrl}
+              linkedinUrl={member.linkedinUrl}
+            />
           </div>
         ))}
       </div>

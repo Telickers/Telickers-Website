@@ -9,18 +9,27 @@ export const members = [
     image: "/team/hussein.jpg",
     bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consequuntur voluptatem aliquam nemo quo quae nesciunt, omnis sint commodi voluptatibus",
     role: "Founder | Creative 3D Developer",
+    facebookUrl: "https://www.facebook.com/profile.php?id=100062471768466",
+    instagramUrl: "https://www.instagram.com/husseinhassan.me/",
+    linkedinUrl: "https://www.linkedin.com/in/hussein-hassan-2b2a921a2/",
   },
   {
     name: "Mohamad Nouredeen",
     image: "/team/jwd.png",
     bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consequuntur voluptatem aliquam nemo quo quae ff4f43f 4f 4f 4nt commodi voluptatibus",
     role: "Co-Founder | UI/UX Designer",
+    facebookUrl: "https://www.facebook.com/mohammad.jawadnouredine.7",
+    instagramUrl: "",
+    linkedinUrl: "",
   },
   {
     name: "Abed Al-Hussein Saade",
     image: "/team/abed.jpg",
     bio: "Lorem ipsum 4f4f4f4 f4f4f4fdipisicing elit. Incidunt consequuntur voluptatem aliquam nemo quo quae nesciunt, omnis sint commodi voluptatibus",
     role: "Co-Founder | Full-Stack Developer",
+    facebookUrl: "https://www.facebook.com/profile.php?id=100009450997072",
+    instagramUrl: "https://www.instagram.com/abedalhussain_saade/",
+    linkedinUrl: "https://www.linkedin.com/in/abed-saade/",
   },
 ];
 
