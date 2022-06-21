@@ -68,7 +68,7 @@ export const services = [
     title: "UI / UX Design",
     imageSrc: "",
     caption: "",
-    Icon: <BsPaletteFill size={45} />,
+    Icon: <BsPaletteFill size={65} />,
     desc: [
       "will enter the text here later",
       "will enter the text here later",
@@ -88,7 +88,7 @@ export const services = [
     title: "Web Development",
     imageSrc: "",
     caption: "",
-    Icon: <HiOutlineCode size={45} />,
+    Icon: <HiOutlineCode size={65} />,
     desc: [
       "will enter the text here later",
       "will enter the text here later",
@@ -108,7 +108,7 @@ export const services = [
     title: "Tutoring",
     imageSrc: "",
     caption: "",
-    Icon: <FaChalkboardTeacher size={45} />,
+    Icon: <FaChalkboardTeacher size={65} />,
     desc: [
       "will enter the text here later",
       "will enter the text here later",
@@ -128,7 +128,7 @@ export const services = [
     title: "Software Consultation",
     imageSrc: "",
     caption: "",
-    Icon: <SiMinds size={45} />,
+    Icon: <SiMinds size={65} />,
     desc: [
       "will enter the text here later",
       "will enter the text here later",
