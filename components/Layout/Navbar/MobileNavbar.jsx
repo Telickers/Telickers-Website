@@ -108,7 +108,9 @@ function SideMenu({ isOpen, toggleOpen }) {
               {links.map(({ id, name, to }) => (
                 <motion.span
                   key={id}
-                  className={`cursor-pointer ${router.pathname === to && "text-linear font-semibold"}`}
+                  className={`cursor-pointer ${
+                    router.pathname === to && "text-linear font-semibold"
+                  }`}
                   onClick={() => {
                     setTimeout(() => router.push(to), 600);
                     toggleOpen();

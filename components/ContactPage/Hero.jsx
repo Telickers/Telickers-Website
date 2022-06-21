@@ -27,7 +27,7 @@ export default function ContactHero() {
           </div>
           <div>
             <button
-              className="flex items-center justify-center btn-secondary"
+              className="btn-secondary flex items-center justify-center"
               onClick={() => {
                 window?.scroll({
                   top: 650,

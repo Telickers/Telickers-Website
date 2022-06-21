@@ -7,7 +7,7 @@ export default function Services() {
     <>
       <SEO title="Our Services | Telickers" />
       <Hero />
-      <ServicesSection/>
+      <ServicesSection />
     </>
   );
 }

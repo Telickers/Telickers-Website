@@ -53,9 +53,7 @@ export default function Services() {
         className="mt-20 flex justify-center"
       >
         <NoScrollLink href="/services" passhref>
-          <span className="btn-primary">
-            Read More
-          </span>
+          <span className="btn-primary">Read More</span>
         </NoScrollLink>
       </motion.div>
     </section>

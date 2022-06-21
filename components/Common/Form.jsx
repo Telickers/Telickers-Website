@@ -37,8 +37,7 @@ export default function Form({ closeModal }) {
 
       setLoading(false);
       closeModal && closeModal();
-      const t = toast.success("Your message was sent successfully!");
-      setTimeout(() => toast.dismiss(t.id), 2500);
+      toast.success("Your message was sent successfully!");
 
       name.current.value = "";
       email.current.value = "";
@@ -50,10 +49,9 @@ export default function Form({ closeModal }) {
     } catch (error) {
       setLoading(false);
       closeModal && closeModal();
-      const t = toast.error(
+      toast.error(
         "An error occured while sending the message. Please try again"
       );
-      setTimeout(() => toast.dismiss(t.id), 2500);
     }
   };
 

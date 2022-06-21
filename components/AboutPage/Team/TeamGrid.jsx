@@ -1,4 +1,3 @@
-
 import { members } from "data";
 import Bio from "./Bio";
 
@@ -14,7 +13,7 @@ export default function TeamGrid() {
                 src={member.image}
                 alt="Team Member"
                 loading="lazy"
-                className="mb-3 h-[200px] w-[200px] rounded-full border-8 border-white object-cover shadow-md md:h-[300px] md:w-[300px] hover:opacity-90 transition-opacity duration-300 ease-in-out"
+                className="mb-3 h-[200px] w-[200px] rounded-full border-8 border-white object-cover shadow-md transition-opacity duration-300 ease-in-out hover:opacity-90 md:h-[300px] md:w-[300px]"
               />
               <p className="text-linear font-semibold">{member.name}</p>
               <p className="text-center font-bold text-[#B7B7B7]">
