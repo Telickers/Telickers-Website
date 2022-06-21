@@ -40,34 +40,66 @@ export default function Footer() {
       </section>
       <div className="mt-4 flex justify-center text-black">
         <article className="text-md mt-6 flex space-x-5 md:text-xl lg:text-2xl">
-          <FaWhatsapp />
+          <a
+            href="https://api.whatsapp.com/send?phone=+9617535302"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaWhatsapp />
+          </a>
+          <AiOutlineLine className="rotate-90 " />
+          <a
+            href="https://www.facebook.com/telickers"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaFacebookF />
+          </a>
+
+          <AiOutlineLine className="rotate-90 " />
+          <a
+            href="https://www.instagram.com/telickers_team/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaInstagram />
+          </a>
+
+          <AiOutlineLine className="rotate-90 " />
+          <a
+            href="https://twitter.com/telickers"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaTwitter />
+          </a>
 
           <AiOutlineLine className="rotate-90 " />
 
-          <FaFacebookF />
+          <a
+            href="https://www.linkedin.com/in/telickers-team-5abb71242/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedinIn />
+          </a>
 
           <AiOutlineLine className="rotate-90 " />
 
-          <FaInstagram />
-
-          <AiOutlineLine className="rotate-90 " />
-
-          <FaTwitter />
-
-          <AiOutlineLine className="rotate-90 " />
-
-          <FaLinkedinIn />
-
-          <AiOutlineLine className="rotate-90 " />
-
-          <FaTelegramPlane />
+          <a
+            href="https://t.me/Hussein_Ali_Hassan"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaTelegramPlane />
+          </a>
         </article>
       </div>
       <p className="pt-7 text-2xl">
         e-mail: <a href="mailto:hello@telickers.net">hello@telickers.net</a>{" "}
       </p>
       <p className="pt-2 text-sm text-gray-400">
-        © 2022 Telickers. All rights reserved
+        © {new Date().getFullYear()} Telickers. All rights reserved
       </p>
     </footer>
   );
