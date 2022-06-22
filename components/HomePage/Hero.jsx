@@ -52,7 +52,7 @@ export default function Hero() {
           <div className="absolute top-[15px] -right-[80px]">
             <Image
               src="/general/hero-img.png"
-              alt="hero-img"
+              alt=""
               width={350}
               height={714}
             />
