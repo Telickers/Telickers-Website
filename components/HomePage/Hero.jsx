@@ -21,20 +21,22 @@ export default function Hero() {
           <div className="text-linear min-h-[150px] text-center text-5xl leading-[1.2] tracking-tighter sm:text-[4rem] sm:leading-[4.2rem] lg:text-start">
             <Typewriter
               options={{
-                delay: 40,
+                delay: 32,
                 loop: true,
                 deleteSpeed: 1,
               }}
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("Lorem ipsum dolor sit amet consectetur")
-                  .pauseFor(1200)
+                  .typeString("Who facilitates your presence on the web")
+                  .pauseFor(1400)
                   .deleteAll()
-                  .typeString("Lorem ipsum dolor sit amet consectetur")
-                  .pauseFor(1200)
+                  .typeString("Who guide you to find the best software solution")
+                  .pauseFor(1400)
                   .deleteAll()
-                  .typeString("Lorem ipsum dolor sit amet consectetur")
-                  .pauseFor(1200)
+                  .typeString(
+                    "Who leads your first steps into programming"
+                  )
+                  .pauseFor(1400)
                   .start();
               }}
             />
