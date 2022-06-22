@@ -27,13 +27,13 @@ export default function About() {
           </p>
           <p className="text-gray-600 md:text-2xl">
             We are a team of{" "}
-            <span className="font-semibold text-cyan-600">developers</span>,{" "}
-            <span className="font-semibold text-cyan-600">designers</span>,{" "}
-            <span className="font-semibold text-cyan-600">
+            <span className="font-semibold text-cyan-700">developers</span>,{" "}
+            <span className="font-semibold text-cyan-700">designers</span>,{" "}
+            <span className="font-semibold text-cyan-700">
               programming tutors
             </span>{" "}
             and
-            <span className="font-semibold text-cyan-600">
+            <span className="font-semibold text-cyan-700">
               {" "}
               software consultants
             </span>{" "}

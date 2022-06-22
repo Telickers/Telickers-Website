@@ -35,6 +35,7 @@ export default function Footer() {
       <div className="mt-4 flex justify-center text-black">
         <article className="text-md mt-6 flex space-x-5 md:text-xl lg:text-2xl">
           <a
+            aria-label="Message us on Whatsapp"
             href="https://api.whatsapp.com/send?phone=+9617535302"
             target="_blank"
             rel="noreferrer"
@@ -43,6 +44,7 @@ export default function Footer() {
           </a>
           <AiOutlineLine className="rotate-90 " />
           <a
+            aria-label="Like our facebook page"
             href="https://www.facebook.com/telickers"
             target="_blank"
             rel="noreferrer"
@@ -51,6 +53,7 @@ export default function Footer() {
           </a>
           <AiOutlineLine className="rotate-90 " />
           <a
+            aria-label="Follow us in instagram"
             href="https://www.instagram.com/telickers"
             target="_blank"
             rel="noreferrer"
@@ -59,6 +62,7 @@ export default function Footer() {
           </a>
           <AiOutlineLine className="rotate-90 " />
           <a
+            aria-label="Follow us on twitter"
             href="https://twitter.com/telickers"
             target="_blank"
             rel="noreferrer"
@@ -67,6 +71,7 @@ export default function Footer() {
           </a>
           <AiOutlineLine className="rotate-90 " />
           <a
+            aria-label="Lets make a connection on linkedin"
             href="https://www.linkedin.com/in/telickers-team-5abb71242/"
             target="_blank"
             rel="noreferrer"
@@ -75,6 +80,7 @@ export default function Footer() {
           </a>
           <AiOutlineLine className="rotate-90 " />
           <a
+            aria-label="Message us on telegram"
             href="https://t.me/Hussein_Ali_Hassan"
             target="_blank"
             rel="noreferrer"
@@ -86,7 +92,7 @@ export default function Footer() {
       <p className="pt-7 text-2xl">
         e-mail: <a href="mailto:hello@telickers.net">hello@telickers.net</a>{" "}
       </p>
-      <p className="pt-2 text-sm text-gray-400">
+      <p className="pt-2 text-sm text-gray-500">
         © {new Date().getFullYear()} Telickers. All rights reserved
       </p>
     </footer>
