@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Toaster } from "react-hot-toast";
 import Head from "next/head";
+import Script from "next/script";
 
 import Footer from "@/components/Layout/Footer";
 import "@/styles/globals.css";
@@ -54,7 +55,7 @@ function AppMeta() {
   return (
     <Head>
       {/* Analytics */}
-      <script async src="https://cdn.splitbee.io/sb.js"></script>
+      <Script  async src="https://cdn.splitbee.io/sb.js"/>
 
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
