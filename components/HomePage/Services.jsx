@@ -26,7 +26,7 @@ export default function Services() {
                 transition: { duration: 0.8 },
               }}
               viewport={{ once: true, amount: 0.7 }}
-              key={serv.src}
+              key={serv.title}
             >
               <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-white p-4 shadow-md">
                 {serv.Icon}

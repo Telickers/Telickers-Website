@@ -31,7 +31,7 @@ export default function Hero() {
                   .pauseFor(1400)
                   .deleteAll()
                   .typeString(
-                    "Who guide you to find the best software solution"
+                    "Who guides you to find the best software solution"
                   )
                   .pauseFor(1400)
                   .deleteAll()
