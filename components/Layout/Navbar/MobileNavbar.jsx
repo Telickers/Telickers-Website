@@ -15,7 +15,7 @@ export default function MobileNavbar() {
         {/* Logo */}
         <NoScrollLink href="/">
           <img
-            src="/telickers-logo.svg"
+            src="/general/telickers-logo.svg"
             alt="Telickers Logo"
             className="w-40 cursor-pointer"
           />

@@ -17,7 +17,7 @@ export default function Footer() {
     <footer className="pb-6 pt-14 text-center">
       <NoScrollLink href="/" passhref>
         <img
-          src="/telickers-logo-dark.svg"
+          src="/general/telickers-logo-dark.svg"
           alt="Telickers Logo"
           className="mx-auto w-60 cursor-pointer"
         />

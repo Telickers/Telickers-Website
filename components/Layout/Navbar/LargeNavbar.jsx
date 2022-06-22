@@ -9,7 +9,7 @@ export default function LargeNavbar() {
       <Link route="/services" text="Services" />
       <NoScrollLink href="/">
         <img
-          src="/telickers-logo.svg"
+          src="/general/telickers-logo.svg"
           alt="Telickers Logo"
           className="mx-5 w-56 cursor-pointer"
         />

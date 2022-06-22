@@ -17,7 +17,7 @@ export default function ContactForm() {
       <div className="aspect-w-3 aspect-h-3">
         <Image
           alt="Man working on computer"
-          src="/man-working-on-computer.svg"
+          src="/general/man-working-on-computer.svg"
           layout="fill"
         />
       </div>

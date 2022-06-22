@@ -22,7 +22,7 @@ export default function ServiceItem({ service }) {
             We Cover All Your <br /> Web Needs
           </div>
           <Image
-            src="/image-service-test.png"
+            src="/general/image-service-test.png"
             alt="image-service-test"
             layout="fill"
             objectFit="cover"
@@ -45,7 +45,7 @@ export default function ServiceItem({ service }) {
             We Cover All Your Web Needs
           </div>
           <Image
-            src="/image-service-test.png"
+            src="/general/image-service-test.png"
             alt="image-service-test"
             layout="fill"
             objectFit="cover"

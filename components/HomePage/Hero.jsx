@@ -49,7 +49,7 @@ export default function Hero() {
         <div className="relative hidden h-full w-full lg:block">
           <div className="absolute top-[15px] -right-[80px]">
             <Image
-              src="/hero-img.png"
+              src="/general/hero-img.png"
               alt="hero-img"
               width={350}
               height={714}
