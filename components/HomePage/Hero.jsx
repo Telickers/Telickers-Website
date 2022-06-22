@@ -30,12 +30,12 @@ export default function Hero() {
                   .typeString("Who facilitates your presence on the web")
                   .pauseFor(1400)
                   .deleteAll()
-                  .typeString("Who guide you to find the best software solution")
+                  .typeString(
+                    "Who guide you to find the best software solution"
+                  )
                   .pauseFor(1400)
                   .deleteAll()
-                  .typeString(
-                    "Who leads your first steps into programming"
-                  )
+                  .typeString("Who leads your first steps into programming")
                   .pauseFor(1400)
                   .start();
               }}

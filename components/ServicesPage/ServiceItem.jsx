@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { GoPrimitiveDot } from "react-icons/go";
+import { BsStars } from "react-icons/bs";
 
 export default function ServiceItem({ service }) {
   return (
@@ -18,11 +18,11 @@ export default function ServiceItem({ service }) {
       <div className="grid grid-cols-1 gap-0 lg:grid-cols-2 lg:gap-3">
         {/* Image for mobiles */}
         <div className="aspect-w-16 aspect-h-9 relative block overflow-hidden rounded-tr-md rounded-tl-md lg:hidden lg:rounded-tl-[0]">
-          <div className="absolute left-0 z-10 flex h-full w-full items-center justify-center bg-[#4315FF36] px-2 text-center text-3xl text-white">
-            We Cover All Your <br /> Web Needs
+          <div className="absolute left-0 z-10 flex h-full w-full items-center justify-center bg-[#4415ff57] px-2 text-center text-3xl text-white">
+            {service.caption}
           </div>
           <Image
-            src="/general/image-service-test.png"
+            src={service.imageSrc}
             alt="image-service-test"
             layout="fill"
             objectFit="cover"
@@ -30,22 +30,25 @@ export default function ServiceItem({ service }) {
         </div>
 
         {/* Content */}
-        <div className="grid space-y-3 rounded-bl-md rounded-br-[50%] py-6 px-6 shadow-xl lg:grid-cols-2 lg:gap-3 lg:space-y-0 lg:rounded-tl-md lg:rounded-br-[0%] lg:px-8">
+        <div className="flex flex-col space-y-3 rounded-bl-md rounded-br-[50%] p-6 pb-8 shadow-xl lg:rounded-tl-md lg:rounded-br-[0%] lg:pt-8 lg:pb-6">
           {service.details.map((detail, idx) => (
-            <p key={idx} className="max-w-[80%]">
-              <GoPrimitiveDot className="inline text-3xl text-gray-500" />
-              {detail}
-            </p>
+            <div
+              key={idx}
+              className="flex max-w-[80%] items-center space-x-1 md:max-w-full"
+            >
+              <BsStars size={20} color="gold" />
+              <p className="lg:text-lg">{detail}</p>
+            </div>
           ))}
         </div>
 
         {/* Image for large screens */}
         <div className="aspect-w-16 aspect-h-9 relative hidden overflow-hidden rounded-br-[50%] rounded-tr-md shadow-xl lg:block">
           <div className="absolute left-0 z-10 flex h-full w-2/5 items-center justify-center bg-[#4415ff57] px-2 text-center text-4xl text-white">
-            We Cover All Your Web Needs
+            {service.caption}
           </div>
           <Image
-            src="/general/image-service-test.png"
+            src={service.imageSrc}
             alt="image-service-test"
             layout="fill"
             objectFit="cover"

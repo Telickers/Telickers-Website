@@ -55,7 +55,7 @@ function AppMeta() {
   return (
     <Head>
       {/* Analytics */}
-      <Script  async src="https://cdn.splitbee.io/sb.js"/>
+      <Script async src="https://cdn.splitbee.io/sb.js" />
 
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

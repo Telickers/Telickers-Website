@@ -16,7 +16,7 @@ export default function Services() {
         >
           Our Services
         </motion.h2>
-        <div className="grid w-screen grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid w-screen grid-cols-1 gap-y-16 md:grid-cols-2 lg:grid-cols-4">
           {services.map((serv) => (
             <motion.article
               initial={{ scale: 0, opacity: 0 }}
@@ -32,7 +32,7 @@ export default function Services() {
                 {serv.Icon}
               </div>
               <div className="text pt-3 text-center">
-                <span className="block pb-1 text-2xl font-bold">
+                <span className="block pb-1 text-2xl font-bold tracking-wider">
                   {serv.title}
                 </span>
                 {serv.desc.map((d, i) => (
