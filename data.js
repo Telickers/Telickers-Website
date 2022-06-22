@@ -62,7 +62,7 @@ export const services = [
   {
     title: "UI / UX Design",
     imageSrc: "/general/design-service.jpg",
-    caption: "We Cover All Your Web Needs",
+    caption: "People ignore design that ignores people",
     Icon: <BsPaletteFill size={65} />,
     desc: [
       "User experience design.",
@@ -103,7 +103,7 @@ export const services = [
   {
     title: "Tutoring",
     imageSrc: "/general/tutoring-service.jpg",
-    caption: "We Cover All Your Web Needs",
+    caption: "We Know How To Make Learning Easy",
     Icon: <FaChalkboardTeacher size={65} />,
     desc: [
       "Giving private sessions.",
@@ -123,7 +123,7 @@ export const services = [
   {
     title: "Software Consulting",
     imageSrc: "/general/consulting-service.jpg",
-    caption: "We Cover All Your Web Needs",
+    caption: "The Essence Of Strategy Is Choosing What Not To Do.",
     Icon: <SiMinds size={65} />,
     desc: [
       "Improving your exiting software.",

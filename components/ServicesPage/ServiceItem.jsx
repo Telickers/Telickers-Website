@@ -18,7 +18,7 @@ export default function ServiceItem({ service }) {
       <div className="grid grid-cols-1 gap-0 lg:grid-cols-2 lg:gap-3">
         {/* Image for mobiles */}
         <div className="aspect-w-16 aspect-h-9 relative block overflow-hidden rounded-tr-md rounded-tl-md lg:hidden lg:rounded-tl-[0]">
-          <div className="absolute left-0 z-10 flex h-full w-full items-center justify-center bg-[#4415ff57] px-2 text-center text-3xl text-white">
+          <div className="absolute left-0 z-10 flex h-full w-full items-center justify-center bg-[#4415ff57] px-2 text-center capitalize text-3xl text-white">
             {service.caption}
           </div>
           <Image
@@ -44,7 +44,7 @@ export default function ServiceItem({ service }) {
 
         {/* Image for large screens */}
         <div className="aspect-w-16 aspect-h-9 relative hidden overflow-hidden rounded-br-[50%] rounded-tr-md shadow-xl lg:block">
-          <div className="absolute left-0 z-10 flex h-full w-2/5 items-center justify-center bg-[#4415ff57] px-2 text-center text-4xl text-white">
+          <div className="absolute left-0 z-10 flex h-full w-2/5 items-center justify-center bg-[#4415ff57] px-2 text-center text-4xl capitalize text-white">
             {service.caption}
           </div>
           <Image
