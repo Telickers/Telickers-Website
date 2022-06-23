@@ -48,7 +48,12 @@ export default function Services() {
 
       <motion.div
         initial={{ scale: 0, opacity: 0 }}
-        whileInView={{ scale: 1, opacity: 1, transition: { duration: 0.8 } }}
+        whileInView={{
+          rotateY: [0, 24, 90, 0],
+          scale: 1,
+          opacity: 1,
+          transition: { duration: 0.6 },
+        }}
         viewport={{ once: true, amount: 0.7 }}
         className="mt-20 flex justify-center"
       >

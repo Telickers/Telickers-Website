@@ -1,13 +1,36 @@
+import { motion } from "framer-motion";
+
 import { members } from "data";
 import Bio from "./Bio";
 
 export default function TeamGrid() {
   return (
     <section className="hidden py-24 lg:block">
-      <h2 className="pb-16 text-center text-5xl font-bold">Meet Our Team</h2>
+      <motion.h2
+        initial={{ scale: 0, opacity: 0 }}
+        whileInView={{
+          scale: 1,
+          opacity: 1,
+          transition: { duration: 0.8 },
+        }}
+        viewport={{ once: true, amount: 0.7 }}
+        className="pb-16 text-center text-5xl font-bold"
+      >
+        Meet Our Team
+      </motion.h2>
       <div className="grid grid-cols-3 place-items-center gap-5">
         {members.map((member) => (
-          <div key={member.name} className="flex flex-col items-center">
+          <motion.div
+            initial={{ scale: 0, opacity: 0 }}
+            whileInView={{
+              scale: 1,
+              opacity: 1,
+              transition: { duration: 0.8 },
+            }}
+            viewport={{ once: true, amount: 0.7 }}
+            key={member.name}
+            className="flex flex-col items-center"
+          >
             <div className="flex w-[270px] flex-col items-center md:w-[300px]">
               <img
                 src={member.image}
@@ -26,7 +49,7 @@ export default function TeamGrid() {
               instagramUrl={member.instagramUrl}
               linkedinUrl={member.linkedinUrl}
             />
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>

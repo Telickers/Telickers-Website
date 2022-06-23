@@ -34,8 +34,28 @@ export default function TeamCarousel() {
   return (
     <section className="block py-24 lg:hidden">
       <div className="flex flex-col items-center justify-center">
-        <h2 className="pb-16 text-5xl font-bold">Meet Our Team</h2>
-        <div className="flex items-center md:space-x-3 lg:space-x-8">
+        <motion.h2
+          initial={{ scale: 0, opacity: 0 }}
+          whileInView={{
+            scale: 1,
+            opacity: 1,
+            transition: { duration: 0.8 },
+          }}
+          viewport={{ once: true, amount: 0.7 }}
+          className="pb-16 text-5xl font-bold"
+        >
+          Meet Our Team
+        </motion.h2>
+        <motion.div
+          initial={{ scale: 0, opacity: 0 }}
+          whileInView={{
+            scale: 1,
+            opacity: 1,
+            transition: { duration: 0.8 },
+          }}
+          viewport={{ once: true, amount: 0.7 }}
+          className="flex items-center md:space-x-3 lg:space-x-8"
+        >
           <img
             src="/icons/left-arrow.svg"
             alt="Left Arrow Icons"
@@ -69,8 +89,7 @@ export default function TeamCarousel() {
             className="w-[55px] cursor-pointer"
             onClick={() => paginate(1)}
           />
-        </div>
-
+        </motion.div>
         <Bio
           bio={members[memberIndex].bio}
           facebookUrl={members[memberIndex].facebookUrl}

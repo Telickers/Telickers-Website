@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { useState } from "react";
 
-export default function BlurImage({ imageSrc }) {
+export default function BlurImage({ imageSrc, priority = false }) {
   const [isLoading, setLoading] = useState(true);
 
   return (
     <div className="aspect-w-3 aspect-h-2 w-full overflow-hidden rounded-lg bg-gray-200 shadow-lg">
       <Image
+        priority={priority}
         alt={imageSrc}
         src={imageSrc}
         layout="fill"

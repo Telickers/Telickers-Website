@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 import RequestMeeting from "../Common/RequestMeeting";
 import ServiceItem from "./ServiceItem";
 import { services } from "data";
@@ -10,9 +12,19 @@ export default function ServicesSection() {
           <ServiceItem service={service} key={service.title} />
         ))}
       </div>
-      <div className="mt-28 flex justify-center">
+      <motion.div
+        initial={{ scale: 0, opacity: 0 }}
+        whileInView={{
+          rotateY: [0, 24, 90, 0],
+          scale: 1,
+          opacity: 1,
+          transition: { duration: 0.6 },
+        }}
+        viewport={{ once: true, amount: 0.7 }}
+        className="mt-28 flex justify-center"
+      >
         <RequestMeeting />
-      </div>
+      </motion.div>
     </section>
   );
 }

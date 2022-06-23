@@ -18,7 +18,7 @@ export default function Hero() {
             Choose Smarter:
           </p>
           <div className="mt-1 h-1 w-[153px] bg-[linear-gradient(90deg,#0047FF_-7.21%,#00F0FF_123.96%)] md:w-[180px]"></div>
-          <div className="text-linear min-h-[150px] text-center text-5xl leading-[1.2] tracking-tighter sm:text-[4rem] sm:leading-[4.2rem] lg:text-start">
+          <div className="text-linear min-h-[150px] py-2 text-center text-5xl leading-[1.2] tracking-tighter sm:text-[4rem] sm:leading-[4.2rem] lg:text-start">
             <Typewriter
               options={{
                 delay: 32,

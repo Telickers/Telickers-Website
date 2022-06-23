@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export default function About() {
   return (
     <section
@@ -20,7 +22,14 @@ export default function About() {
           alt="persons"
           className="-mb-10 block md:hidden"
         />
-        <article className="m-4 mt-10 rounded-2xl p-5 text-lg shadow-2xl shadow-slate-400 md:m-10 md:p-10">
+        <motion.article
+          whileInView={{
+            x: [-7, 0, 7, -7, 0, 7],
+            transition: { duration: 0.3, type: "spring", stiffness: 180 },
+          }}
+          viewport={{ once: false, amount: 0.7 }}
+          className="m-4 mt-10 rounded-2xl p-5 text-lg shadow-2xl shadow-slate-400 md:m-10 md:p-10"
+        >
           <p className="mb-5 font-bold md:text-3xl">
             &quot;Great things in business are never done by one person.
             They&apos;re done by a team of people.&quot;
@@ -40,7 +49,7 @@ export default function About() {
             having a structure and the motivation for researching, prototyping
             and building.
           </p>
-        </article>
+        </motion.article>
       </div>
     </section>
   );

@@ -58,7 +58,7 @@ function SlideItem({ feedback }) {
         <div className="-mt-2 flex items-center px-5 md:-mt-24 md:px-10 lg:-mt-0 lg:px-2">
           <p className="text-[165px] font-thin md:text-[400px]">{"{"}</p>
           <h3 className="pt-7 text-lg md:pt-24 md:text-3xl">{feedback.text}</h3>
-          <p className="text-[165px]  font-thin md:text-[400px]">{"}"}</p>
+          <p className="text-[165px] font-thin md:text-[400px]">{"}"}</p>
         </div>
       </div>
     </article>
