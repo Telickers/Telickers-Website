@@ -78,7 +78,6 @@ function AppMeta() {
       <link rel="manifest" href="/site.webmanifest" />
 
       {/* <!-- Google Meta Tags --> */}
-      <title>Telickers</title>
       <meta
         name="description"
         content="Our compromise is to always drive a positive change in people, companies and organizations"
