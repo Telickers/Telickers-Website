@@ -41,18 +41,18 @@ export const feedbacks = [
     text: "It was great, comfortable, and fruitful to work with \"Telickers\". The various skills I observed makes this team highly recommended for every single business to go online.",
   },
    {
-    name: "Hussein Shoaib",
-    comp: "Window Design",
+    name: "Sadek Ali Abbass",
+    comp: "A2solution",
     img: "/clients/hussein.jpg",
     text: "It was great, comfortable, and fruitful to work with \"Telickers\". The various skills I observed makes this team highly recommended for every single business to go online.",
   }, {
-    name: "Hussein Shoaib",
-    comp: "Window Design",
+    name: "Hussein Darwish",
+    comp: "Deebee Shop",
     img: "/clients/hussein.jpg",
     text: "It was great, comfortable, and fruitful to work with \"Telickers\". The various skills I observed makes this team highly recommended for every single business to go online.",
   }, {
-    name: "Hussein Shoaib",
-    comp: "Window Design",
+    name: "Mohamad El Elota",
+    comp: "Elotarz Media",
     img: "/clients/hussein.jpg",
     text: "It was great, comfortable, and fruitful to work with \"Telickers\". The various skills I observed makes this team highly recommended for every single business to go online.",
   },
@@ -144,33 +144,42 @@ export const services = [
 
 export const work = [
   {
-    id: 1,
-    name: "Mogetee Menu",
+    name: "Management System",
+    featured: false,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-    imageSrc: "/projects/mogetee.png",
-    link: "https://mogetee-menu.vercel.app",
+    imageSrc: "/projects/metro/metro-project.png",
     details: [
       {
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
+        imageSrc: "/projects/metro/metro-dashboard.png",
       },
       {
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
+        imageSrc: "/projects/metro/metro-orders.png",
       },
       {
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
+        imageSrc: "/projects/metro/metro-addOrder.png",
+      },
+      {
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/metro/metro-products.png",
+      },
+      {
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/metro/metro-deliveryLines.png",
       },
     ],
   },
   {
-    id: 2,
     name: "A2Solution",
+    featured: true,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
     imageSrc: "/projects/a2solution/a2solution-project.png",
@@ -184,112 +193,111 @@ export const work = [
       {
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
+        imageSrc: "/projects/a2solution/a2solution-services.png",
       },
       {
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
+        imageSrc: "/projects/a2solution/a2solution-contact.png",
       },
     ],
   },
   {
-    id: 3,
     name: "Elotarz Media",
+    featured: true,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-    imageSrc: "/projects/elotarzmedia-project.png",
+    imageSrc: "/projects/elota/elota-project.png",
     link: "https://elotarzmedia.net",
     details: [
       {
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
+        imageSrc: "/projects/elota/elota-packages.png",
       },
       {
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
+        imageSrc: "/projects/elota/elota-clients.png",
       },
       {
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
+        imageSrc: "/projects/elota/elota-contact.png",
       },
     ],
   },
   {
-    id: 4,
     name: "Deebee",
+    featured: true,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-    imageSrc: "/projects/deebee-project.png",
+    imageSrc: "/projects/deebee/deebee-project.png",
     link: "https://deebee.shop",
     details: [
       {
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
+        imageSrc: "/projects/deebee/deebee-project.png",
       },
       {
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
+        imageSrc: "/projects/deebee/deebee-products.png",
       },
       {
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
+        imageSrc: "/projects/deebee/deebee-shop.png",
       },
     ],
   },
   {
-    id: 5,
-    name: "ABIS",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-    imageSrc: "/projects/abis-project.png",
-    link: "https://ahlul-bayt.ca",
-    details: [
-      {
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
-      },
-      {
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
-      },
-      {
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
-      },
-    ],
-  },
-  {
-    id: 6,
     name: "Window Design",
+    featured: true,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-    imageSrc: "/projects/window-design-project.png",
+    imageSrc: "/projects/window/window-project.png",
     link: "https://window-design.vercel.app",
     details: [
       {
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
+        imageSrc: "/projects/window/window-services.png",
       },
       {
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
+        imageSrc: "/projects/window/window-work.png",
       },
       {
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-        imageSrc: "/projects/a2solution/a2solution-about.png",
+        imageSrc: "/projects/window/window-contact.png",
+      },
+    ],
+  },
+  {
+    name: "Invoice Builder",
+    featured: false,
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+    imageSrc: "/projects/invoice/invoice-project.png",
+    details: [
+      {
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/invoice/invoice-project.png",
+      },
+      {
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/invoice/invoice-bottom.png",
+      },
+      {
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
+        imageSrc: "/projects/invoice/invoice-pdf.png",
       },
     ],
   },

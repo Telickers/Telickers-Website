@@ -9,6 +9,7 @@ export default function Header({ name, description, url }) {
           {name}
         </h1>
         <p className="max-w-[50ch] text-lg text-white">{description} </p>
+        {url && 
         <p className="pt-6 text-white/70">
           Check out the live site{" "}
           <a
@@ -16,11 +17,12 @@ export default function Header({ name, description, url }) {
             href={url}
             target="_blank"
             rel="noreferrer"
-          >
+            >
             here
           </a>
           .
         </p>
+          }
       </header>
     </>
   );

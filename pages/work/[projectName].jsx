@@ -6,9 +6,9 @@ import ProjectDetails from "@/components/WorkPage/Project/Details";
 
 export default function SingleProject() {
   const router = useRouter();
-  const projectId = router.query.projectId;
+  const projectName = router.query.projectName;
 
-  const project = work.find((p) => p.id === +projectId);
+  const project = work.find((p) => p.name === projectName);
 
   return (
     <>

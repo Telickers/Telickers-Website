@@ -12,10 +12,10 @@ export default function Work() {
         Collection of the best websites we have worked on. Dont wait, start
         yours!
       </p>
-      <div className="mx-12 mt-20 grid grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-3">
-        {work.map((project) => (
+      <div className="mx-12 mt-20 grid grid-cols-1 gap-20 md:grid-cols-2">
+        {work.filter(w => w.featured).map((project) => (
           <article key={project.name}>
-            <a href={project.link} target="_blank" rel="noreferrer">
+            <a href={project.link} target="_blank" rel="noreferrer" className="lg:hover:opacity-90 transition-opacity duration-300 ease-in-out">
               <BlurImage imageSrc={project.imageSrc} />
               <div className="text-left">
                 <h3 className="mb-5 mt-4 text-4xl">{project.name}</h3>
