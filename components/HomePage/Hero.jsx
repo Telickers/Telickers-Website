@@ -51,6 +51,7 @@ export default function Hero() {
         <div className="relative hidden h-full w-full lg:block">
           <div className="absolute top-[15px] -right-[80px]">
             <Image
+              priority={true}
               src="/general/hero-img.png"
               alt=""
               width={350}

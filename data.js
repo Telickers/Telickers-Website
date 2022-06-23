@@ -112,7 +112,7 @@ export const services = [
     ],
     details: [
       "Teaching newbies get into programming.",
-      "Teaching programming fundemantals.",
+      "Teaching programming fundamentals.",
       "Private sessions in various technologies.",
       "Helping with university courses and projects.",
       "Giving advises in choosing the right learning path.",
