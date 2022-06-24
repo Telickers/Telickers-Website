@@ -95,8 +95,8 @@ export default function NotFoundPage() {
                 fill="white"
                 stroke="#263E4B"
                 strokeWidth="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></path>
               <path
                 fillRule="evenodd"
