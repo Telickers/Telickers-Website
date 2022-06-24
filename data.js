@@ -1,13 +1,11 @@
 import { HiOutlineCode } from "react-icons/hi";
 import { BsPaletteFill } from "react-icons/bs";
-import { FaChalkboardTeacher } from "react-icons/fa";
-import { SiMinds } from "react-icons/si";
 
 export const members = [
   {
     name: "Hussein Hassan",
-    role: "Founder | Creative Developer",
-    bio: "Creative Developer | Software Consultant | 3D Illustrations & Animations enthusiast | He enjoys combining art with code.",
+    role: "Founder | Creative Web Developer",
+    bio: "Creative Web Developer | 3D Graphics & Animations enthusiast | He enjoys coding with an artistic purpose.",
     image: "/team/hussein.jpg",
     facebookUrl: "https://www.facebook.com/profile.php?id=100062471768466",
     instagramUrl: "https://www.instagram.com/husseinhassan.me/",
@@ -16,7 +14,7 @@ export const members = [
   {
     name: "Mohamad Nouredeen",
     role: "Co-Founder | UI/UX Designer",
-    bio: "UI/UX Expert | Illustrations enthusiast | Professional Python Developer | Teaching people is his niche.",
+    bio: "UI/UX Expert | Illustrations enthusiast | While he is sleeping, his dreams are a piece of art.",
     image: "/team/jwd.png",
     facebookUrl: "https://www.facebook.com/mohammad.jawadnouredine.7",
     instagramUrl: "https://www.instagram.com/jawad.n2022/",
@@ -25,7 +23,7 @@ export const members = [
   {
     name: "Abed Al-Hussein Saade",
     role: "Co-Founder | Full-Stack Developer",
-    bio: "Full-Stack Developer | JavaScript Expert | React & Nodejs enthusiast | His passion lies in educating people.",
+    bio: "Full-Stack Web Developer | JavaScript Expert | React & Nodejs enthusiast | He eats JavaScript on the breakfast.",
     image: "/team/abed.jpg",
     facebookUrl: "https://www.facebook.com/profile.php?id=100009450997072",
     instagramUrl: "https://www.instagram.com/abedalhussain_saade/",
@@ -38,23 +36,25 @@ export const feedbacks = [
     name: "Hussein Shoaib",
     comp: "Window Design",
     img: "/clients/hussein.jpg",
-    text: "It was great, comfortable, and fruitful to work with \"Telickers\". The various skills I observed makes this team highly recommended for every single business to go online.",
+    text: 'It was great, comfortable, and fruitful to work with "Telickers". The various skills I observed makes this team highly recommended for every single business to go online.',
   },
-   {
+  {
     name: "Sadek Ali Abbass",
     comp: "A2solution",
-    img: "/clients/hussein.jpg",
-    text: "It was great, comfortable, and fruitful to work with \"Telickers\". The various skills I observed makes this team highly recommended for every single business to go online.",
-  }, {
+    img: "/clients/a2solution.svg",
+    text: 'It was great, comfortable, and fruitful to work with "Telickers". The various skills I observed makes this team highly recommended for every single business to go online.',
+  },
+  {
     name: "Hussein Darwish",
     comp: "Deebee Shop",
     img: "/clients/hussein.jpg",
-    text: "It was great, comfortable, and fruitful to work with \"Telickers\". The various skills I observed makes this team highly recommended for every single business to go online.",
-  }, {
+    text: 'It was great, comfortable, and fruitful to work with "Telickers". The various skills I observed makes this team highly recommended for every single business to go online.',
+  },
+  {
     name: "Mohamad El Elota",
     comp: "Elotarz Media",
-    img: "/clients/hussein.jpg",
-    text: "It was great, comfortable, and fruitful to work with \"Telickers\". The various skills I observed makes this team highly recommended for every single business to go online.",
+    img: "/clients/elota.jpg",
+    text: "Working with Telickers was more than perfect, they were professional, quick and reliable. They gave me helpful tips and developed my website in the best way that serves my business.",
   },
 ];
 
@@ -71,10 +71,10 @@ export const services = [
     ],
     details: [
       "User experience design.",
-      "Flyer, Menu, Logo Design.",
       "Web & Mobile App design.",
-      "Banner & Brochure Design.",
       "Creating wireframes & prototypes.",
+      "Flyer, Menu, Logo Design.",
+      "Banner & Brochure Design.",
       "Analyzing & fixing poor interfaces.",
       "Creating animations and graphics.",
     ],
@@ -98,46 +98,6 @@ export const services = [
       "Customers management systems.",
       "Registering domain names.",
       "Improving bad websites.",
-    ],
-  },
-  {
-    title: "Tutoring",
-    imageSrc: "/general/tutoring-service.jpg",
-    caption: "We Know How To Make Learning Easy",
-    Icon: <FaChalkboardTeacher size={65} />,
-    desc: [
-      "Giving private sessions.",
-      "Teaching newbies get into programming.",
-      "Helping with university courses and projects.",
-    ],
-    details: [
-      "Teaching newbies get into programming.",
-      "Teaching programming fundamentals.",
-      "Private sessions in various technologies.",
-      "Helping with university courses and projects.",
-      "Giving advises in choosing the right learning path.",
-      "Giving workshops & lectures.",
-      "Teaching advanced programming principles.",
-    ],
-  },
-  {
-    title: "Software Consulting",
-    imageSrc: "/general/consulting-service.jpg",
-    caption: "The Essence Of Strategy Is Choosing What Not To Do.",
-    Icon: <SiMinds size={65} />,
-    desc: [
-      "Improving your exiting software.",
-      "Giving advises regarding software use.",
-      "Guiding you to find the best software solutions.",
-    ],
-    details: [
-      "Improving your exiting software.",
-      "Giving advises regarding software use.",
-      "Guiding you to find the best software solutions.",
-      "Private consulting sessions.",
-      "Customize software systems.",
-      "Assessing the technological needs of a company.",
-      "Set up online software tools.",
     ],
   },
 ];

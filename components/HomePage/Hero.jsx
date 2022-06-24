@@ -31,11 +31,11 @@ export default function Hero() {
                   .pauseFor(1400)
                   .deleteAll()
                   .typeString(
-                    "Who guides you to find the best software solution"
+                    "Who builds blazing fast websites"
                   )
                   .pauseFor(1400)
                   .deleteAll()
-                  .typeString("Who leads your first steps into programming")
+                  .typeString("Who optimizes slow and bad websites")
                   .pauseFor(1400)
                   .start();
               }}

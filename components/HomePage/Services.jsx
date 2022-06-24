@@ -12,11 +12,27 @@ export default function Services() {
           whileInView={{ scale: 1, opacity: 1, transition: { duration: 0.8 } }}
           viewport={{ once: true, amount: 0.7 }}
           id="services-section"
-          className="pb-16 text-center text-5xl font-bold"
+          className="text-center text-5xl font-bold"
         >
-          Our Services
+          What We Do
         </motion.h2>
-        <div className="grid w-screen grid-cols-1 gap-y-16 md:grid-cols-2 lg:grid-cols-4">
+        <motion.p
+          initial={{ scale: 0, opacity: 0 }}
+          whileInView={{
+            scale: 1,
+            opacity: 1,
+            transition: { delay: 0.2, duration: 0.6 },
+          }}
+          viewport={{ once: true, amount: 0.7 }}
+          className="mx-auto mt-3 px-4  pb-16 text-center text-2xl font-extralight lg:px-0"
+        >
+          Clear & Accurate: We Build{" "}
+          <span className="font-semibold text-cyan-700">Blazing Fast</span>,{" "}
+          <span className="font-semibold text-cyan-700">Modern</span> &{" "}
+          <span className="font-semibold text-cyan-700">Responsive</span>{" "}
+          websites!
+        </motion.p>
+        <div className="grid w-screen grid-cols-1 gap-y-16 md:grid-cols-2">
           {services.map((serv) => (
             <motion.article
               initial={{ scale: 0, opacity: 0 }}

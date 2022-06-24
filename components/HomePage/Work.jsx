@@ -28,7 +28,7 @@ export default function Work() {
           transition: { delay: 0.2, duration: 0.6 },
         }}
         viewport={{ once: true, amount: 0.7 }}
-        className="mx-auto mt-5 px-4 text-center text-2xl font-extralight lg:px-0"
+        className="mx-auto mt-3 px-4 text-center text-2xl font-extralight lg:px-0"
       >
         Collection of the best websites we have worked on. Dont wait, start
         yours!

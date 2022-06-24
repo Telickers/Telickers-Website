@@ -38,7 +38,7 @@ export default function Projects() {
               transition: { duration: 0.5 },
             }}
             viewport={{ once: true, amount: 0.7 }}
-            className="group relative h-full w-full cursor-pointer transition-all duration-300 ease-in-out lg:hover:scale-95"
+            className="group relative h-full w-full transition-all duration-300 ease-in-out lg:hover:scale-95"
           >
             <BlurImage imageSrc={project.imageSrc} />
             <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center rounded-lg bg-black/70 opacity-0 transition-all duration-300 ease-in-out lg:group-hover:opacity-100">

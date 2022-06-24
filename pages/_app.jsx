@@ -80,7 +80,7 @@ function AppMeta() {
       {/* <!-- Google Meta Tags --> */}
       <meta
         name="description"
-        content="Our compromise is to always drive a positive change in people, companies and organizations"
+        content="A Web Development team providing high-quality & affordable solutions. Our compromise is to always drive a positive change in people."
       />
       <meta name="keywords" content="business" />
       <meta name="author" content="Telickers" />
@@ -93,7 +93,7 @@ function AppMeta() {
       <meta property="og:title" content="Telickers" />
       <meta
         property="og:description"
-        content="Our compromise is to always drive a positive change in people, companies and organizations"
+        content="A Web Development team providing high-quality & affordable solutions. Our compromise is to always drive a positive change in people."
       />
       <meta
         property="og:image"
@@ -107,7 +107,7 @@ function AppMeta() {
       <meta name="twitter:title" content="Telickers" />
       <meta
         name="twitter:description"
-        content="Our compromise is to always drive a positive change in people, companies and organizations"
+        content="A Web Development team providing high-quality & affordable solutions. Our compromise is to always drive a positive change in people."
       />
       <meta
         name="twitter:image"

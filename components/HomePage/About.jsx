@@ -36,18 +36,10 @@ export default function About() {
           </p>
           <p className="text-gray-600 md:text-2xl">
             We are a team of{" "}
-            <span className="font-semibold text-cyan-700">developers</span>,{" "}
-            <span className="font-semibold text-cyan-700">designers</span>,{" "}
-            <span className="font-semibold text-cyan-700">
-              programming tutors
-            </span>{" "}
-            and
-            <span className="font-semibold text-cyan-700">
-              {" "}
-              software consultants
-            </span>{" "}
+            <span className="font-semibold text-cyan-700">professional designers</span> and {" "}
+            <span className="font-semibold text-cyan-700">expert web developers</span>,{" "}
             having a structure and the motivation for researching, prototyping
-            and building.
+            and building fast and cutting-edge websites.
           </p>
         </motion.article>
       </div>

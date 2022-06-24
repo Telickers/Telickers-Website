@@ -9,8 +9,6 @@ export default function Form({ closeModal }) {
   const email = useRef();
   const company = useRef();
   const phone = useRef();
-  const service = useRef();
-  const meetingType = useRef();
   const message = useRef();
 
   const [loading, setLoading] = useState(false);
@@ -29,8 +27,6 @@ export default function Form({ closeModal }) {
           Name: name.current.value,
           Email: email.current.value,
           Company: company.current.value,
-          Service: service.current.value,
-          "Meeting Type": meetingType.current.value,
           Phone: phone.current.value,
           Message: message.current.value,
         }),
@@ -44,8 +40,6 @@ export default function Form({ closeModal }) {
       email.current.value = "";
       phone.current.value = "";
       company.current.value = "";
-      service.current.value = "";
-      meetingType.current.value = "";
       message.current.value = "";
     } catch (error) {
       setLoading(false);
@@ -119,52 +113,13 @@ export default function Form({ closeModal }) {
           placeholder="Phone Number"
         />
       </div>
-      <div className="grid  grid-cols-1 gap-5 sm:grid-cols-2">
-        <motion.select
-          initial={{ scale: 0, opacity: 0 }}
-          whileInView={{
-            scale: 1,
-            opacity: 1,
-            transition: { delay: 0.8, duration: 0.4 },
-          }}
-          viewport={{ once: true, amount: 0.7 }}
-          ref={service}
-          className="focus:ring-primary-500 focus:border-primary-500 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 text-gray-700 shadow-sm focus:outline-none"
-          name="serviceType"
-          required
-        >
-          <option value="">Service Type</option>
-          <option value="Web Design">Web Design</option>
-          <option value="Web Development">Web Development</option>
-          <option value="Software Consultation">Software Consultation</option>
-          <option value="Tutoring">Tutoring</option>
-        </motion.select>
-
-        <motion.select
-          initial={{ scale: 0, opacity: 0 }}
-          whileInView={{
-            scale: 1,
-            opacity: 1,
-            transition: { delay: 1, duration: 0.4 },
-          }}
-          viewport={{ once: true, amount: 0.7 }}
-          ref={meetingType}
-          className="focus:ring-primary-500 focus:border-primary-500 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 text-gray-700 shadow-sm focus:outline-none"
-          name="meetingType"
-          required
-        >
-          <option value="">Meeting Type</option>
-          <option value="Online">Online</option>
-          <option value="In Person">In Person</option>
-        </motion.select>
-      </div>
       <div>
         <motion.textarea
           initial={{ scale: 0, opacity: 0 }}
           whileInView={{
             scale: 1,
             opacity: 1,
-            transition: { delay: 1.1, duration: 0.4 },
+            transition: { delay: 0.9, duration: 0.4 },
           }}
           viewport={{ once: true, amount: 0.7 }}
           ref={message}
@@ -181,7 +136,7 @@ export default function Form({ closeModal }) {
         whileInView={{
           scale: 1,
           opacity: 1,
-          transition: { delay: 1.05, duration: 0.4 },
+          transition: { delay: 0.95, duration: 0.4 },
         }}
         viewport={{ once: true, amount: 0.7 }}
         disabled={!name || !email || !message}
