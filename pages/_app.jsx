@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps, router }) {
           transition={animation.transition}
         >
           <Component {...pageProps} />
-          <Footer />
+          {Component.noFooter ? null : <Footer />}
         </motion.main>
       </AnimatePresence>
     </>
