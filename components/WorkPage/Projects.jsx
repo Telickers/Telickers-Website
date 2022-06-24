@@ -29,27 +29,21 @@ export default function Projects() {
         className="grid grid-cols-1 place-items-center gap-7 md:grid-cols-2 lg:grid-cols-3"
       >
         {work.map((project, index) => (
-          <NoScrollLink
-            href={`/work/${project.name}`}
-            passhref
-            key={project.name}
+          <motion.div
+            initial={{ x: index % 2 === 0 ? -90 : 90, opacity: 0 }}
+            whileInView={{
+              x: 0,
+              opacity: 1,
+              transition: { duration: 0.5 },
+            }}
+            viewport={{ once: true, amount: 0.7 }}
+            className="group relative h-full w-full cursor-pointer transition-all duration-300 ease-in-out lg:hover:scale-95"
           >
-            <motion.div
-              initial={{ x: index % 2 === 0 ? -90 : 90, opacity: 0 }}
-              whileInView={{
-                x: 0,
-                opacity: 1,
-                transition: { duration: 0.5 },
-              }}
-              viewport={{ once: true, amount: 0.7 }}
-              className="group relative h-full w-full cursor-pointer transition-all duration-300 ease-in-out lg:hover:scale-95"
-            >
-              <BlurImage imageSrc={project.imageSrc} />
-              <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center rounded-lg bg-black/70 opacity-0 transition-all duration-300 ease-in-out lg:group-hover:opacity-100">
-                <p className="text-2xl font-bold text-white">{project.name}</p>
-              </div>
-            </motion.div>
-          </NoScrollLink>
+            <BlurImage imageSrc={project.imageSrc} />
+            <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center rounded-lg bg-black/70 opacity-0 transition-all duration-300 ease-in-out lg:group-hover:opacity-100">
+              <p className="text-2xl font-bold text-white">{project.name}</p>
+            </div>
+          </motion.div>
         ))}
       </section>
       <motion.div

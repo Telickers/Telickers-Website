@@ -4,34 +4,45 @@ import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { motion } from "framer-motion";
 
 import { feedbacks } from "data";
 
 export default function Reviews() {
   return (
     <section aria-label="feedbacks" className="bg-brand pt-7 pb-10">
-      <Swiper
-        pagination={{
-          dynamicBullets: true,
-          clickable: true,
+      <motion.div
+        initial={{ scale: 0, opacity: 0 }}
+        whileInView={{
+          scale: 1,
+          opacity: 1,
+          transition: { duration: 0.8 },
         }}
-        grabCursor={true}
-        modules={[Pagination]}
-        loop={true}
-        className="mySwiper"
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: true,
-        }}
+        viewport={{ once: true, amount: 0.7 }}
       >
-        {feedbacks.map((feedback) => {
-          return (
-            <SwiperSlide key={feedback.name}>
-              <SlideItem feedback={feedback} />
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
+        <Swiper
+          pagination={{
+            dynamicBullets: true,
+            clickable: true,
+          }}
+          grabCursor={true}
+          modules={[Pagination]}
+          loop={true}
+          className="mySwiper"
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: true,
+          }}
+        >
+          {feedbacks.map((feedback) => {
+            return (
+              <SwiperSlide key={feedback.name}>
+                <SlideItem feedback={feedback} />
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </motion.div>
     </section>
   );
 }
@@ -57,7 +68,12 @@ function SlideItem({ feedback }) {
         {/* Feedback Text */}
         <div className="-mt-2 flex items-center px-5 md:-mt-24 md:px-10 lg:-mt-0 lg:px-2">
           <p className="text-[165px] font-thin md:text-[400px]">{"{"}</p>
-          <h3 className="pt-7 text-lg md:pt-24 md:text-3xl">{feedback.text}</h3>
+          <h3
+            className="pt-7 text-lg md:pt-24 md:text-3xl"
+            style={{ lineHeight: "2.45rem" }}
+          >
+            {feedback.text}
+          </h3>
           <p className="text-[165px] font-thin md:text-[400px]">{"}"}</p>
         </div>
       </div>
