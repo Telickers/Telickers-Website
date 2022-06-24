@@ -30,6 +30,7 @@ export default function Projects() {
       >
         {work.map((project, index) => (
           <motion.div
+            key={project.name}
             initial={{ x: index % 2 === 0 ? -90 : 90, opacity: 0 }}
             whileInView={{
               x: 0,
