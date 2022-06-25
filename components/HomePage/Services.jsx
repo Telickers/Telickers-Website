@@ -51,7 +51,7 @@ export default function Services() {
                 <span className="block pb-1 text-2xl font-bold tracking-wider">
                   {serv.title}
                 </span>
-                <p className="text-sm max-w-[45ch] mx-auto">{serv.desc}</p>
+                <p className="mx-auto max-w-[45ch] text-sm">{serv.desc}</p>
               </div>
             </motion.article>
           ))}
@@ -67,10 +67,10 @@ export default function Services() {
           transition: { duration: 0.6 },
         }}
         viewport={{ once: true, amount: 0.7 }}
-        className="mt-20 flex justify-center"
+        className="mt-20 flex justify-center w-full"
       >
         <NoScrollLink href="/services" passhref>
-          <span className="btn-primary">Learn More</span>
+          <span className="text-nowrap btn-primary">Learn More</span>
         </NoScrollLink>
       </motion.div>
     </section>
