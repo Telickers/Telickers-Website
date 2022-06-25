@@ -8,7 +8,7 @@ import SEO from "@/components/Common/SEO";
 export default function Home() {
   return (
     <>
-      <SEO title="Home | Telickers" />
+      <SEO title="Telickers | Web Development" />
       <Hero />
       <About />
       <Services />
