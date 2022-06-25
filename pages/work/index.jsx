@@ -5,7 +5,7 @@ import Projects from "@/components/WorkPage/Projects";
 export default function Work() {
   return (
     <>
-      <SEO title="Our Work | Telickers" />
+      <SEO title="Telickers | Our Work" />
       <Hero />
       <Projects />
     </>

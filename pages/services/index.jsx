@@ -5,7 +5,7 @@ import ServicesSection from "@/components/ServicesPage/Services";
 export default function Services() {
   return (
     <>
-      <SEO title="Our Services | Telickers" />
+      <SEO title="Telickers | Our Services" />
       <Hero />
       <ServicesSection />
     </>

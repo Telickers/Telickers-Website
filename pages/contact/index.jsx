@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactPage/FormSection";
 export default function Contact() {
   return (
     <>
-      <SEO title="Contact Us | Telickers" />
+      <SEO title="Telickers | Contact Us" />
       <ContactHero />
       <ContactForm />
     </>
