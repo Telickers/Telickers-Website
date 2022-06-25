@@ -10,7 +10,15 @@ import { feedbacks } from "data";
 
 export default function Reviews() {
   return (
-    <section aria-label="feedbacks" className="bg-brand pt-7 pb-10">
+    <section aria-label="feedbacks" className="bg-brand py-16">
+      <motion.h2
+        initial={{ scale: 0, opacity: 0 }}
+        whileInView={{ scale: 1, opacity: 1, transition: { duration: 0.8 } }}
+        viewport={{ once: true, amount: 0.7 }}
+        className="text-center text-5xl font-bold"
+      >
+        Clients Love Us
+      </motion.h2>
       <motion.div
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{

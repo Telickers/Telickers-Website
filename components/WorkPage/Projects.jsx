@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 
 import { work } from "data";
 import BlurImage from "../Common/BlurImage";
-import NoScrollLink from "../Common/NoScrollLink";
 import RequestMeeting from "../Common/RequestMeeting";
 
 export default function Projects() {
@@ -19,7 +18,6 @@ export default function Projects() {
           transition: { duration: 0.9 },
         }}
         viewport={{ once: true, amount: 0.7 }}
-        id="services-section"
         className="pb-12 text-center text-xl font-bold text-gray-600 md:pb-16 md:text-3xl"
       >
         We design and build for people. And we are pretty good at it.

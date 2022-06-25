@@ -23,7 +23,7 @@ export const members = [
   {
     name: "Abed Al-Hussein Saade",
     role: "Co-Founder | Full-Stack Developer",
-    bio: "Full-Stack Web Developer | JavaScript Expert | React & Nodejs enthusiast | He eats JavaScript on the breakfast.",
+    bio: "Full-Stack Web Developer | JavaScript Expert | React & Nodejs enthusiast | He eats JavaScript on breakfast.",
     image: "/team/abed.jpg",
     facebookUrl: "https://www.facebook.com/profile.php?id=100009450997072",
     instagramUrl: "https://www.instagram.com/abedalhussain_saade/",
@@ -64,17 +64,12 @@ export const services = [
     imageSrc: "/general/design-service.jpg",
     caption: "People ignore design that ignores people",
     Icon: <BsPaletteFill size={65} />,
-    desc: [
-      "User experience design.",
-      "Flyer, Menu, Logo Design.",
-      "Web & Mobile App design.",
-    ],
+    desc: "Beautiful, memorable, and user-friendly interfaces that are as unique as your brand.",
     details: [
+      "User interface design.",
       "User experience design.",
       "Web & Mobile App design.",
       "Creating wireframes & prototypes.",
-      "Flyer, Menu, Logo Design.",
-      "Banner & Brochure Design.",
       "Analyzing & fixing poor interfaces.",
       "Creating animations and graphics.",
     ],
@@ -84,11 +79,7 @@ export const services = [
     imageSrc: "/general/web-service.png",
     caption: "We Cover All Your Web Needs",
     Icon: <HiOutlineCode size={65} />,
-    desc: [
-      "Personal websites & Blogs.",
-      "E-commerce Online Stores.",
-      "Dashboards and Management systems.",
-    ],
+    desc: "Fully custom web applications for an intuitive and immersive user experience.",
     details: [
       "Landing pages & portfolios.",
       "Blogs for content creators.",

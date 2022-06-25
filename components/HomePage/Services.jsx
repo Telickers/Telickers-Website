@@ -51,11 +51,7 @@ export default function Services() {
                 <span className="block pb-1 text-2xl font-bold tracking-wider">
                   {serv.title}
                 </span>
-                {serv.desc.map((d, i) => (
-                  <p className="text-sm" key={i}>
-                    {d}
-                  </p>
-                ))}
+                <p className="text-sm max-w-[45ch] mx-auto">{serv.desc}</p>
               </div>
             </motion.article>
           ))}
@@ -74,7 +70,7 @@ export default function Services() {
         className="mt-20 flex justify-center"
       >
         <NoScrollLink href="/services" passhref>
-          <span className="btn-primary">Read More</span>
+          <span className="btn-primary">Learn More</span>
         </NoScrollLink>
       </motion.div>
     </section>
