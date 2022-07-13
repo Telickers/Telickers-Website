@@ -1,5 +1,4 @@
 import { useRouter } from "next/router";
-
 import {
   FaFacebookF,
   FaInstagram,
@@ -37,7 +36,7 @@ export default function Footer() {
         </span>
       </section>
       <div className="mt-4 flex justify-center text-black">
-        <article className="text-md mt-6 flex space-x-5 md:text-xl lg:text-2xl">
+        <article className="text-md mt-6 flex xs:space-x-3 space-x-5 md:text-xl lg:text-2xl">
           <a
             aria-label="Message us on Whatsapp"
             href="https://api.whatsapp.com/send?phone=+9617535302"
@@ -93,7 +92,7 @@ export default function Footer() {
           </a>
         </article>
       </div>
-      <p className="pt-7 text-2xl">
+      <p className="pt-7 xs:text-xl text-2xl">
         e-mail: <a href="mailto:hello@telickers.net">hello@telickers.net</a>{" "}
       </p>
       <p className="pt-2 text-sm text-gray-500">

@@ -16,7 +16,7 @@ export default function Work() {
         }}
         viewport={{ once: true, amount: 0.7 }}
         id="featured-work"
-        className="text-center text-5xl font-bold"
+        className="xs:text-4xl text-center text-5xl font-bold"
       >
         Featured Work
       </motion.h2>
@@ -28,7 +28,7 @@ export default function Work() {
           transition: { delay: 0.2, duration: 0.6 },
         }}
         viewport={{ once: true, amount: 0.7 }}
-        className="mx-auto mt-3 px-4 text-center text-2xl font-extralight lg:px-0"
+        className="mx-auto mt-3 px-4 text-center text-2xl xs:text-xl font-extralight lg:px-0"
       >
         Collection of the best websites we have worked on. Dont wait, start
         yours!
@@ -55,7 +55,7 @@ export default function Work() {
               >
                 <BlurImage priority imageSrc={project.imageSrc} />
                 <div className="text-left">
-                  <h3 className="mb-5 mt-4 text-4xl">{project.name}</h3>
+                  <h3 className="mb-5 mt-4 text-4xl xs:text-3xl">{project.name}</h3>
                 </div>
               </a>
             </motion.article>

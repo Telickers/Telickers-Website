@@ -37,7 +37,7 @@ export default function ServiceItem({ service }) {
           viewport={{ once: true, amount: 0.7 }}
           className="aspect-w-16 aspect-h-9 relative block overflow-hidden rounded-tr-md rounded-tl-md lg:hidden lg:rounded-tl-[0]"
         >
-          <div className="absolute left-0 z-10 flex h-full w-full items-center justify-center bg-[#4415ff57] px-2 text-center text-3xl capitalize text-white">
+          <div className="absolute left-0 z-10 flex h-full w-full items-center justify-center bg-[#4415ff57] px-2 text-center text-3xl capitalize text-white font-semibold">
             {service.caption}
           </div>
           <Image
@@ -65,7 +65,7 @@ export default function ServiceItem({ service }) {
               className="flex max-w-[80%] items-center space-x-1 md:max-w-full"
             >
               <BsStars size={20} color="gold" />
-              <p className="lg:text-lg">{detail}</p>
+              <p className="lg:text-lg xs:text-sm">{detail}</p>
             </div>
           ))}
         </motion.div>

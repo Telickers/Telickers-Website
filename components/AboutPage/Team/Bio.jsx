@@ -12,7 +12,7 @@ export default function Bio({ bio, facebookUrl, instagramUrl, linkedinUrl }) {
         transition: { duration: 0.8 },
       }}
       viewport={{ once: true, amount: 0.7 }}
-      className="mt-2 flex w-[350px] flex-col items-center rounded-lg p-4 text-center shadow-xl"
+      className="mt-2 flex w-[350px] xs:w-[300px] xs:p-2 flex-col items-center rounded-lg p-4 text-center shadow-xl"
     >
       <p className="py-1.5 font-medium text-slate-500">{bio}</p>
       <div className="flex space-x-3 pt-5">

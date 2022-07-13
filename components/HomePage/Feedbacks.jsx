@@ -15,7 +15,7 @@ export default function Reviews() {
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1, transition: { duration: 0.8 } }}
         viewport={{ once: true, amount: 0.7 }}
-        className="text-center text-5xl font-bold"
+        className="xs:text-4xl text-center text-5xl font-bold"
       >
         Clients Love Us
       </motion.h2>
@@ -74,11 +74,11 @@ function SlideItem({ feedback }) {
         </div>
 
         {/* Feedback Text */}
-        <div className="mt-2 flex items-center px-5 md:px-10 lg:px-2">
+        <div className="xs:mt-6 mt-2 flex items-center px-5 md:px-10 lg:px-2">
           <p className="font-['Poppins'] text-[125px] font-thin md:text-[200px]">
             {"{"}
           </p>
-          <p className="leading-[2rem] text-[1rem] md:text-2xl md:leading-[2.45rem] xl:text-3xl">
+          <p className="leading-[2rem] xs:text-sm text-[1rem] md:text-2xl md:leading-[2.45rem] xl:text-3xl">
             {feedback.text}
           </p>
           <p className="font-['Poppins'] text-[125px] font-thin md:text-[200px]">

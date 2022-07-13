@@ -6,9 +6,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: { max: "390px" },
+      },
       colors: {
         brand: "#FAFBFC",
-      }
+      },
     },
   },
   plugins: [require("@tailwindcss/aspect-ratio")],

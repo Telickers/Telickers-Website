@@ -12,7 +12,7 @@ export default function ContactHero() {
       >
         <h1
           id="contact-title"
-          className="text-linear text-left text-5xl font-bold sm:text-6xl md:text-7xl lg:text-8xl"
+          className="text-linear text-left xs:text-4xl text-5xl font-bold sm:text-6xl md:text-7xl lg:text-8xl"
         >
           GET IN TOUCH
         </h1>

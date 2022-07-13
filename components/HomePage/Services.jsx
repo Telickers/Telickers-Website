@@ -12,7 +12,7 @@ export default function Services() {
           whileInView={{ scale: 1, opacity: 1, transition: { duration: 0.8 } }}
           viewport={{ once: true, amount: 0.7 }}
           id="services-section"
-          className="text-center text-5xl font-bold"
+          className="xs:text-4xl text-center text-5xl font-bold"
         >
           What We Do
         </motion.h2>
@@ -24,7 +24,7 @@ export default function Services() {
             transition: { delay: 0.2, duration: 0.6 },
           }}
           viewport={{ once: true, amount: 0.7 }}
-          className="mx-auto mt-3 px-4  pb-16 text-center text-2xl font-extralight lg:px-0"
+          className="mx-auto mt-3 px-4  pb-16 text-center xs:text-xl text-2xl font-extralight lg:px-0"
         >
           Clear & Accurate: We Build{" "}
           <span className="font-semibold text-cyan-700">Blazing Fast</span>,{" "}
@@ -51,7 +51,7 @@ export default function Services() {
                 <span className="block pb-1 text-2xl font-bold tracking-wider">
                   {serv.title}
                 </span>
-                <p className="mx-auto max-w-[45ch] text-sm">{serv.desc}</p>
+                <p className="mx-auto xs:px-2 max-w-[45ch] text-sm">{serv.desc}</p>
               </div>
             </motion.article>
           ))}

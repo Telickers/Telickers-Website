@@ -27,7 +27,7 @@ export default function ChallengeAccepted() {
           transition: { duration: 0.8 },
         }}
         viewport={{ once: false, amount: 0.8 }}
-        className="w-[430ch] text-center text-sm font-semibold md:w-[180ch] md:text-lg lg:w-[150ch]"
+        className="w-[430ch] xs:text-[10px] text-center text-sm font-semibold md:w-[180ch] md:text-lg lg:w-[150ch]"
       >
         NOTHING IMPOSSIBLE, CHALLENGE ACCEPTED;
       </motion.p>

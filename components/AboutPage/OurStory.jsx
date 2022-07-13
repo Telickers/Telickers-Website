@@ -27,7 +27,7 @@ export default function Team() {
           transition: { duration: 0.8 },
         }}
         viewport={{ once: true, amount: 0.7 }}
-        className="mb-3 text-3xl font-bold"
+        className="mb-3 xs:text-2xl text-3xl font-bold"
       >
         <span className="text-linear text-2xl font-medium italic">
           Our Story

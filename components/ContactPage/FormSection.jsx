@@ -18,7 +18,7 @@ export default function ContactForm() {
             transition: { duration: 0.6 },
           }}
           viewport={{ once: true, amount: 0.7 }}
-          className="mb-2 text-center text-xl font-bold"
+          className="mb-2 text-center xs:text-lg text-xl font-bold"
         >
           Great Relationships begin with a smart conversation
         </motion.h2>

@@ -28,9 +28,9 @@ export default function About() {
             transition: { duration: 0.3, type: "spring", stiffness: 180 },
           }}
           viewport={{ once: false, amount: 0.7 }}
-          className="m-4 mt-10 rounded-2xl p-5 text-lg shadow-2xl shadow-slate-400 md:m-10 md:p-10"
+          className="xs:mx-0 m-4 mt-10 rounded-2xl p-5 text-lg shadow-2xl shadow-slate-400 md:m-10 md:p-10"
         >
-          <p className="mb-5 font-bold md:text-3xl">
+          <p className="mb-5 font-bold xs:text-lg md:text-3xl">
             &quot;Great things in business are never done by one person.
             They&apos;re done by a team of people.&quot;
           </p>
