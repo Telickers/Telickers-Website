@@ -16,7 +16,7 @@ export default function ChallengeAccepted() {
         viewport={{ once: false, amount: 0.8 }}
         className="h-1 w-full bg-black"
       ></motion.div>
-      <span className="-mt-[2.9px] text-2xl font-bold md:-mt-[13.3px] md:text-5xl lg:-mt-[12.7px]">
+      <span className="-mt-[1.85px] font-['Poppins'] text-2xl font-bold md:-mt-[3.3px] md:text-4xl lg:-mt-[2.2px]">
         {"{"}
       </span>
       <motion.p
@@ -31,7 +31,7 @@ export default function ChallengeAccepted() {
       >
         NOTHING IMPOSSIBLE, CHALLENGE ACCEPTED;
       </motion.p>
-      <span className="-mt-[2.9px] text-2xl font-bold md:-mt-[13.3px] md:text-5xl lg:-mt-[12.7px]">
+      <span className="-mt-[1.85px] font-['Poppins'] text-2xl font-bold md:-mt-[3.3px] md:text-4xl lg:-mt-[2.2px]">
         {"}"}
       </span>
       <motion.div

@@ -9,7 +9,7 @@ export default function ContactForm() {
       aria-labelledby="contact-form"
       className="grid grid-cols-1 gap-x-10 gap-y-5 bg-brand py-20 px-10 lg:grid-cols-2 lg:px-32"
     >
-      <div>
+      <div className="my-auto">
         <motion.h2
           initial={{ scale: 0, opacity: 0 }}
           whileInView={{

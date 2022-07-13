@@ -58,7 +58,7 @@ export default function Reviews() {
 function SlideItem({ feedback }) {
   return (
     <article className="w-full ">
-      <div className="z-10 -mt-24 grid grid-cols-1 items-center pb-16 sm:-mt-20 sm:pb-10 lg:grid-cols-2 lg:pr-10 lg:pb-5">
+      <div className="z-10 -mt-24 grid grid-cols-1 items-center pb-16 sm:-mt-20 sm:pb-10 lg:grid-cols-2 lg:pr-10 lg:mt-14">
         {/* Client Details */}
         <div className="pt-44 text-center md:pt-40 lg:pt-12">
           <Image
@@ -74,14 +74,16 @@ function SlideItem({ feedback }) {
         </div>
 
         {/* Feedback Text */}
-        <div className="-mt-2 flex items-center px-5 md:-mt-24 md:px-10 lg:-mt-0 lg:px-2">
-          <p className="text-[165px] font-thin md:text-[400px]">{"{"}</p>
-          <h3
-            className="pt-7 md:pt-24 md:text-3xl leading-[2rem] md:leading-[2.45rem]"
-          >
+        <div className="mt-2 flex items-center px-5 md:px-10 lg:px-2">
+          <p className="font-['Poppins'] text-[125px] font-thin md:text-[200px]">
+            {"{"}
+          </p>
+          <p className="leading-[2rem] text-[1rem] md:text-2xl md:leading-[2.45rem] xl:text-3xl">
             {feedback.text}
-          </h3>
-          <p className="text-[165px] font-thin md:text-[400px]">{"}"}</p>
+          </p>
+          <p className="font-['Poppins'] text-[125px] font-thin md:text-[200px]">
+            {"}"}
+          </p>
         </div>
       </div>
     </article>

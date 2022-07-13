@@ -22,15 +22,19 @@ export default function Footer() {
           className="mx-auto w-60 cursor-pointer"
         />
       </NoScrollLink>
-      <section className="pt-2">
-        <span className="pr-4 text-2xl font-medium md:text-3xl">{"{"}</span>
+      <section className="flex items-center justify-center pt-3">
+        <span className="pr-3 font-['Poppins'] text-2xl font-medium">
+          {"{"}
+        </span>
         <nav className="inline-flex space-x-4">
           <Link route="/about" text="About" />
           <Link route="/services" text="Services" />
           <Link route="/work" text="Work" />
           <Link route="/contact" text="Contact" />
         </nav>
-        <span className="pl-4 text-2xl font-medium md:text-3xl">{"}"}</span>
+        <span className="pl-3 font-['Poppins'] text-2xl font-medium">
+          {"}"}
+        </span>
       </section>
       <div className="mt-4 flex justify-center text-black">
         <article className="text-md mt-6 flex space-x-5 md:text-xl lg:text-2xl">
