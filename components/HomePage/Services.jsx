@@ -32,7 +32,7 @@ export default function Services() {
           <span className="font-semibold text-cyan-700">Responsive</span>{" "}
           websites!
         </motion.p>
-        <div className="grid w-screen grid-cols-1 gap-y-16 md:grid-cols-2">
+        <div className="grid w-screen grid-cols-1 gap-y-20 md:grid-cols-2 mt-6">
           {services.map((serv) => (
             <motion.article
               initial={{ scale: 0, opacity: 0 }}
@@ -51,7 +51,7 @@ export default function Services() {
                 <span className="block pb-1 text-2xl font-bold tracking-wider">
                   {serv.title}
                 </span>
-                <p className="mx-auto xs:px-2 max-w-[45ch] text-sm">{serv.desc}</p>
+                <p className="mx-auto xs:px-2 px-4 md:px-0 max-w-[45ch] text-sm">{serv.desc}</p>
               </div>
             </motion.article>
           ))}
