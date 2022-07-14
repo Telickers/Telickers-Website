@@ -3,7 +3,6 @@ import {
   FaFacebookF,
   FaInstagram,
   FaTwitter,
-  FaLinkedinIn,
   FaTelegramPlane,
   FaWhatsapp,
 } from "react-icons/fa";
@@ -71,15 +70,6 @@ export default function Footer() {
             rel="noreferrer"
           >
             <FaTwitter />
-          </a>
-          <AiOutlineLine className="rotate-90 " />
-          <a
-            aria-label="Lets make a connection on linkedin"
-            href="https://www.linkedin.com/in/telickers-team-5abb71242/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedinIn />
           </a>
           <AiOutlineLine className="rotate-90 " />
           <a

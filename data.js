@@ -39,18 +39,6 @@ export const feedbacks = [
     text: 'It was great, comfortable, and fruitful to work with "Telickers". The various skills I observed makes this team highly recommended for every single business to go online.',
   },
   {
-    name: "Sadek Ali Abbass",
-    comp: "A2solution",
-    img: "/clients/a2solution.svg",
-    text: 'It was great, comfortable, and fruitful to work with "Telickers". The various skills I observed makes this team highly recommended for every single business to go online.',
-  },
-  {
-    name: "Hussein Darwish",
-    comp: "Deebee Shop",
-    img: "/clients/hussein.jpg",
-    text: 'It was great, comfortable, and fruitful to work with "Telickers". The various skills I observed makes this team highly recommended for every single business to go online.',
-  },
-  {
     name: "Mohamad El Elota",
     comp: "Elotarz Media",
     img: "/clients/elota.jpg",
