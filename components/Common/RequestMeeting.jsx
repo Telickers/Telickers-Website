@@ -1,11 +1,13 @@
 import { AiOutlineClose } from "react-icons/ai";
-import { Fragment, useState } from "react";
+import { Fragment, useState, useRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 
 import Form from "./Form";
 
 export default function RequestMeeting() {
   let [isOpen, setIsOpen] = useState(false);
+  
+  let submitButtonRef = useRef(null)
 
   const closeModal = () => setIsOpen(false);
 
@@ -18,7 +20,12 @@ export default function RequestMeeting() {
       </button>
 
       <Transition appear show={isOpen} as={Fragment}>
-        <Dialog as="div" className="relative z-10" onClose={closeModal}>
+        <Dialog
+          initialFocus={submitButtonRef}
+          as="div"
+          className="relative z-10"
+          onClose={closeModal}
+        >
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -54,7 +61,10 @@ export default function RequestMeeting() {
                       size={20}
                     />
                   </Dialog.Title>
-                  <Form closeModal={closeModal} />
+                  <Form
+                    closeModal={closeModal}
+                    initialFocus={submitButtonRef}
+                  />
                 </Dialog.Panel>
               </Transition.Child>
             </div>

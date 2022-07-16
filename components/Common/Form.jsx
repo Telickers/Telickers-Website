@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import Spinner from "./Spinner";
 
-export default function Form({ closeModal }) {
+export default function Form({ closeModal, initialFocus }) {
   const name = useRef();
   const email = useRef();
   const company = useRef();
@@ -132,6 +132,7 @@ export default function Form({ closeModal }) {
         ></motion.textarea>
       </div>
       <motion.button
+        ref={initialFocus}
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{
           scale: 1,
