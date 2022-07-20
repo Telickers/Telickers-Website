@@ -50,7 +50,7 @@ export const services = [
   {
     title: "UI / UX Design",
     imageSrc: "/general/design-service.jpg",
-    caption: "People ignore design that ignores people",
+    caption: "People ignore design that ignores them",
     Icon: <BsPaletteFill size={65} />,
     desc: "Beautiful, memorable, and user-friendly interfaces that are as unique as your brand.",
     details: [
