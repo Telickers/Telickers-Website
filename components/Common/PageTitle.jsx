@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export default function SEO({ title, description, keywords }) {
+export default function PageTitle({ title }) {
   return (
     <Head>
       <title>{title}</title>

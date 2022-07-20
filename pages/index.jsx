@@ -3,12 +3,12 @@ import Work from "@/components/HomePage/Work";
 import Services from "@/components/HomePage/Services";
 import About from "@/components/HomePage/About";
 import Hero from "@/components/HomePage/Hero";
-import SEO from "@/components/Common/SEO";
+import PageTitle from "@/components/Common/PageTitle";
 
 export default function Home() {
   return (
     <>
-      <SEO title="Telickers | Web Development" />
+      <PageTitle title="Telickers | Web Development" />
       <Hero />
       <About />
       <Services />

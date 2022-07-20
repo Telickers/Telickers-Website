@@ -1,11 +1,11 @@
 import Hero from "@/components/ServicesPage/Hero";
-import SEO from "@/components/Common/SEO";
+import PageTitle from "@/components/Common/PageTitle";
 import ServicesSection from "@/components/ServicesPage/Services";
 
 export default function Services() {
   return (
     <>
-      <SEO title="Telickers | Our Services" />
+      <PageTitle title="Telickers | Our Services" />
       <Hero />
       <ServicesSection />
     </>
