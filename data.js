@@ -23,7 +23,7 @@ export const members = [
   {
     name: "Abed Al-Hussein Saade",
     role: "Co-Founder | Full-Stack Developer",
-    bio: "Full-Stack Web Developer | JavaScript Expert | React & Nodejs enthusiast | He eats JavaScript on breakfast.",
+    bio: "Full-Stack Web Developer | JavaScript Expert | React & Nodejs enthusiast | He eats JavaScript for breakfast.",
     image: "/team/abed.jpg",
     facebookUrl: "https://www.facebook.com/profile.php?id=100009450997072",
     instagramUrl: "https://www.instagram.com/abedalhussain_saade/",
