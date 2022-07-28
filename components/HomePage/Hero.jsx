@@ -30,12 +30,10 @@ export default function Hero() {
                   .typeString("Who facilitates your presence on the web")
                   .pauseFor(1400)
                   .deleteAll()
-                  .typeString(
-                    "Who builds blazing fast websites"
-                  )
+                  .typeString("Who makes memorable sites that grows your business")
                   .pauseFor(1400)
                   .deleteAll()
-                  .typeString("Who optimizes slow and bad websites")
+                  .typeString("Who builds fun & enjoyable experiences on the web")
                   .pauseFor(1400)
                   .start();
               }}
