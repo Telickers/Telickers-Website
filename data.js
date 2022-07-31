@@ -8,7 +8,7 @@ export const members = [
     bio: "Creative Web Developer | 3D Graphics & Animations enthusiast | He enjoys coding with an artistic purpose.",
     image: "/team/hussein.jfif",
     facebookUrl: "https://www.facebook.com/profile.php?id=100062471768466",
-    instagramUrl: "https://www.instagram.com/husseinhassan.me/",
+    instagramUrl: "https://www.instagram.com/developerhussein/",
     linkedinUrl: "https://www.linkedin.com/in/hussein-hassan-2b2a921a2/",
   },
   {
