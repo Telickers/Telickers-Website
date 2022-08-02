@@ -5,7 +5,7 @@ export const members = [
   {
     name: "Hussein Hassan",
     role: "Founder | Creative Web Developer",
-    bio: "Creative Web Developer | 3D Graphics & Animations enthusiast | He enjoys coding with an artistic purpose.",
+    bio: "Creative Web Developer | Motion Graphics & Animations enthusiast | He enjoys coding with an artistic purpose.",
     image: "/team/hussein.jfif",
     facebookUrl: "https://www.facebook.com/profile.php?id=100062471768466",
     instagramUrl: "https://www.instagram.com/developerhussein/",
@@ -81,13 +81,6 @@ export const services = [
 
 export const work = [
   {
-    name: "Management System",
-    featured: false,
-    description:
-      "Orders management system for a wholesale industry. The app aimed to improve the workflow of the workers by letin them take orders on their ipads and manage each order's status.",
-    imageSrc: "/projects/metro/metro-project.png",
-  },
-  {
     name: "A2Solution",
     featured: true,
     description:
@@ -97,7 +90,7 @@ export const work = [
   },
   {
     name: "Elotarz Media",
-    featured: true,
+    featured: false,
     description:
       "The project was built in bad way that led to very slow loading, poor animations which caused low traffic. So we built the site with blazing fast technologies which improved the site dramatically!",
     imageSrc: "/projects/elota/elota-project.png",
@@ -113,17 +106,10 @@ export const work = [
   },
   {
     name: "Window Design",
-    featured: true,
+    featured: false,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
     imageSrc: "/projects/window/window-project.png",
     link: "https://window-design.vercel.app",
-  },
-  {
-    name: "Invoice Builder",
-    featured: false,
-    description:
-      "A tool for a car wash garage for generating invoices in PDF format.",
-    imageSrc: "/projects/invoice/invoice-project.png",
   },
 ];

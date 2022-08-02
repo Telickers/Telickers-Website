@@ -24,7 +24,7 @@ export default function Projects() {
       </motion.h2>
       <section
         aria-labelledby="projects-grid"
-        className="grid grid-cols-1 place-items-center gap-7 md:grid-cols-2 lg:grid-cols-3"
+        className="grid grid-cols-1 place-items-center gap-8 md:grid-cols-2"
       >
         {work.map((project, index) => (
           <motion.div
@@ -33,15 +33,20 @@ export default function Projects() {
             whileInView={{
               x: 0,
               opacity: 1,
-              transition: { duration: 0.5 },
+              transition: { duration: 0.4 },
             }}
             viewport={{ once: true, amount: 0.7 }}
             className="group relative h-full w-full transition-all duration-300 ease-in-out lg:hover:scale-95"
           >
-            <BlurImage imageSrc={project.imageSrc} />
-            <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center rounded-lg bg-black/70 opacity-0 transition-all duration-300 ease-in-out lg:group-hover:opacity-100">
-              <p className="text-2xl font-bold text-white">{project.name}</p>
-            </div>
+            <a href={project.link} target="_blank" rel="noreferrer">
+              <BlurImage imageSrc={project.imageSrc} />
+              <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center rounded-lg bg-black/70 opacity-0 transition-all duration-300 ease-in-out lg:group-hover:opacity-100">
+                <p className="text-2xl font-bold text-white">{project.name}</p>
+              </div>
+              <div className="block text-left lg:hidden">
+                <h3 className="mt-3 text-3xl">{project.name}</h3>
+              </div>
+            </a>
           </motion.div>
         ))}
       </section>
