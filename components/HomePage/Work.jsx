@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { FiExternalLink } from 'react-icons/fi'
 
 import NoScrollLink from "../Common/NoScrollLink";
 import BlurImage from "../Common/BlurImage";
@@ -54,8 +55,9 @@ export default function Work() {
                 className="transition-opacity duration-300 ease-in-out lg:hover:opacity-90"
               >
                 <BlurImage priority imageSrc={project.imageSrc} />
-                <div className="text-left">
-                  <h3 className="mb-5 mt-4 text-4xl xs:text-3xl">{project.name}</h3>
+                <div className="mb-5 mt-4 flex space-x-2 items-center">
+                  <h3 className="text-4xl xs:text-3xl">{project.name}</h3>
+                <FiExternalLink size={20} className="mt-2"/>
                 </div>
               </a>
             </motion.article>
