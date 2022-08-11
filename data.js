@@ -5,10 +5,10 @@ export const members = [
   {
     name: "Hussein Hassan",
     role: "Founder | Creative Web Developer",
-    bio: "Creative Web Developer | Motion Graphics & Animations enthusiast | He enjoys coding with an artistic purpose.",
+    bio: "Creative Web Developer | 3D Websites & Animations enthusiast | He enjoys coding with an artistic purpose.",
     image: "/team/hussein.jfif",
     facebookUrl: "https://www.facebook.com/profile.php?id=100062471768466",
-    instagramUrl: "https://www.instagram.com/the.creative.developer/",
+    instagramUrl: "https://www.instagram.com/developer_husn_hsn/",
     linkedinUrl: "https://www.linkedin.com/in/hussein-hassan-2b2a921a2/",
   },
   {
