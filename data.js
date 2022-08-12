@@ -83,33 +83,13 @@ export const work = [
   {
     name: "A2Solution",
     featured: true,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
     imageSrc: "/projects/a2solution/a2solution-project.png",
     link: "https://a2solution.ca",
   },
   {
-    name: "Elotarz Media",
-    featured: false,
-    description:
-      "The project was built in bad way that led to very slow loading, poor animations which caused low traffic. So we built the site with blazing fast technologies which improved the site dramatically!",
-    imageSrc: "/projects/elota/elota-project.png",
-    link: "https://elotarzmedia.net",
-  },
-  {
     name: "Deebee",
     featured: true,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
     imageSrc: "/projects/deebee/deebee-project.png",
     link: "https://deebee.shop",
-  },
-  {
-    name: "Window Design",
-    featured: false,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum, perspiciatis fugiat maxime quae facilis nisi ut recusandae provident ea!",
-    imageSrc: "/projects/window/window-project.png",
-    link: "https://window-design.vercel.app",
   },
 ];
