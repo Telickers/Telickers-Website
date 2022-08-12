@@ -7,7 +7,7 @@ import { work } from "data";
 
 export default function Work() {
   return (
-    <section aria-labelledby="featured-work" className="relative py-28">
+    <section aria-labelledby="featured-work" className="relative py-28 bg-brand">
       <motion.h2
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{

@@ -5,7 +5,7 @@ import NoScrollLink from "../Common/NoScrollLink";
 
 export default function Services() {
   return (
-    <section aria-labelledby="services-section" className="bg-brand py-24">
+    <section aria-labelledby="services-section" className="py-24">
       <div className="flex flex-col items-center justify-center">
         <motion.h2
           initial={{ scale: 0, opacity: 0 }}
