@@ -7,7 +7,10 @@ import { work } from "data";
 
 export default function Work() {
   return (
-    <section aria-labelledby="featured-work" className="relative py-28 bg-brand">
+    <section
+      aria-labelledby="featured-work"
+      className="relative bg-brand py-28"
+    >
       <motion.h2
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{
@@ -17,7 +20,7 @@ export default function Work() {
         }}
         viewport={{ once: true, amount: 0.7 }}
         id="featured-work"
-        className="xs:text-4xl text-center text-5xl font-bold"
+        className="text-center text-5xl font-bold xs:text-4xl"
       >
         Featured Work
       </motion.h2>
@@ -29,7 +32,7 @@ export default function Work() {
           transition: { delay: 0.2, duration: 0.6 },
         }}
         viewport={{ once: true, amount: 0.7 }}
-        className="mx-auto mt-3 px-4 text-center text-2xl xs:text-xl font-extralight lg:px-0"
+        className="mx-auto mt-3 px-4 text-center text-2xl font-extralight lg:px-0 xs:text-xl"
       >
         Collection of the best websites we have worked on. Dont wait, start
         yours!
@@ -55,9 +58,9 @@ export default function Work() {
                 className="transition-opacity duration-300 ease-in-out lg:hover:opacity-90"
               >
                 <BlurImage priority imageSrc={project.imageSrc} />
-                <div className="mb-5 mt-4 flex space-x-2 items-center">
+                <div className="mb-5 mt-4 flex items-center space-x-2">
                   <h3 className="text-4xl xs:text-3xl">{project.name}</h3>
-                <FiExternalLink size={20} className="mt-2"/>
+                  <FiExternalLink size={20} className="mt-2 animate-pulse" />
                 </div>
               </a>
             </motion.article>

@@ -47,7 +47,7 @@ export default function Projects() {
               </div>
               <div className="mt-3 flex items-center space-x-2 lg:hidden">
                 <h3 className="text-3xl">{project.name}</h3>
-                <FiExternalLink size={20} className="mt-1" />
+                <FiExternalLink size={20} className="mt-1 animate-pulse" />
               </div>
             </a>
           </motion.div>

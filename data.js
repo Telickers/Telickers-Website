@@ -81,10 +81,10 @@ export const services = [
 
 export const work = [
   {
-    name: "A2Solution",
+    name: "Al Amir Menu",
     featured: true,
-    imageSrc: "/projects/a2solution/a2solution-project.png",
-    link: "https://a2solution.ca",
+    imageSrc: "/projects/Menu.png",
+    link: "https://al-amir-menu.telickers.net",
   },
   {
     name: "Deebee",
