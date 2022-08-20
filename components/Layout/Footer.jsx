@@ -2,8 +2,6 @@ import { useRouter } from "next/router";
 import {
   FaFacebookF,
   FaInstagram,
-  FaTwitter,
-  FaTelegramPlane,
   FaWhatsapp,
 } from "react-icons/fa";
 import { AiOutlineLine } from "react-icons/ai";
@@ -35,15 +33,16 @@ export default function Footer() {
         </span>
       </section>
       <div className="mt-4 flex justify-center text-black">
-        <article className="text-md mt-6 flex xs:space-x-3 space-x-5 md:text-xl lg:text-2xl">
+        <article className="text-md mt-6 flex space-x-4 md:text-xl lg:text-2xl xs:space-x-3">
           <a
-            aria-label="Message us on Whatsapp"
-            href="https://api.whatsapp.com/send?phone=+9617535302"
+            aria-label="Follow us in instagram"
+            href="https://www.instagram.com/telickers"
             target="_blank"
             rel="noreferrer"
           >
-            <FaWhatsapp />
+            <FaInstagram />
           </a>
+
           <AiOutlineLine className="rotate-90 " />
           <a
             aria-label="Like our facebook page"
@@ -55,34 +54,16 @@ export default function Footer() {
           </a>
           <AiOutlineLine className="rotate-90 " />
           <a
-            aria-label="Follow us in instagram"
-            href="https://www.instagram.com/telickers"
+            aria-label="Message us on Whatsapp"
+            href="https://api.whatsapp.com/send?phone=+9617535302"
             target="_blank"
             rel="noreferrer"
           >
-            <FaInstagram />
-          </a>
-          <AiOutlineLine className="rotate-90 " />
-          <a
-            aria-label="Follow us on twitter"
-            href="https://twitter.com/telickers"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaTwitter />
-          </a>
-          <AiOutlineLine className="rotate-90 " />
-          <a
-            aria-label="Message us on telegram"
-            href="https://t.me/Hussein_Ali_Hassan"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaTelegramPlane />
+            <FaWhatsapp />
           </a>
         </article>
       </div>
-      <p className="pt-7 xs:text-xl text-2xl">
+      <p className="pt-7 text-2xl xs:text-xl">
         e-mail: <a href="mailto:hello@telickers.net">hello@telickers.net</a>{" "}
       </p>
       <p className="pt-2 text-sm text-gray-500">
