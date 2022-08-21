@@ -37,7 +37,7 @@ export default function ServiceItem({ service }) {
           viewport={{ once: true, amount: 0.7 }}
           className="aspect-w-16 aspect-h-9 relative block overflow-hidden rounded-tr-md rounded-tl-md lg:hidden lg:rounded-tl-[0]"
         >
-          <div className="absolute left-0 z-10 flex h-full w-full items-center justify-center bg-[#4415ff57] px-2 text-center text-3xl capitalize text-white font-semibold">
+          <div className="absolute left-0 z-10 flex h-full w-full items-center justify-center bg-[#4415ff57] px-2 text-center text-3xl font-semibold capitalize text-white">
             {service.caption}
           </div>
           <Image
@@ -47,8 +47,6 @@ export default function ServiceItem({ service }) {
             objectFit="cover"
           />
         </motion.div>
-
-<<<<<<< Updated upstream
         {/* Content */}
         <motion.div
           initial={{ x: -90, opacity: 0 }}
@@ -60,9 +58,6 @@ export default function ServiceItem({ service }) {
           viewport={{ once: true, amount: 0.5 }}
           className="flex flex-col space-y-3 rounded-bl-md rounded-br-[50%] p-6 pb-8 shadow-xl lg:rounded-tl-md lg:rounded-br-[0%] lg:pt-8 lg:pb-6"
         >
-=======
-        <div className="min grid space-y-3 rounded-bl-md rounded-br-[50%] py-6 px-6 shadow-xl lg:grid-cols-2 lg:gap-3 lg:rounded-tl-md lg:rounded-br-[0%] lg:px-8">
->>>>>>> Stashed changes
           {service.details.map((detail, idx) => (
             <div
               key={idx}
