@@ -56,7 +56,6 @@ export default function Hero() {
               height={714}
             />
           </div>
-          <img />
         </div>
       </section>
     </>
