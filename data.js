@@ -89,7 +89,31 @@ export const work = [
   {
     name: "Deebee",
     featured: true,
-    imageSrc: "/projects/deebee/deebee-project.png",
+    imageSrc: "/projects/deebee.png",
     link: "https://deebee.shop",
+  },
+  {
+    name: "Valeo Contracting",
+    featured: false,
+    imageSrc: "/projects/valeo.png",
+    link: "https://valeo-8a444a.ingress-comporellon.ewp.live/",
+  },
+  {
+    name: "A2Solution",
+    featured: true,
+    imageSrc: "/projects/a2solution.png",
+    link: "https://a2solution.ca",
+  },
+  {
+    name: "Elota",
+    featured: false,
+    imageSrc: "/projects/elota.png",
+    link: "https://elotarzmedia.net",
+  },
+  {
+    name: "ABIS",
+    featured: false,
+    imageSrc: "/projects/abis.png",
+    link: "https://ahlul-bayt.ca/en/home/",
   },
 ];
