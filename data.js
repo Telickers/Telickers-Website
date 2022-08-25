@@ -87,13 +87,13 @@ export const work = [
     link: "https://al-amir-menu.telickers.net",
   },
   {
-    name: "Deebee",
+    name: "Deebee Shop",
     featured: true,
     imageSrc: "/projects/deebee.png",
     link: "https://deebee.shop",
   },
   {
-    name: "Valeo Contracting",
+    name: "Valeo Care",
     featured: false,
     imageSrc: "/projects/valeo.png",
     link: "https://valeo-8a444a.ingress-comporellon.ewp.live/",
@@ -105,7 +105,7 @@ export const work = [
     link: "https://a2solution.ca",
   },
   {
-    name: "Elota",
+    name: "Elotarz Media",
     featured: false,
     imageSrc: "/projects/elota.png",
     link: "https://elotarzmedia.net",
