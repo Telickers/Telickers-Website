@@ -94,7 +94,7 @@ export const work = [
   },
   {
     name: "Valeo Care",
-    featured: false,
+    featured: true,
     imageSrc: "/projects/valeo.png",
     link: "https://valeo-8a444a.ingress-comporellon.ewp.live/",
   },
@@ -104,16 +104,16 @@ export const work = [
     imageSrc: "/projects/a2solution.png",
     link: "https://a2solution.ca",
   },
-  {
-    name: "Elotarz Media",
-    featured: false,
-    imageSrc: "/projects/elota.png",
-    link: "https://elotarzmedia.net",
-  },
-  {
-    name: "ABIS",
-    featured: false,
-    imageSrc: "/projects/abis.png",
-    link: "https://ahlul-bayt.ca/en/home/",
-  },
+  // {
+  //   name: "Elotarz Media",
+  //   featured: false,
+  //   imageSrc: "/projects/elota.png",
+  //   link: "https://elotarzmedia.net",
+  // },
+  // {
+  //   name: "ABIS",
+  //   featured: false,
+  //   imageSrc: "/projects/abis.png",
+  //   link: "https://ahlul-bayt.ca/en/home/",
+  // },
 ];
