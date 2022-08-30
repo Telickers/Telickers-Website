@@ -92,18 +92,18 @@ export const work = [
     imageSrc: "/projects/deebee.png",
     link: "https://deebee.shop",
   },
-  {
-    name: "Valeo Care",
-    featured: true,
-    imageSrc: "/projects/valeo.png",
-    link: "https://valeo-8a444a.ingress-comporellon.ewp.live/",
-  },
-  {
-    name: "A2Solution",
-    featured: true,
-    imageSrc: "/projects/a2solution.png",
-    link: "https://a2solution.ca",
-  },
+  // {
+  //   name: "Valeo Care",
+  //   featured: true,
+  //   imageSrc: "/projects/valeo.png",
+  //   link: "https://valeo-8a444a.ingress-comporellon.ewp.live/",
+  // },
+  // {
+  //   name: "A2Solution",
+  //   featured: true,
+  //   imageSrc: "/projects/a2solution.png",
+  //   link: "https://a2solution.ca",
+  // },
   // {
   //   name: "Elotarz Media",
   //   featured: false,
