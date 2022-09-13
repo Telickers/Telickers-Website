@@ -90,7 +90,7 @@ export const work = [
     name: "Valeo Care",
     featured: true,
     imageSrc: "/projects/valeo.png",
-    link: "https://valeo-8a444a.ingress-comporellon.ewp.live/",
+    link: "https://valeo.care",
   },
   {
     name: "A2Solution",
