@@ -81,39 +81,33 @@ export const services = [
 
 export const work = [
   {
+    name: "Deebee Shop",
+    featured: true,
+    imageSrc: "/projects/deebee.png",
+    link: "https://deebee.shop",
+  },
+  {
+    name: "Valeo Care",
+    featured: true,
+    imageSrc: "/projects/valeo.png",
+    link: "https://valeo-8a444a.ingress-comporellon.ewp.live/",
+  },
+  {
+    name: "A2Solution",
+    featured: true,
+    imageSrc: "/projects/a2solution.png",
+    link: "https://a2solution.ca",
+  },
+  {
     name: "Al Amir Menu",
     featured: true,
     imageSrc: "/projects/Menu.png",
     link: "https://al-amir-menu.telickers.net",
   },
   {
-    name: "Deebee Shop",
-    featured: true,
-    imageSrc: "/projects/deebee.png",
-    link: "https://deebee.shop",
+    name: "Elotarz Media",
+    featured: false,
+    imageSrc: "/projects/elota.png",
+    link: "https://elotarzmedia.net",
   },
-  // {
-  //   name: "Valeo Care",
-  //   featured: true,
-  //   imageSrc: "/projects/valeo.png",
-  //   link: "https://valeo-8a444a.ingress-comporellon.ewp.live/",
-  // },
-  // {
-  //   name: "A2Solution",
-  //   featured: true,
-  //   imageSrc: "/projects/a2solution.png",
-  //   link: "https://a2solution.ca",
-  // },
-  // {
-  //   name: "Elotarz Media",
-  //   featured: false,
-  //   imageSrc: "/projects/elota.png",
-  //   link: "https://elotarzmedia.net",
-  // },
-  // {
-  //   name: "ABIS",
-  //   featured: false,
-  //   imageSrc: "/projects/abis.png",
-  //   link: "https://ahlul-bayt.ca/en/home/",
-  // },
 ];
