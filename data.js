@@ -98,9 +98,15 @@ export const work = [
     imageSrc: "/projects/a2solution.png",
     link: "https://a2solution.ca",
   },
+   {
+    name: "Tortilla House",
+    featured: true,
+    imageSrc: "/projects/tortilla.png",
+    link: "https://tortilla-house.telickers.net",
+  },
   {
     name: "Al Amir Menu",
-    featured: true,
+    featured: false,
     imageSrc: "/projects/Menu.png",
     link: "https://al-amir-menu.telickers.net",
   },
@@ -109,5 +115,11 @@ export const work = [
     featured: false,
     imageSrc: "/projects/elota.png",
     link: "https://elotarzmedia.net",
+  },
+   {
+    name: "Safawi Jewelry",
+    featured: false,
+    imageSrc: "/projects/safawi.png",
+    link: "https://safawijewelry.com",
   },
 ];
