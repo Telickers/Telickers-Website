@@ -10,8 +10,8 @@ export default function BlurImage({ imageSrc, priority = false }) {
         priority={priority}
         alt={imageSrc}
         src={imageSrc}
-        layout="fill"
-        objectFit="cover"
+        width={850}
+        height={850}
         className={`duration-700 ease-in-out ${
           isLoading
             ? "scale-110 blur-2xl grayscale"

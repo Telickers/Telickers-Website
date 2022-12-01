@@ -43,8 +43,8 @@ export default function ServiceItem({ service }) {
           <Image
             src={service.imageSrc}
             alt="image-service-test"
-            layout="fill"
-            objectFit="cover"
+            width={400}
+            height={800}
           />
         </motion.div>
         {/* Content */}
@@ -86,8 +86,8 @@ export default function ServiceItem({ service }) {
           <Image
             src={service.imageSrc}
             alt="image-service-test"
-            layout="fill"
-            objectFit="cover"
+            width={800}
+            height={400}
           />
         </motion.div>
       </div>

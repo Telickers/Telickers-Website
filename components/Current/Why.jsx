@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import RequestMeeting from "../Common/RequestMeeting";
+import RequestMeeting from "./RequestMeeting";
 
 export default function Why() {
   return (

@@ -1,37 +1,21 @@
-import { useRouter } from "next/router";
 import {
   FaFacebookF,
   FaInstagram,
   FaWhatsapp,
 } from "react-icons/fa";
 import { AiOutlineLine } from "react-icons/ai";
-
-import NoScrollLink from "../Common/NoScrollLink";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <footer className="pb-6 pt-14 text-center">
-      <NoScrollLink href="/" passhref>
+      <Link href="/" passhref>
         <img
           src="/general/telickers-logo-dark.svg"
           alt="Telickers Logo"
           className="mx-auto w-60 cursor-pointer"
         />
-      </NoScrollLink>
-      <section className="flex items-center justify-center pt-3">
-        <span className="pr-3 font-['Poppins'] text-2xl font-medium">
-          {"{"}
-        </span>
-        <nav className="inline-flex space-x-4">
-          <Link route="/about" text="About" />
-          <Link route="/services" text="Services" />
-          <Link route="/work" text="Work" />
-          <Link route="/contact" text="Contact" />
-        </nav>
-        <span className="pl-3 font-['Poppins'] text-2xl font-medium">
-          {"}"}
-        </span>
-      </section>
+      </Link>
       <div className="mt-4 flex justify-center text-black">
         <article className="text-md mt-6 flex space-x-4 md:text-xl lg:text-2xl xs:space-x-3">
           <a
@@ -73,20 +57,20 @@ export default function Footer() {
   );
 }
 
-function Link({ route, text }) {
-  const router = useRouter();
-  const pathname = router.pathname;
-  const isActive = route === pathname;
+// function Link({ route, text }) {
+//   const router = useRouter();
+//   const pathname = router.pathname;
+//   const isActive = route === pathname;
 
-  return (
-    <NoScrollLink href={route} passHref>
-      <span
-        className={`on-hover-text-linear cursor-pointer ${
-          isActive && "text-linear"
-        }`}
-      >
-        {text}
-      </span>
-    </NoScrollLink>
-  );
-}
+//   return (
+//     <Link href={route} passHref>
+//       <span
+//         className={`on-hover-text-linear cursor-pointer ${
+//           isActive && "text-linear"
+//         }`}
+//       >
+//         {text}
+//       </span>
+//     </Link>
+//   );
+// }

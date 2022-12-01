@@ -1,9 +1,10 @@
-import Feedbacks from "@/components/HomePage/Feedbacks";
-import Work from "@/components/HomePage/Work";
-import Services from "@/components/HomePage/Services";
-import About from "@/components/HomePage/About";
-import Hero from "@/components/HomePage/Hero";
-import PageTitle from "@/components/Common/PageTitle";
+import Work from "@/components/Current/Projects";
+import Services from "@/components/Current/Services";
+import About from "@/components/Current/About";
+import Hero from "@/components/Current/Hero";
+import PageTitle from "@/components/Current/Utils/PageTitle";
+import Team from "@/components/Current/Team";
+import Why from "@/components/Current/Why";
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
       <About />
       <Services />
       <Work />
+      <Team />
+      <Why />
     </>
   );
 }

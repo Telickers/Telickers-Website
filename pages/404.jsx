@@ -1,4 +1,4 @@
-import NoScrollLink from "@/components/Common/NoScrollLink";
+import NoScrollLink from "@/components/Legacy/NoScrollLink";
 
 export default function NotFoundPage() {
   return (

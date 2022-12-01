@@ -16,7 +16,7 @@ export default function TeamGrid() {
         viewport={{ once: true, amount: 0.7 }}
         className="pb-16 text-center text-5xl font-bold"
       >
-        Meet Our Team
+        {"Who's Behind This ?"}
       </motion.h2>
       <div className="grid grid-cols-3 place-items-center gap-5">
         {members.map((member) => (

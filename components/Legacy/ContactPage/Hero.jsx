@@ -1,6 +1,6 @@
 import { BiChevronsDown } from "react-icons/bi";
 
-import Navbar from "../Layout/Navbar";
+import Navbar from "../../Layout/Navbar";
 
 export default function ContactHero() {
   return (

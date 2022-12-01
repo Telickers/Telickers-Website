@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { FiExternalLink } from 'react-icons/fi'
 
-import NoScrollLink from "../Common/NoScrollLink";
-import BlurImage from "../Common/BlurImage";
+import NoScrollLink from "../NoScrollLink";
+import BlurImage from "../../Utils/BlurImage";
 import { work } from "data";
 
 export default function Work() {
@@ -22,7 +22,7 @@ export default function Work() {
         id="featured-work"
         className="text-center text-5xl font-bold xs:text-4xl"
       >
-        Featured Work
+        Our Work
       </motion.h2>
       <motion.p
         initial={{ scale: 0, opacity: 0 }}
@@ -32,10 +32,9 @@ export default function Work() {
           transition: { delay: 0.2, duration: 0.6 },
         }}
         viewport={{ once: true, amount: 0.7 }}
-        className="mx-auto mt-3 px-4 text-center text-2xl font-extralight lg:px-0 xs:text-xl"
+        className="mx-auto mt-3 px-4 text-center text-2xl font-bold text-gray-600 lg:px-0 xs:text-xl"
       >
-        Collection of the best websites we have worked on. Dont wait, start
-        yours!
+        We design and build for people. And we are pretty good at it.
       </motion.p>
       <div className="mx-12 mt-20 grid grid-cols-1 gap-20 md:grid-cols-2">
         {work

@@ -1,8 +1,6 @@
 import Image from "next/image";
-import { BsArrowRightCircle } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
 
-import NoScrollLink from "../Common/NoScrollLink";
 import Navbar from "../Layout/Navbar";
 
 export default function Hero() {
@@ -39,12 +37,6 @@ export default function Hero() {
               }}
             />
           </div>
-          <NoScrollLink href="/about" passHref>
-            <div className="xs:mt-0 mt-4 flex cursor-pointer items-center space-x-2">
-              <span className="text-lg text-white">FIND OUT MORE</span>{" "}
-              <BsArrowRightCircle className="text-cyan-300" size={20} />
-            </div>
-          </NoScrollLink>
         </div>
         <div className="relative hidden h-full w-full lg:block">
           <div className="absolute top-[15px] -right-[80px]">

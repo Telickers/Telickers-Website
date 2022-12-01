@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps, router }) {
       </Head>
       <Toaster />
       <AnimatePresence
-        exitBeforeEnter
+        mode="wait"
         onExitComplete={() => window?.scrollTo(0, 0)}
       >
         <motion.main

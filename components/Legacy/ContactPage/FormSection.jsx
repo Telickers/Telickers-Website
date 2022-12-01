@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-import Form from "../Common/Form";
+import Form from "../../Current/RequestMeeting/Form";
 
 export default function ContactForm() {
   return (

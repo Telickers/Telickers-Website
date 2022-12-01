@@ -2,7 +2,7 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useRouter } from "next/router";
 
-import NoScrollLink from "../../Common/NoScrollLink";
+import NoScrollLink from "../../Legacy/NoScrollLink";
 
 export default function MobileNavbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +11,7 @@ export default function MobileNavbar() {
 
   return (
     <>
-      <nav className="absolute top-3 flex w-full items-center justify-between py-7 px-4 md:hidden">
+      <nav className="absolute top-3 flex w-full items-center justify-center py-7 px-4 md:hidden">
         {/* Logo */}
         <NoScrollLink href="/">
           <img
@@ -21,9 +21,7 @@ export default function MobileNavbar() {
           />
         </NoScrollLink>
 
-        <ToggleMenuButton isOpen={isOpen} toggleOpen={toggleOpen} />
       </nav>
-      <SideMenu isOpen={isOpen} toggleOpen={toggleOpen} />
     </>
   );
 }

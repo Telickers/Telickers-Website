@@ -44,7 +44,7 @@ export default function TeamCarousel() {
           viewport={{ once: true, amount: 0.7 }}
           className="pb-16 xs:text-3xl text-5xl font-bold"
         >
-          Meet Our Team
+          {"Who's Behind This ?"}
         </motion.h2>
         <motion.div
           initial={{ scale: 0, opacity: 0 }}
