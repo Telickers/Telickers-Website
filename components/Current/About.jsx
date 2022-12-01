@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function About() {
   return (
     <section aria-label="about-section" className=" bg-brand  py-20">
-      <div className="md:w-[70%] text-center mx-auto w-[88%]">
+      <div className="mx-auto w-[90%] text-center md:w-[70%]">
         <img
           src="/icons/personsfull.svg"
           alt="personsfull"

@@ -11,7 +11,6 @@ export default function Why() {
       <motion.div
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{
-          rotateY: [0, 24, 90, 0],
           scale: 1,
           opacity: 1,
           transition: { duration: 1 },

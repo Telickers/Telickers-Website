@@ -33,7 +33,7 @@ export default function ServicesSection() {
       >
         FULL-SERVICE DESIGN AND DEVELOPMENT.
       </motion.h2>
-      <div className="flex flex-col items-center justify-center space-y-32">
+      <div className="flex flex-col items-center justify-center space-y-28">
         {services.map((service) => (
           <ServiceItem service={service} key={service.title} />
         ))}
