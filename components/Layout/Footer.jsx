@@ -39,7 +39,7 @@ export default function Footer() {
           <AiOutlineLine className="rotate-90 " />
           <a
             aria-label="Message us on Whatsapp"
-            href="https://api.whatsapp.com/send?phone=+9617535302"
+            href="https://api.whatsapp.com/send?phone=+96176025608"
             target="_blank"
             rel="noreferrer"
           >

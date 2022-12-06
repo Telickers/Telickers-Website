@@ -4,8 +4,8 @@ import { BsPaletteFill } from "react-icons/bs";
 export const members = [
   {
     name: "Hussein Hassan",
-    role: "Founder | Creative Web Developer",
-    bio: "Creative Web Developer | 3D Websites & Animations enthusiast | He enjoys coding with an artistic purpose.",
+    role: "Full-Stack Web Developer",
+    bio: "Full-Stack Web Developer | React & Nextjs Expert | Serverless Backend Enthusiast.",
     image: "/team/husn.jpg",
     facebookUrl: "https://www.facebook.com/profile.php?id=100062471768466",
     instagramUrl: "https://www.instagram.com/developer_husn_hsn/",
@@ -13,8 +13,8 @@ export const members = [
   },
   {
     name: "Mohamad Nouredeen",
-    role: "Co-Founder | UI/UX Designer",
-    bio: "UI/UX Expert | Illustrations enthusiast | While he is sleeping, his dreams are a piece of art.",
+    role: "UI/UX Designer & Developer",
+    bio: "UI/UX Designer | Web Design & Graphics Enthusiast | Expert Wordpress Developer.",
     image: "/team/jawad.jpg",
     facebookUrl: "https://www.facebook.com/mohammad.jawadnouredine.7",
     instagramUrl: "https://www.instagram.com/jawad.n2022/",
@@ -22,8 +22,8 @@ export const members = [
   },
   {
     name: "Abed Al-Hussein Saade",
-    role: "Co-Founder | Full-Stack Developer",
-    bio: "Full-Stack Web Developer | JavaScript Expert | React & Nodejs enthusiast | He eats JavaScript for breakfast.",
+    role: "Front-End Web Developer",
+    bio: "Front-end Web Developer | React & JavaScript Expert | TailwindCSS Enthusiast.",
     image: "/team/abed.jpg",
     facebookUrl: "https://www.facebook.com/profile.php?id=100009450997072",
     instagramUrl: "https://www.instagram.com/abedalhussain_saade/",
@@ -39,10 +39,12 @@ export const services = [
     Icon: <BsPaletteFill size={65} />,
     desc: "Beautiful, memorable, and user-friendly interfaces that are as unique as your brand.",
     details: [
-      "Designing modern look web user interfaces.",
-      "Testing & analyzing user experience design.",
+      "Designing modern-look web user interfaces.",
       "Creating wireframes & Low-Fidelity prototypes.",
-      "Designing animations and 3D graphics.",
+      "Testing & analyzing user experience design.",
+      "Designing 3D graphics on the web with Blender & Threejs.",
+      "Custom website design with Figma.",
+      "Interactive website animations.",
       "Responsive web design.",
     ],
   },
@@ -53,13 +55,13 @@ export const services = [
     Icon: <HiOutlineCode size={65} />,
     desc: "Fully custom web applications for an intuitive and immersive user experience.",
     details: [
-      "Landing pages & portfolios.",
-      "E-commerce online stores.",
-      "Blogs and showcase websites for content creators.",
-      "Dashboards and business management systems.",
-      "Payment Gateways Setup (Credit card & PayPal).",
+      "Creating Landing pages & Portfolios.",
+      "Building E-commerce online stores.",
+      "Basic & Advanced Wordpress development",
+      "Custom website development with modern tech.",
+      "Blog websites for content creators.",
+      "Complex Dashboards and business management systems.",
       "Rebuilding & Improving bad websites.",
-      "Hosting simple & complex web apps.",
     ],
   },
 ];
@@ -69,42 +71,42 @@ export const work = [
     name: "Deebee Shop",
     imageSrc: "/projects/deebee.png",
     link: "https://deebee.shop",
-    category: "E-commerce"
+    category: "E-commerce",
   },
   {
     name: "Valeo Care",
     imageSrc: "/projects/valeo.png",
     link: "https://valeo.care",
-    category: "Portfolio"
+    category: "Portfolio",
   },
   {
     name: "A2Solution",
     imageSrc: "/projects/a2solution.png",
     link: "https://a2solution.ca",
-    category: "Portfolio"
+    category: "Portfolio",
   },
   {
-    name: "Al Amir Menu",
+    name: "Al-Amir Juice",
     imageSrc: "/projects/Menu.png",
     link: "https://al-amir-menu.telickers.net",
-    category: "Digital Menu"
+    category: "Digital Menu",
   },
   {
     name: "Tortilla House",
     imageSrc: "/projects/tortilla.png",
     link: "https://tortilla-house.telickers.net",
-    category: "Digital Menu"
+    category: "Digital Menu",
   },
   {
     name: "Elotarz Media",
     imageSrc: "/projects/elota.png",
     link: "https://elotarzmedia.net",
-    category: "Portfolio"
+    category: "Portfolio",
   },
   {
     name: "Safawi Jewelry",
     imageSrc: "/projects/safawi.png",
     link: "https://safawijewelry.com",
-    category: "E-commerce"
+    category: "E-commerce",
   },
 ];
