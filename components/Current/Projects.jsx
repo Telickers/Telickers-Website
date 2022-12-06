@@ -6,9 +6,9 @@ import { work } from "data";
 import BlurImage from "./Utils/BlurImage";
 
 export default function Projects() {
-  const [selectedCategory, setSelectedCategory] = useState("E-commerce");
+  const [selectedCategory, setSelectedCategory] = useState("Portfolio");
   const [filtered, setFiltered] = useState(
-    work.filter((project) => project.category === "E-commerce")
+    work.filter((project) => project.category === selectedCategory)
   );
 
   useEffect(() => {
@@ -47,7 +47,22 @@ export default function Projects() {
       >
         We design and build for people. And we are pretty good at it.
       </motion.h3>
-      <div className="flex items-center justify-center space-x-6 pb-12 text-lg md:pb-16">
+      <div className="flex items-center justify-center space-x-6 pb-12 md:pb-16">
+        <div
+          className="flex cursor-pointer flex-col items-center justify-center space-y-1"
+          onClick={() => setSelectedCategory("Portfolio")}
+        >
+          <span>Portfolios</span>
+          {selectedCategory === "Portfolio" && (
+            <motion.div
+              layoutId="underline"
+              className="h-1 w-full bg-black"
+            ></motion.div>
+          )}
+          {selectedCategory !== "Portfolio" && (
+            <motion.div className="h-1 w-full bg-brand"></motion.div>
+          )}
+        </div>
         <div
           className="flex cursor-pointer flex-col items-center justify-center space-y-1"
           onClick={() => setSelectedCategory("E-commerce")}
@@ -80,16 +95,16 @@ export default function Projects() {
         </div>
         <div
           className="flex cursor-pointer flex-col items-center justify-center space-y-1"
-          onClick={() => setSelectedCategory("Portfolio")}
+          onClick={() => setSelectedCategory("Community")}
         >
-          <span>Portfolios</span>
-          {selectedCategory === "Portfolio" && (
+          <span>Community</span>
+          {selectedCategory === "Community" && (
             <motion.div
               layoutId="underline"
               className="h-1 w-full bg-black"
             ></motion.div>
           )}
-          {selectedCategory !== "Portfolio" && (
+          {selectedCategory !== "Community" && (
             <motion.div className="h-1 w-full bg-brand"></motion.div>
           )}
         </div>

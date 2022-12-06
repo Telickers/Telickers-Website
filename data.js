@@ -87,7 +87,7 @@ export const work = [
   },
   {
     name: "Al-Amir Juice",
-    imageSrc: "/projects/Menu.png",
+    imageSrc: "/projects/al-amir.png",
     link: "https://al-amir-menu.telickers.net",
     category: "Digital Menu",
   },
@@ -104,9 +104,33 @@ export const work = [
     category: "Portfolio",
   },
   {
+    name: "Veils & More",
+    imageSrc: "/projects/veils.png",
+    link: "https://veilsnmore.com/",
+    category: "E-commerce",
+  },
+  {
     name: "Safawi Jewelry",
     imageSrc: "/projects/safawi.png",
     link: "https://safawijewelry.com",
     category: "E-commerce",
+  },
+  {
+    name: "Real Estate",
+    imageSrc: "/projects/real-estate.png",
+    link: "https://real-estate.telickers.net/",
+    category: "Community",
+  },
+  {
+    name: "Ahlul-Bayt Center",
+    imageSrc: "/projects/abis.png",
+    link: "https://ahlul-bayt.ca/en/home/",
+    category: "Community",
+  },
+  {
+    name: "Window Design",
+    imageSrc: "/projects/window.png",
+    link: "https://window-design.vercel.app/",
+    category: "Portfolio",
   },
 ];
