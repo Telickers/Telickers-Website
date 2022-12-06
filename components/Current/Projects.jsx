@@ -47,9 +47,9 @@ export default function Projects() {
       >
         We design and build for people. And we are pretty good at it.
       </motion.h3>
-      <div className="flex items-center justify-center space-x-6 pb-12 md:pb-16">
-        <div
-          className="flex cursor-pointer flex-col items-center justify-center space-y-1"
+      <div className="grid grid-cols-2 gap-3 md:grid-cols-4 place-items-center pb-12 md:pb-16">
+          <div
+          className="flex cursor-pointer flex-col items-center justify-center space-y-1 w-fit"
           onClick={() => setSelectedCategory("Portfolio")}
         >
           <span>Portfolios</span>
@@ -64,7 +64,7 @@ export default function Projects() {
           )}
         </div>
         <div
-          className="flex cursor-pointer flex-col items-center justify-center space-y-1"
+          className="flex cursor-pointer flex-col items-center justify-center space-y-1 w-fit"
           onClick={() => setSelectedCategory("E-commerce")}
         >
           <span>E-Commerce</span>
@@ -79,7 +79,7 @@ export default function Projects() {
           )}
         </div>
         <div
-          className="flex cursor-pointer flex-col items-center justify-center space-y-1"
+          className="flex cursor-pointer flex-col items-center justify-center space-y-1 w-fit"
           onClick={() => setSelectedCategory("Digital Menu")}
         >
           <span>Digital Menus</span>
@@ -94,7 +94,7 @@ export default function Projects() {
           )}
         </div>
         <div
-          className="flex cursor-pointer flex-col items-center justify-center space-y-1"
+          className="flex cursor-pointer flex-col items-center justify-center space-y-1 w-fit"
           onClick={() => setSelectedCategory("Community")}
         >
           <span>Community</span>
