@@ -127,10 +127,4 @@ export const work = [
     link: "https://ahlul-bayt.ca/en/home/",
     category: "Community",
   },
-  {
-    name: "Window Design",
-    imageSrc: "/projects/window.png",
-    link: "https://window-design.vercel.app/",
-    category: "Portfolio",
-  },
 ];

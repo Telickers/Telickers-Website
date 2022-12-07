@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Toaster } from "react-hot-toast";
 import Head from "next/head";
 
+import WhatsappCTA from '@/components/Current/WhatsappCTA'
 import Footer from "@/components/Layout/Footer";
 import "@/styles/globals.css";
 
@@ -48,6 +49,7 @@ function MyApp({ Component, pageProps, router }) {
           {Component.noFooter ? null : <Footer />}
         </motion.main>
       </AnimatePresence>
+      <WhatsappCTA/>
     </>
   );
 }

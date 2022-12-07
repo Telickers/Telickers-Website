@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -140,4 +140,23 @@ textarea {
 /* For the modal */
 .go2072408551 {
   max-width: 80vw !important;
+}
+
+
+/* whatsapp widget */
+#whatsapp-widget-timelines {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99999999;
+}
+#whatsapp-widget-timelines svg {
+  fill: rgb(255, 255, 255);
+  border-radius: 50px;
+  background-color: rgb(77, 194, 71);
+  box-shadow: rgb(0 0 0 / 40%) 2px 2px 6px;
+  padding: 4px;
+  cursor: pointer;
+  height: 65px;
+  width: 65px;
 }
