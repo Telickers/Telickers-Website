@@ -154,7 +154,6 @@ textarea {
   fill: rgb(255, 255, 255);
   border-radius: 50px;
   background-color: rgb(77, 194, 71);
-  box-shadow: rgb(0 0 0 / 40%) 2px 2px 6px;
   padding: 4px;
   cursor: pointer;
   height: 65px;
