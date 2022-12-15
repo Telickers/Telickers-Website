@@ -3,15 +3,6 @@ import { BsPaletteFill } from "react-icons/bs";
 
 export const members = [
   {
-    name: "Hussein Hassan",
-    role: "Full-Stack Web Developer",
-    bio: "Full-Stack Web Developer | React & Nextjs Expert | Serverless Backend Enthusiast.",
-    image: "/team/husn.jpg",
-    facebookUrl: "https://www.facebook.com/profile.php?id=100062471768466",
-    instagramUrl: "https://www.instagram.com/developer_husn_hsn/",
-    linkedinUrl: "https://www.linkedin.com/in/hussein-hassan-2b2a921a2/",
-  },
-  {
     name: "Mohamad Nouredeen",
     role: "UI/UX Designer & Developer",
     bio: "UI/UX Designer | Web Design & Graphics Enthusiast | Expert Wordpress Developer.",
@@ -19,6 +10,15 @@ export const members = [
     facebookUrl: "https://www.facebook.com/mohammad.jawadnouredine.7",
     instagramUrl: "https://www.instagram.com/jawad.n2022/",
     linkedinUrl: "https://www.linkedin.com/in/mohammad-nouredine-059a0a242/",
+  },
+  {
+    name: "Hussein Hassan",
+    role: "Creative Web Developer",
+    bio: "Full-Stack Creative Web Developer | React & Nextjs Expert | 3D Websites Enthusiast.",
+    image: "/team/husn.jpg",
+    facebookUrl: "https://www.facebook.com/profile.php?id=100062471768466",
+    instagramUrl: "https://www.instagram.com/developer_husn_hsn/",
+    linkedinUrl: "https://www.linkedin.com/in/hussein-hassan-2b2a921a2/",
   },
   {
     name: "Abed Al-Hussein Saade",
