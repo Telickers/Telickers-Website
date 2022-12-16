@@ -108,23 +108,27 @@ export const work = [
     imageSrc: "/projects/veils.png",
     link: "https://veilsnmore.com/",
     category: "E-commerce",
+    inProgress: true
   },
   {
     name: "Safawi Jewelry",
     imageSrc: "/projects/safawi.png",
     link: "https://safawijewelry.com",
     category: "E-commerce",
+    inProgress: true
   },
   {
     name: "Real Estate",
     imageSrc: "/projects/real-estate.png",
     link: "https://real-estate.telickers.net/",
     category: "Community",
+    inProgress: true
   },
   {
     name: "Ahlul-Bayt Center",
     imageSrc: "/projects/abis.png",
     link: "https://ahlul-bayt.ca/en/home/",
     category: "Community",
+    inProgress: true
   },
 ];

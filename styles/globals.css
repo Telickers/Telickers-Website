@@ -142,7 +142,6 @@ textarea {
   max-width: 80vw !important;
 }
 
-
 /* whatsapp widget */
 #whatsapp-widget-timelines {
   position: fixed;
@@ -158,4 +157,33 @@ textarea {
   cursor: pointer;
   height: 65px;
   width: 65px;
+}
+
+/* project card ribbon */
+.card::before {
+  position: absolute;
+  content: "";
+  background-color: blue;
+  height: 35px;
+  width: 35px;
+  top: 3rem;
+  right: -20px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.card::after {
+  position: absolute;
+  content: "In-progress";
+  top: 27px;
+  padding-left: 20px;
+  padding: 10px;
+  right: -28px;
+  width: 8rem;
+  background-color: blue;
+  z-index: 12;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 10px;
+  color: #fff;
 }

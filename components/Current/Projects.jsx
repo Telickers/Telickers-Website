@@ -47,9 +47,9 @@ export default function Projects() {
       >
         We design and build for people. And we are pretty good at it.
       </motion.h3>
-      <div className="grid grid-cols-2 gap-3 md:grid-cols-4 place-items-center pb-12 md:pb-16">
-          <div
-          className="flex cursor-pointer flex-col items-center justify-center space-y-1 w-fit"
+      <div className="grid grid-cols-2 place-items-center gap-3 pb-12 md:grid-cols-4 md:pb-16">
+        <div
+          className="flex w-fit cursor-pointer flex-col items-center justify-center space-y-1"
           onClick={() => setSelectedCategory("Portfolio")}
         >
           <span>Portfolios</span>
@@ -64,7 +64,7 @@ export default function Projects() {
           )}
         </div>
         <div
-          className="flex cursor-pointer flex-col items-center justify-center space-y-1 w-fit"
+          className="flex w-fit cursor-pointer flex-col items-center justify-center space-y-1"
           onClick={() => setSelectedCategory("E-commerce")}
         >
           <span>E-Commerce</span>
@@ -79,7 +79,7 @@ export default function Projects() {
           )}
         </div>
         <div
-          className="flex cursor-pointer flex-col items-center justify-center space-y-1 w-fit"
+          className="flex w-fit cursor-pointer flex-col items-center justify-center space-y-1"
           onClick={() => setSelectedCategory("Digital Menu")}
         >
           <span>Digital Menus</span>
@@ -94,7 +94,7 @@ export default function Projects() {
           )}
         </div>
         <div
-          className="flex cursor-pointer flex-col items-center justify-center space-y-1 w-fit"
+          className="flex w-fit cursor-pointer flex-col items-center justify-center space-y-1"
           onClick={() => setSelectedCategory("Community")}
         >
           <span>Community</span>
@@ -111,16 +111,16 @@ export default function Projects() {
       </div>
       <section
         aria-labelledby="projects-grid"
-        className="grid grid-cols-1 place-items-center gap-8 md:grid-cols-2"
+        className="grid grid-cols-1 place-items-center gap-9 md:grid-cols-2"
       >
         {filtered.map((project) => (
           <div
             key={project.name}
-            className="group relative h-full w-full transition-all duration-300 ease-in-out lg:hover:scale-95"
+            className={`z-50 group relative h-full w-full transition-all duration-300 ease-in-out lg:hover:scale-95 ${project.inProgress && "card"}`}
           >
             <a href={project.link} target="_blank" rel="noreferrer">
               <BlurImage imageSrc={project.imageSrc} />
-              <div className="absolute  top-0 left-0 flex h-full w-full items-center justify-center space-x-1 rounded-lg bg-black/70 opacity-0 transition-all duration-300 ease-in-out lg:group-hover:opacity-100">
+              <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center space-x-1 rounded-lg bg-black/70 opacity-0 transition-all duration-300 ease-in-out lg:group-hover:opacity-100">
                 <p className="text-2xl font-bold text-white">{project.name}</p>
                 <FiExternalLink size={22} color="white" className="mt-1" />
               </div>
