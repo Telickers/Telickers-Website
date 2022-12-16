@@ -120,8 +120,8 @@ export default function Projects() {
           >
             <a href={project.link} target="_blank" rel="noreferrer">
               <BlurImage imageSrc={project.imageSrc} />
-              <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center space-x-1 rounded-lg bg-black/70 opacity-0 transition-all duration-300 ease-in-out lg:group-hover:opacity-100">
-                <p className="text-2xl font-bold text-white">{project.name}</p>
+              <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center space-x-1 rounded-lg bg-black/90 opacity-0 transition-all duration-300 ease-in-out lg:group-hover:opacity-100">
+                <p className="text-3xl font-bold text-white">{project.name}</p>
                 <FiExternalLink size={22} color="white" className="mt-1" />
               </div>
               <div className="mt-3 flex items-center space-x-2 lg:hidden">
