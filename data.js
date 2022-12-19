@@ -68,12 +68,6 @@ export const services = [
 
 export const work = [
   {
-    name: "Deebee Shop",
-    imageSrc: "/projects/deebee.png",
-    link: "https://deebee.shop",
-    category: "E-commerce",
-  },
-  {
     name: "Valeo Care",
     imageSrc: "/projects/valeo.png",
     link: "https://valeo.care",
@@ -84,6 +78,39 @@ export const work = [
     imageSrc: "/projects/a2solution.png",
     link: "https://a2solution.ca",
     category: "Portfolio",
+  },
+  {
+    name: "Elotarz Media",
+    imageSrc: "/projects/elota.png",
+    link: "https://elotarzmedia.net",
+    category: "Portfolio",
+  },
+  {
+    name: "Figs & Olives",
+    imageSrc: "/projects/fopublications.png",
+    link: "https://fopublications.com/",
+    category: "E-commerce",
+    inProgress: true,
+  },
+  {
+    name: "Veils & More",
+    imageSrc: "/projects/veils.png",
+    link: "https://veilsnmore.com/",
+    category: "E-commerce",
+    inProgress: true,
+  },
+  {
+    name: "Deebee Shop",
+    imageSrc: "/projects/deebee.png",
+    link: "https://deebee.shop",
+    category: "E-commerce",
+  },
+  {
+    name: "Safawi Jewelry",
+    imageSrc: "/projects/safawi.png",
+    link: "https://safawijewelry.com",
+    category: "E-commerce",
+    inProgress: true,
   },
   {
     name: "Al-Amir Juice",
@@ -98,37 +125,17 @@ export const work = [
     category: "Digital Menu",
   },
   {
-    name: "Elotarz Media",
-    imageSrc: "/projects/elota.png",
-    link: "https://elotarzmedia.net",
-    category: "Portfolio",
-  },
-  {
-    name: "Veils & More",
-    imageSrc: "/projects/veils.png",
-    link: "https://veilsnmore.com/",
-    category: "E-commerce",
-    inProgress: true
-  },
-  {
-    name: "Safawi Jewelry",
-    imageSrc: "/projects/safawi.png",
-    link: "https://safawijewelry.com",
-    category: "E-commerce",
-    inProgress: true
-  },
-  {
     name: "Real Estate",
     imageSrc: "/projects/real-estate.png",
     link: "https://real-estate.telickers.net/",
     category: "Community",
-    inProgress: true
+    inProgress: true,
   },
   {
     name: "Ahlul-Bayt Center",
     imageSrc: "/projects/abis.png",
     link: "https://ahlul-bayt.ca/en/home/",
     category: "Community",
-    inProgress: true
+    inProgress: true,
   },
 ];
