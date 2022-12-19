@@ -5,6 +5,7 @@ import Hero from "@/components/Current/Hero";
 import PageTitle from "@/components/Current/Utils/PageTitle";
 import Team from "@/components/Current/Team";
 import Why from "@/components/Current/Why";
+import Tech from "@/components/Current/Tech";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Services />
       <Work />
       <Team />
+      {/* <Tech/> */}
       <Why />
     </>
   );

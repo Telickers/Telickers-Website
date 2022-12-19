@@ -86,13 +86,6 @@ export const work = [
     category: "Portfolio",
   },
   {
-    name: "Figs & Olives",
-    imageSrc: "/projects/fopublications.png",
-    link: "https://fopublications.com/",
-    category: "E-commerce",
-    inProgress: true,
-  },
-  {
     name: "Veils & More",
     imageSrc: "/projects/veils.png",
     link: "https://veilsnmore.com/",
@@ -123,6 +116,13 @@ export const work = [
     imageSrc: "/projects/tortilla.png",
     link: "https://tortilla-house.telickers.net",
     category: "Digital Menu",
+  },
+  {
+    name: "Figs & Olives",
+    imageSrc: "/projects/fopublications.png",
+    link: "https://fopublications.com/",
+    category: "Community",
+    inProgress: true,
   },
   {
     name: "Real Estate",
