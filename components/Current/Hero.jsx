@@ -28,7 +28,7 @@ export default function Hero() {
                     .pauseFor(1400)
                     .deleteAll()
                     .typeString(
-                      "Who makes memorable sites that grows your business"
+                      "Who makes memorable sites that grow your business"
                     )
                     .pauseFor(1400)
                     .deleteAll()

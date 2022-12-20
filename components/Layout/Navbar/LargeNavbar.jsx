@@ -4,7 +4,7 @@ import NoScrollLink from "../../Legacy/NoScrollLink";
 
 export default function LargeNavbar() {
   return (
-    <nav className="absolute top-3 z-50 hidden w-full items-center justify-center space-x-6 py-4 text-white md:flex">
+    <nav className="absolute top-12 z-50 hidden w-full items-center justify-center space-x-6 py-4 text-white md:flex">
       {/* <Link route="/about" text="About Us" /> */}
       {/* <Link route="/services" text="Services" /> */}
       <NoScrollLink href="/">

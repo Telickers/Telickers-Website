@@ -11,7 +11,7 @@ export default function MobileNavbar() {
 
   return (
     <>
-      <nav className="absolute top-3 flex w-full items-center justify-center py-7 px-4 md:hidden z-50">
+      <nav className="absolute top-8 flex w-full items-center justify-center py-7 px-4 md:hidden z-50">
         {/* Logo */}
         <NoScrollLink href="/">
           <img
