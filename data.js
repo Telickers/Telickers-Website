@@ -125,9 +125,9 @@ export const work = [
     inProgress: true,
   },
   {
-    name: "Real Estate",
+    name: "Samana Real Estate",
     imageSrc: "/projects/real-estate.png",
-    link: "https://real-estate.telickers.net/",
+    link: "https://samana.solutions",
     category: "Community",
     inProgress: true,
   },
