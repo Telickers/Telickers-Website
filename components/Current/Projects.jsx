@@ -13,7 +13,7 @@ export default function Projects() {
 
   useEffect(() => {
     setFiltered(
-      work.filter((project) => project.category === selectedCategory)
+      work.filter((project) => project.category.includes(selectedCategory))
     );
   }, [selectedCategory]);
 

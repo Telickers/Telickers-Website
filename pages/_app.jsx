@@ -1,8 +1,9 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Toaster } from "react-hot-toast";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 
-import WhatsappCTA from '@/components/Current/WhatsappCTA'
+import WhatsappCTA from "@/components/Current/WhatsappCTA";
 import Footer from "@/components/Layout/Footer";
 import "@/styles/globals.css";
 
@@ -27,11 +28,11 @@ function MyApp({ Component, pageProps, router }) {
   return (
     <>
       <Head>
-        <script async src="https://cdn.splitbee.io/sb.js"></script>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
+      <Analytics />
       <Toaster />
       <AnimatePresence
         mode="wait"
@@ -49,7 +50,7 @@ function MyApp({ Component, pageProps, router }) {
           {Component.noFooter ? null : <Footer />}
         </motion.main>
       </AnimatePresence>
-      <WhatsappCTA/>
+      <WhatsappCTA />
     </>
   );
 }
