@@ -125,7 +125,7 @@ export default function Projects() {
                 <FiExternalLink size={22} color="white" className="mt-1" />
               </div>
               <div className="mt-3 flex items-center space-x-2 lg:hidden">
-                <h3 className="text-3xl">{project.name}</h3>
+                <h3 className="text-2xl">{project.name}</h3>
                 <FiExternalLink size={20} className="mt-1 animate-pulse" />
               </div>
             </a>
