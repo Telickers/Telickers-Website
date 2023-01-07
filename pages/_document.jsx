@@ -16,11 +16,9 @@ class MyDocument extends Document {
 
 export default MyDocument;
 
-
 function AppMeta() {
   return (
     <Head>
-      
       {/* <!-- Favicon --> */}
       <link
         rel="apple-touch-icon"
@@ -44,9 +42,12 @@ function AppMeta() {
       {/* <!-- Google Meta Tags --> */}
       <meta
         name="description"
-        content="Expert Web Development team providing high-quality & cost-effective solutions."
+        content="Life is too short for not having a beautifully designed, simple to use and user friendly website."
       />
-      <meta name="keywords" content="business web website webdesign webdevelopment development e-commerce landing-page portfolio blogs domain names custom emails ui ux design prototype interfacedesign designsupport" />
+      <meta
+        name="keywords"
+        content="business web website webdesign webdevelopment development e-commerce landing-page portfolio blogs domain names custom emails ui ux design prototype interfacedesign designsupport"
+      />
       <meta name="author" content="Telickers" />
       <meta name="copyright" content="Telickers" />
       <meta name="application-name" content="Telickers" />
@@ -57,7 +58,7 @@ function AppMeta() {
       <meta property="og:title" content="Telickers" />
       <meta
         property="og:description"
-        content="Expert Web Development team providing high-quality & cost-effective solutions."
+        content="Life is too short for not having a beautifully designed, simple to use and user friendly website."
       />
       <meta
         property="og:image"
@@ -71,7 +72,7 @@ function AppMeta() {
       <meta name="twitter:title" content="Telickers" />
       <meta
         name="twitter:description"
-        content="Expert Web Development team providing high-quality & cost-effective solutions."
+        content="Life is too short for not having a beautifully designed, simple to use and user friendly website."
       />
       <meta
         name="twitter:image"

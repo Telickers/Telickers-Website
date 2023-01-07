@@ -53,7 +53,7 @@ export default function Hero() {
             </div>
           </div>
         </section>
-        <div className="absolute bottom-12 flex w-full items-center justify-center">
+        <div className="absolute bottom-16 flex w-full items-center justify-center">
           
         <button
           className="animate-bounce"

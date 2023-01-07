@@ -4,8 +4,8 @@ import { BsPaletteFill } from "react-icons/bs";
 export const members = [
   {
     name: "Mohamad Nouredeen",
-    role: "UI/UX Designer & Developer",
-    bio: "UI/UX Designer | Web Design & Graphics Enthusiast | Expert Wordpress Developer.",
+    role: "UI/UX Designer",
+    bio: "UI/UX Designer | Web Design & Graphics Enthusiast.",
     image: "/team/jawad.jpg",
     facebookUrl: "https://www.facebook.com/mohammad.jawadnouredine.7",
     instagramUrl: "https://www.instagram.com/jawad.n2022/",
@@ -13,8 +13,8 @@ export const members = [
   },
   {
     name: "Hussein Hassan",
-    role: "Creative Web Developer",
-    bio: "Full-Stack Creative Web Developer | React & Nextjs Expert | 3D Websites Enthusiast.",
+    role: "Full-Stack Web Developer",
+    bio: "Full-Stack Web Developer | Nextjs & Serverless Expert.",
     image: "/team/husn.jpg",
     facebookUrl: "https://www.facebook.com/profile.php?id=100062471768466",
     instagramUrl: "https://www.instagram.com/developer_husn_hsn/",
@@ -23,7 +23,7 @@ export const members = [
   {
     name: "Abed Al-Hussein Saade",
     role: "Front-End Web Developer",
-    bio: "Front-end Web Developer | React & JavaScript Expert | TailwindCSS Enthusiast.",
+    bio: "Front-end Web Developer | React & JavaScript Expert.",
     image: "/team/abed.jpg",
     facebookUrl: "https://www.facebook.com/profile.php?id=100009450997072",
     instagramUrl: "https://www.instagram.com/abedalhussain_saade/",
@@ -118,7 +118,7 @@ export const work = [
     category: ["Digital Menu"],
   },
   {
-    name: "Samana Real Estate",
+    name: "Samana Solutions",
     imageSrc: "/projects/real-estate.png",
     link: "https://samana.solutions",
     category: ["Community"],

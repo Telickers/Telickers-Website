@@ -23,6 +23,7 @@ export default function Projects() {
       className="bg-brand px-8 py-20 pt-32 md:px-20"
     >
       <motion.h2
+        id="work"
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{
           scale: 1,
@@ -30,7 +31,6 @@ export default function Projects() {
           transition: { duration: 0.6 },
         }}
         viewport={{ once: true, amount: 0.7 }}
-        id="featured-work"
         className="text-center text-5xl font-bold xs:text-4xl"
       >
         Our Work
@@ -116,7 +116,9 @@ export default function Projects() {
         {filtered.map((project) => (
           <div
             key={project.name}
-            className={`z-50 group relative h-full w-full transition-all duration-300 ease-in-out lg:hover:scale-95 ${project.inProgress && "card"}`}
+            className={`group relative z-50 h-full w-full transition-all duration-300 ease-in-out lg:hover:scale-95 ${
+              project.inProgress && "card"
+            }`}
           >
             <a href={project.link} target="_blank" rel="noreferrer">
               <BlurImage imageSrc={project.imageSrc} />

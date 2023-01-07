@@ -7,6 +7,7 @@ export default function TeamGrid() {
   return (
     <section className="hidden py-24 lg:block">
       <motion.h2
+        id="about"
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{
           scale: 1,
