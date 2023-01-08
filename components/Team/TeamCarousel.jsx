@@ -35,7 +35,6 @@ export default function TeamCarousel() {
     <section className="block py-24 lg:hidden">
       <div className="flex flex-col items-center justify-center">
         <motion.h2
-          id="about"
           initial={{ scale: 0, opacity: 0 }}
           whileInView={{
             scale: 1,

@@ -1,35 +1,41 @@
-import { useRouter } from "next/router";
+import { Link } from "react-scroll";
 
 export default function LargeNavbar() {
   return (
     <nav className="absolute top-12 z-50 hidden w-full items-center justify-center space-x-6 py-4 text-white md:flex">
-      {/* <Link route="/about" text="About Us" /> */}
-      {/* <Link route="/services" text="Services" /> */}
-        <img
-          src="/general/telickers-logo.svg"
-          alt="Telickers Logo"
-          className="mx-5 w-56 cursor-pointer"
-        />
-      {/* <Link route="/work" text="Our Work" /> */}
-      {/* <Link route="/contact" text=" Contact Us" /> */}
-    </nav>
-  );
-}
-
-function Link({ route, text }) {
-  const router = useRouter();
-  const pathname = router.pathname;
-  const isActive = route === pathname;
-
-  return (
-    <NoScrollLink href={route} passHref>
-      <span
-        className={`cursor-pointer border-b border-transparent transition-all duration-300 ease-in-out hover:border-b-white ${
-          isActive && "border-b-white font-semibold"
-        }`}
+      <Link
+        to="about"
+        smooth={true}
+        className="cursor-pointer border-b border-transparent transition-all duration-300 ease-in-out hover:border-b-white"
       >
-        {text}
-      </span>
-    </NoScrollLink>
+        About Us
+      </Link>
+       <Link
+        to="services"
+        smooth={true}
+        className="cursor-pointer border-b border-transparent transition-all duration-300 ease-in-out hover:border-b-white"
+      >
+        Our Services
+      </Link>
+      <img
+        src="/general/telickers-logo.svg"
+        alt="Telickers Logo"
+        className="mx-5 w-56 cursor-pointer"
+      />
+       <Link
+        to="work"
+        smooth={true}
+        className="cursor-pointer border-b border-transparent transition-all duration-300 ease-in-out hover:border-b-white"
+      >
+        Our Work
+      </Link>
+       <Link
+        to="contact"
+        smooth={true}
+        className="cursor-pointer border-b border-transparent transition-all duration-300 ease-in-out hover:border-b-white"
+      >
+        Contact Us
+      </Link>
+    </nav>
   );
 }
