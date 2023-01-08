@@ -51,26 +51,8 @@ export default function Footer() {
         e-mail: <a href="mailto:hello@telickers.net">hello@telickers.net</a>{" "}
       </p>
       <p className="pt-2 text-sm text-gray-500">
-        © {new Date().getFullYear()} Telickers. All rights reserved
+        © 2022 - {new Date().getFullYear()} Telickers. All rights reserved
       </p>
     </footer>
   );
 }
-
-// function Link({ route, text }) {
-//   const router = useRouter();
-//   const pathname = router.pathname;
-//   const isActive = route === pathname;
-
-//   return (
-//     <Link href={route} passHref>
-//       <span
-//         className={`on-hover-text-linear cursor-pointer ${
-//           isActive && "text-linear"
-//         }`}
-//       >
-//         {text}
-//       </span>
-//     </Link>
-//   );
-// }

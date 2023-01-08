@@ -1,4 +1,4 @@
-import NoScrollLink from "@/components/Legacy/NoScrollLink";
+import Link from "next/link";
 
 export default function NotFoundPage() {
   return (
@@ -9,11 +9,11 @@ export default function NotFoundPage() {
             <h1 className="text-center text-6xl font-thin text-gray-800">
               GOT LOST ?
             </h1>
-            <NoScrollLink href="/" passhref>
+            <Link href="/" passhref>
               <button className="w-32 rounded-md border-b border-blue-600 bg-blue-600 px-3 py-2 text-2xl font-light uppercase text-white transition duration-200 ease-in focus:outline-none">
                 Help Me
               </button>
-            </NoScrollLink>
+            </Link>
           </div>
           <div className="relative mx-auto mt-6 block w-full md:mt-0">
             <svg

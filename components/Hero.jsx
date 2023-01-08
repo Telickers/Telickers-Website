@@ -2,7 +2,7 @@ import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import { GiTronArrow } from "react-icons/gi";
 
-import Navbar from "../Layout/Navbar";
+import Navbar from "./Layout/Navbar";
 
 export default function Hero() {
   return (

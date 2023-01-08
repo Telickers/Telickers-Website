@@ -64,7 +64,7 @@ export default function TeamCarousel() {
             className="w-[55px] cursor-pointer"
           />
           <div className="flex w-[270px] flex-col items-center md:w-[300px]">
-            <AnimatePresence exitBeforeEnter={true}>
+            <AnimatePresence mode="wait">
               <motion.img
                 key={page}
                 src={members[memberIndex].image}
