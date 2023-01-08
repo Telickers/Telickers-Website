@@ -8,7 +8,7 @@ export default function ServicesSection() {
     <section aria-labelledby="services-section" className="py-24">
       <div className="flex flex-col items-center justify-center">
         <motion.h2
-          id="services"
+          
           initial={{ scale: 0, opacity: 0 }}
           whileInView={{
             scale: 1,
