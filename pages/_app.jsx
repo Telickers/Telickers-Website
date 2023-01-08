@@ -6,7 +6,6 @@ import WhatsappCTA from "@/components/WhatsappCTA";
 import Footer from "@/components/Layout/Footer";
 import "@/styles/globals.css";
 
-
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -18,8 +17,8 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Analytics />
       <Toaster />
-          <Component {...pageProps} />
-          {Component.noFooter ? null : <Footer />}
+      <Component {...pageProps} />
+      {Component.noFooter ? null : <Footer />}
       <WhatsappCTA />
     </>
   );

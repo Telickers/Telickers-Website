@@ -1,41 +1,51 @@
-import { Link } from "react-scroll";
-
 export default function LargeNavbar() {
   return (
     <nav className="absolute top-12 z-50 hidden w-full items-center justify-center space-x-6 py-4 text-white md:flex">
-      <Link
-        to="about"
-        smooth={true}
+      <span
         className="cursor-pointer border-b border-transparent transition-all duration-300 ease-in-out hover:border-b-white"
+        onClick={() =>
+          document &&
+          document.querySelector(`#about`)?.scrollIntoView({ inline: "center" })
+        }
       >
         About Us
-      </Link>
-       <Link
-        to="services"
-        smooth={true}
+      </span>
+      <span
         className="cursor-pointer border-b border-transparent transition-all duration-300 ease-in-out hover:border-b-white"
+        onClick={() =>
+          document &&
+          document
+            .querySelector(`#services`)
+            ?.scrollIntoView({ inline: "center" })
+        }
       >
         Our Services
-      </Link>
+      </span>
       <img
         src="/general/telickers-logo.svg"
         alt="Telickers Logo"
         className="mx-5 w-56 cursor-pointer"
       />
-       <Link
-        to="work"
-        smooth={true}
+      <span
         className="cursor-pointer border-b border-transparent transition-all duration-300 ease-in-out hover:border-b-white"
+        onClick={() =>
+          document &&
+          document.querySelector(`#work`)?.scrollIntoView({ inline: "center" })
+        }
       >
         Our Work
-      </Link>
-       <Link
-        to="contact"
-        smooth={true}
+      </span>
+      <span
         className="cursor-pointer border-b border-transparent transition-all duration-300 ease-in-out hover:border-b-white"
+        onClick={() =>
+          document &&
+          document
+            .querySelector(`#contact`)
+            ?.scrollIntoView({ inline: "center" })
+        }
       >
         Contact Us
-      </Link>
+      </span>
     </nav>
   );
 }

@@ -54,19 +54,18 @@ export default function Hero() {
           </div>
         </section>
         <div className="absolute bottom-16 flex w-full items-center justify-center">
-          
-        <button
-          className="animate-bounce"
-          onClick={() => {
-            window?.scroll({
-              top: 775,
-              behavior: "smooth",
-            });
-          }}
+          <button
+            className="animate-bounce"
+            onClick={() => {
+              window?.scroll({
+                top: 775,
+                behavior: "smooth",
+              });
+            }}
           >
-          <GiTronArrow color="white" size={50} className="rotate-[67deg]" />
-        </button>
-          </div>
+            <GiTronArrow color="white" size={50} className="rotate-[67deg]" />
+          </button>
+        </div>
       </section>
     </>
   );

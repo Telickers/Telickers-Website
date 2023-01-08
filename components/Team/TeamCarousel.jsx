@@ -42,7 +42,7 @@ export default function TeamCarousel() {
             transition: { duration: 0.8 },
           }}
           viewport={{ once: true, amount: 0.7 }}
-          className="pb-16 xs:text-2xl text-4xl font-bold"
+          className="pb-16 text-4xl font-bold xs:text-2xl"
         >
           {"Who's Behind This ?"}
         </motion.h2>

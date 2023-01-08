@@ -6,8 +6,8 @@ import Form from "./Form";
 
 export default function RequestMeeting() {
   let [isOpen, setIsOpen] = useState(false);
-  
-  let submitButtonRef = useRef(null)
+
+  let submitButtonRef = useRef(null);
 
   const closeModal = () => setIsOpen(false);
 

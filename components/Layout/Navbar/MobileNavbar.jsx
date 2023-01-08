@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { useRouter } from "next/router";
 
 export default function MobileNavbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,15 +8,16 @@ export default function MobileNavbar() {
 
   return (
     <>
-      <nav className="absolute top-8 flex w-full items-center justify-center py-7 px-4 md:hidden z-50">
-        {/* Logo */}
+      <nav className="absolute top-8 z-50 flex w-full items-center justify-between py-7 px-4 md:hidden">
+        <img
+          src="/general/telickers-logo.svg"
+          alt="Telickers Logo"
+          className="w-40 cursor-pointer"
+        />
 
-          <img
-            src="/general/telickers-logo.svg"
-            alt="Telickers Logo"
-            className="w-40 cursor-pointer"
-          />
+        <ToggleMenuButton isOpen={isOpen} toggleOpen={toggleOpen} />
       </nav>
+      <SideMenu isOpen={isOpen} toggleOpen={toggleOpen} />
     </>
   );
 }
@@ -40,14 +40,11 @@ function ToggleMenuButton({ isOpen, toggleOpen }) {
 }
 
 function SideMenu({ isOpen, toggleOpen }) {
-  const router = useRouter();
-
   const links = [
-    { name: "Home", to: "/", id: 1 },
-    { name: "About Us", to: "/about", id: 2 },
-    { name: "Our Services", to: "/services", id: 3 },
-    { name: "Our Work", to: "/work", id: 4 },
-    { name: "Contact Us", to: "/contact", id: 5 },
+    { name: "About Us", to: "about", id: 1 },
+    { name: "Our Services", to: "services", id: 2 },
+    { name: "Our Work", to: "work", id: 3 },
+    { name: "Contact Us", to: "contact", id: 4 },
   ];
 
   const itemVariants = {
@@ -74,7 +71,7 @@ function SideMenu({ isOpen, toggleOpen }) {
 
   return (
     <div
-      className="absolute right-0 top-[95px] z-50 h-[265px] md:hidden"
+      className="absolute right-0 top-[95px] z-50 h-[218px] md:hidden"
       style={{ direction: "rtl" }}
     >
       <AnimatePresence>
@@ -102,11 +99,16 @@ function SideMenu({ isOpen, toggleOpen }) {
               {links.map(({ id, name, to }) => (
                 <motion.span
                   key={id}
-                  className={`cursor-pointer ${
-                    router.pathname === to && "text-linear font-semibold"
-                  }`}
+                  className="cursor-pointer"
                   onClick={() => {
-                    setTimeout(() => router.push(to), 600);
+                    setTimeout(
+                      () =>
+                        document &&
+                        document
+                          .querySelector(`#${to}`)
+                          ?.scrollIntoView({ inline: "center" }),
+                      550
+                    );
                     toggleOpen();
                   }}
                   variants={itemVariants}

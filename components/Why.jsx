@@ -5,11 +5,11 @@ import RequestMeeting from "./RequestMeeting";
 export default function Why() {
   return (
     <section
+      id="contact"
       aria-label="why telickers"
       className="flex items-center justify-center bg-brand py-20"
     >
       <motion.div
-        id="contact"
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{
           scale: 1,

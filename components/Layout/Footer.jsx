@@ -1,8 +1,4 @@
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { AiOutlineLine } from "react-icons/ai";
 import Link from "next/link";
 

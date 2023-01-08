@@ -11,7 +11,12 @@ export default function Home() {
       <section className="w-full bg-cyan-700 py-2 text-center text-white">
         <span>
           Stay Tuned! {"We're"} re-building this website in 3D{" "}
-          <a href="https://3d.telickers.net" target="_blank" rel="noreferrer" className="underline font-semibold text-yellow-500">
+          <a
+            href="https://3d.telickers.net"
+            target="_blank"
+            rel="noreferrer"
+            className="font-semibold text-yellow-500 underline"
+          >
             here
           </a>
         </span>
