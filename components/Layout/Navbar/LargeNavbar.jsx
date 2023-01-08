@@ -5,7 +5,7 @@ export default function LargeNavbar() {
         className="cursor-pointer border-b border-transparent transition-all duration-300 ease-in-out hover:border-b-white"
         onClick={() =>
           document &&
-          document.querySelector(`#about`)?.scrollIntoView({ inline: "center" })
+          document.querySelector(`#about`)?.scrollIntoView({ inline: "start", behavior: "smooth" })
         }
       >
         About Us
@@ -16,7 +16,7 @@ export default function LargeNavbar() {
           document &&
           document
             .querySelector(`#services`)
-            ?.scrollIntoView({ inline: "center" })
+            ?.scrollIntoView({ inline: "start", behavior: "smooth" })
         }
       >
         Our Services
@@ -30,7 +30,7 @@ export default function LargeNavbar() {
         className="cursor-pointer border-b border-transparent transition-all duration-300 ease-in-out hover:border-b-white"
         onClick={() =>
           document &&
-          document.querySelector(`#work`)?.scrollIntoView({ inline: "center" })
+          document.querySelector(`#work`)?.scrollIntoView({ inline: "start", behavior: "smooth" })
         }
       >
         Our Work
@@ -41,7 +41,7 @@ export default function LargeNavbar() {
           document &&
           document
             .querySelector(`#contact`)
-            ?.scrollIntoView({ inline: "center" })
+            ?.scrollIntoView({ inline: "start", behavior: "smooth" })
         }
       >
         Contact Us

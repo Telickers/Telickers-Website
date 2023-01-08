@@ -106,7 +106,10 @@ function SideMenu({ isOpen, toggleOpen }) {
                         document &&
                         document
                           .querySelector(`#${to}`)
-                          ?.scrollIntoView({ inline: "center" }),
+                          ?.scrollIntoView({
+                            inline: "start",
+                            behavior: "smooth",
+                          }),
                       550
                     );
                     toggleOpen();
