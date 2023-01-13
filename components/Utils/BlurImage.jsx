@@ -12,7 +12,7 @@ export default function BlurImage({ imageSrc, priority = false }) {
         src={imageSrc}
         width={850}
         height={850}
-        className={`duration-700 ease-in-out ${
+        className={`object-cover duration-700 ease-in-out ${
           isLoading
             ? "scale-110 blur-2xl grayscale"
             : "scale-100 blur-0 grayscale-0"

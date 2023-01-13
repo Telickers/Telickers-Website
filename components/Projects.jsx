@@ -24,6 +24,7 @@ export default function Projects() {
       className="bg-brand px-8 py-20 pt-32 md:px-20"
     >
       <motion.h2
+        
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{
           scale: 1,
@@ -43,7 +44,7 @@ export default function Projects() {
           transition: { duration: 0.9 },
         }}
         viewport={{ once: true, amount: 0.7 }}
-        className="m-4 pb-4 text-center text-xl font-bold text-gray-600 md:text-3xl"
+        className="m-4 pb-6 text-center text-xl font-bold text-gray-600 md:text-3xl"
       >
         We design and build for people. And we are pretty good at it.
       </motion.h3>

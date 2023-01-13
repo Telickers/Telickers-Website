@@ -113,8 +113,8 @@ export const work = [
     category: ["Digital Menu"],
   },
   {
-    name: "Samana Real Estate",
-    imageSrc: "/projects/real-estate.png",
+    name: "Samana Solutions",
+    imageSrc: "/projects/samana.png",
     link: "https://samana.solutions",
     category: ["General"],
     inProgress: true,
