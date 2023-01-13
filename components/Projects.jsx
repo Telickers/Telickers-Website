@@ -6,7 +6,7 @@ import { work } from "data";
 import BlurImage from "./Utils/BlurImage";
 
 export default function Projects() {
-  const [selectedCategory, setSelectedCategory] = useState("Portfolio");
+  const [selectedCategory, setSelectedCategory] = useState("General");
   const [filtered, setFiltered] = useState(
     work.filter((project) => project.category === selectedCategory)
   );
@@ -19,11 +19,11 @@ export default function Projects() {
 
   return (
     <section
+    id="work"
       aria-labelledby="our-projects"
       className="bg-brand px-8 py-20 pt-32 md:px-20"
     >
       <motion.h2
-        id="work"
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{
           scale: 1,
@@ -48,66 +48,26 @@ export default function Projects() {
         We design and build for people. And we are pretty good at it.
       </motion.h3>
       <div className="grid grid-cols-2 place-items-center gap-3 pb-12 md:grid-cols-4 md:pb-16">
-        <div
-          className="flex w-fit cursor-pointer flex-col items-center justify-center space-y-1"
-          onClick={() => setSelectedCategory("Portfolio")}
-        >
-          <span>Portfolios</span>
-          {selectedCategory === "Portfolio" && (
-            <motion.div
-              layoutId="underline"
-              className="h-1 w-full bg-black"
-            ></motion.div>
-          )}
-          {selectedCategory !== "Portfolio" && (
-            <motion.div className="h-1 w-full bg-brand"></motion.div>
-          )}
-        </div>
-        <div
-          className="flex w-fit cursor-pointer flex-col items-center justify-center space-y-1"
-          onClick={() => setSelectedCategory("E-commerce")}
-        >
-          <span>E-Commerce</span>
-          {selectedCategory === "E-commerce" && (
-            <motion.div
-              layoutId="underline"
-              className="h-1 w-full bg-black"
-            ></motion.div>
-          )}
-          {selectedCategory !== "E-commerce" && (
-            <motion.div className="h-1 w-full bg-brand"></motion.div>
-          )}
-        </div>
-        <div
-          className="flex w-fit cursor-pointer flex-col items-center justify-center space-y-1"
-          onClick={() => setSelectedCategory("Digital Menu")}
-        >
-          <span>Digital Menus</span>
-          {selectedCategory === "Digital Menu" && (
-            <motion.div
-              layoutId="underline"
-              className="h-1 w-full bg-black"
-            ></motion.div>
-          )}
-          {selectedCategory !== "Digital Menu" && (
-            <motion.div className="h-1 w-full bg-brand"></motion.div>
-          )}
-        </div>
-        <div
-          className="flex w-fit cursor-pointer flex-col items-center justify-center space-y-1"
-          onClick={() => setSelectedCategory("Community")}
-        >
-          <span>Community</span>
-          {selectedCategory === "Community" && (
-            <motion.div
-              layoutId="underline"
-              className="h-1 w-full bg-black"
-            ></motion.div>
-          )}
-          {selectedCategory !== "Community" && (
-            <motion.div className="h-1 w-full bg-brand"></motion.div>
-          )}
-        </div>
+        {["General", "E-commerce", "Digital Menu", "Portfolio"].map(
+          (category) => (
+            <div
+              key={category}
+              className="flex w-fit cursor-pointer flex-col items-center justify-center space-y-1"
+              onClick={() => setSelectedCategory(category)}
+            >
+              <span>{category}</span>
+              {selectedCategory === category && (
+                <motion.div
+                  layoutId="underline"
+                  className="h-1 w-full bg-black"
+                ></motion.div>
+              )}
+              {selectedCategory !== category && (
+                <motion.div className="h-1 w-full bg-brand"></motion.div>
+              )}
+            </div>
+          )
+        )}
       </div>
       <section
         aria-labelledby="projects-grid"

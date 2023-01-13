@@ -92,12 +92,7 @@ export const work = [
     category: ["E-commerce"],
     inProgress: true,
   },
-  {
-    name: "Deebee Shop",
-    imageSrc: "/projects/deebee.png",
-    link: "https://deebee.shop",
-    category: ["E-commerce"],
-  },
+
   {
     name: "Safawi Jewelry",
     imageSrc: "/projects/safawi.png",
@@ -118,24 +113,17 @@ export const work = [
     category: ["Digital Menu"],
   },
   {
-    name: "Samana Solutions",
+    name: "Samana Real Estate",
     imageSrc: "/projects/real-estate.png",
     link: "https://samana.solutions",
-    category: ["Community"],
+    category: ["General"],
     inProgress: true,
   },
   {
     name: "Figs & Olives",
     imageSrc: "/projects/fopublications.png",
     link: "https://fopublications.com/",
-    category: ["E-commerce", "Community"],
-    inProgress: true,
-  },
-  {
-    name: "Ahlul-Bayt Center",
-    imageSrc: "/projects/abis.png",
-    link: "https://ahlul-bayt.ca/en/home/",
-    category: ["Community"],
+    category: ["General"],
     inProgress: true,
   },
 ];

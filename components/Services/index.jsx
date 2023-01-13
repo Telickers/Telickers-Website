@@ -6,7 +6,7 @@ import { services } from "data";
 export default function ServicesSection() {
   return (
     <section aria-labelledby="services-section" className="py-24">
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center" id="services">
         <motion.h2
           initial={{ scale: 0, opacity: 0 }}
           whileInView={{
@@ -15,7 +15,7 @@ export default function ServicesSection() {
             transition: { duration: 0.8 },
           }}
           viewport={{ once: true, amount: 0.7 }}
-          id="services"
+          
           className="text-center text-5xl font-bold xs:text-4xl"
         >
           What We Do
