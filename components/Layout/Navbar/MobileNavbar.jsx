@@ -8,7 +8,7 @@ export default function MobileNavbar() {
 
   return (
     <>
-      <nav className="z-50 flex w-full items-center justify-between py-7 px-4 md:hidden">
+      <nav className="absolute z-50 flex w-full items-center justify-between py-7 px-4 md:hidden">
         <img
           src="/general/telickers-logo.svg"
           alt="Telickers Logo"

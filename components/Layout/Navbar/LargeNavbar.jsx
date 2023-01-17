@@ -1,6 +1,6 @@
 export default function LargeNavbar() {
   return (
-    <nav className="z-50 hidden w-full items-center justify-center space-x-6 py-4 text-white md:flex">
+    <nav className="absolute z-50 hidden w-full items-center justify-center space-x-6 py-4 text-white md:flex">
       <span
         className="cursor-pointer border-b border-transparent transition-all duration-300 ease-in-out hover:border-b-white"
         onClick={() =>

@@ -25,17 +25,17 @@ export default function Hero() {
                 onInit={(typewriter) => {
                   typewriter
                     .typeString("Who facilitates your presence on the web")
-                    .pauseFor(1400)
+                    .pauseFor(2000)
                     .deleteAll()
                     .typeString(
                       "Who makes memorable sites that grow your business"
                     )
-                    .pauseFor(1400)
+                    .pauseFor(2000)
                     .deleteAll()
                     .typeString(
                       "Who builds fun & enjoyable experiences on the web"
                     )
-                    .pauseFor(1400)
+                    .pauseFor(2000)
                     .start();
                 }}
               />
