@@ -1,11 +1,13 @@
 export default function LargeNavbar() {
   return (
-    <nav className="absolute top-12 z-50 hidden w-full items-center justify-center space-x-6 py-4 text-white md:flex">
+    <nav className="z-50 hidden w-full items-center justify-center space-x-6 py-4 text-white md:flex">
       <span
         className="cursor-pointer border-b border-transparent transition-all duration-300 ease-in-out hover:border-b-white"
         onClick={() =>
           document &&
-          document.querySelector(`#about`)?.scrollIntoView({ inline: "start", behavior: "smooth" })
+          document
+            .querySelector(`#about`)
+            ?.scrollIntoView({ inline: "start", behavior: "smooth" })
         }
       >
         About Us
@@ -30,7 +32,9 @@ export default function LargeNavbar() {
         className="cursor-pointer border-b border-transparent transition-all duration-300 ease-in-out hover:border-b-white"
         onClick={() =>
           document &&
-          document.querySelector(`#work`)?.scrollIntoView({ inline: "start", behavior: "smooth" })
+          document
+            .querySelector(`#work`)
+            ?.scrollIntoView({ inline: "start", behavior: "smooth" })
         }
       >
         Our Work
