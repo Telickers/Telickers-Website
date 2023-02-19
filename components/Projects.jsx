@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { FiExternalLink } from "react-icons/fi";
@@ -19,12 +21,11 @@ export default function Projects() {
 
   return (
     <section
-    id="work"
+      id="work"
       aria-labelledby="our-projects"
       className="bg-brand px-8 py-20 pt-32 md:px-20"
     >
       <motion.h2
-        
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{
           scale: 1,

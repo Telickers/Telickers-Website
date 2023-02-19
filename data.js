@@ -92,14 +92,6 @@ export const work = [
     category: ["E-commerce"],
     inProgress: true,
   },
-
-  {
-    name: "Safawi Jewelry",
-    imageSrc: "/projects/safawi.png",
-    link: "https://safawijewelry.com",
-    category: ["E-commerce"],
-    inProgress: true,
-  },
   {
     name: "Al-Amir Juice",
     imageSrc: "/projects/al-amir.png",
@@ -113,9 +105,9 @@ export const work = [
     category: ["Digital Menu"],
   },
   {
-    name: "Samana Solutions",
+    name: "Samana Land",
     imageSrc: "/projects/samana.png",
-    link: "https://samana.solutions",
+    link: "https://samana.land",
     category: ["General"],
     inProgress: true,
   },

@@ -2,14 +2,7 @@ import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { AiOutlineLine } from "react-icons/ai";
 import Link from "next/link";
 
-import useLanguage from "../../hooks/useLanguage";
-import useContent from "hooks/useContent";
-
 export default function Footer() {
-  const { locale, setLanguage } = useLanguage();
-
-  const content = useContent();
-
   return (
     <footer className="pb-6 pt-14 text-center">
       <Link href="/" passhref>
@@ -54,15 +47,8 @@ export default function Footer() {
         e-mail: <a href="mailto:hello@telickers.net">hello@telickers.net</a>{" "}
       </p>
       <p className="pt-2 text-sm text-gray-500">
-        © 2022 - {new Date().getFullYear()} {content.footer}
+        © 2022 - {new Date().getFullYear()} Telickers. All rights reserved
       </p>
-      <div>
-        {locale === "en" ? (
-          <button onClick={() => setLanguage("ar")}>Switch to AR</button>
-        ) : (
-          <button onClick={() => setLanguage("en")}>Switch to EN</button>
-        )}
-      </div>
     </footer>
   );
 }

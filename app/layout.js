@@ -1,24 +1,23 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import WhatsappCTA from "@/components/WhatsappCTA";
+import Footer from "@/components/Layout/Footer";
+import "@/styles/globals.css";
 
-class MyDocument extends Document {
-  render() {
-    return (
-      <Html lang="en" dir="ltr">
-        <AppMeta />
-        <body>
-          <Main />
-          <NextScript />
-        </body>
-      </Html>
-    );
-  }
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <AppMeta />
+      <body>
+        {children}
+        <Footer />
+        <WhatsappCTA />
+      </body>
+    </html>
+  );
 }
-
-export default MyDocument;
 
 function AppMeta() {
   return (
-    <Head>
+    <head>
       {/* <!-- Favicon --> */}
       <link
         rel="apple-touch-icon"
@@ -38,19 +37,6 @@ function AppMeta() {
         href="/favicon-16x16.png"
       />
       <link rel="manifest" href="/site.webmanifest" />
-
-      {/* <!-- Google Meta Tags --> */}
-      <meta
-        name="description"
-        content="Life is too short for not having a beautifully designed, simple to use and user friendly website."
-      />
-      <meta
-        name="keywords"
-        content="business web website webdesign webdevelopment development e-commerce landing-page portfolio blogs domain names custom emails ui ux design prototype interfacedesign designsupport"
-      />
-      <meta name="author" content="Telickers" />
-      <meta name="copyright" content="Telickers" />
-      <meta name="application-name" content="Telickers" />
 
       {/* <!-- Facebook Meta Tags --> */}
       <meta property="og:url" content="https://telickers.net/" />
@@ -78,6 +64,50 @@ function AppMeta() {
         name="twitter:image"
         content="https://res.cloudinary.com/dtp45ukcw/image/upload/v1655873178/Logo_khnerg.jpg"
       />
-    </Head>
+
+      <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    </head>
   );
 }
+
+export const metadata = {
+  title: "Telickers | Web Development",
+  description:
+    "Life is too short for not having a beautifully designed, simple to use and user friendly website.",
+  keywords: [
+    "business",
+    "web",
+    "website",
+    "webdesign",
+    "webdevelopment",
+    "development",
+    "e-commerce",
+    "landing-page",
+    "portfolio",
+    "blogs",
+    "domain",
+    "names",
+    "custom",
+    "emails",
+    "ui",
+    "ux",
+    "design",
+    "prototype",
+    "interfacedesign",
+    "designsupport",
+  ],
+  generator: "Telickers",
+  applicationName: "Telickers",
+  referrer: "origin-when-crossorigin",
+  authors: [{ name: "Telickers", url: "https://Telickers.net" }],
+  themeColor: "telickersTight",
+  colorScheme: "light",
+  creator: "Telickers",
+  copyright: "Telickers",
+  publisher: "Telickers",
+  formatDetection: {
+    email: "no",
+    address: "no",
+    telephone: "no",
+  },
+};

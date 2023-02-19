@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion";
 
 import ServiceItem from "./ServiceItem";
@@ -15,7 +17,6 @@ export default function ServicesSection() {
             transition: { duration: 0.8 },
           }}
           viewport={{ once: true, amount: 0.7 }}
-          
           className="text-center text-5xl font-bold xs:text-4xl"
         >
           What We Do

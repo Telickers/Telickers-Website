@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import "@/styles/globals.css";
+
 export default function NotFoundPage() {
   return (
     <main className="relative h-screen overflow-hidden bg-white">
