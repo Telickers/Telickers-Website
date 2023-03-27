@@ -7,7 +7,7 @@ import Bio from "./Bio";
 
 export default function TeamGrid() {
   return (
-    <section className="hidden py-24 lg:block">
+    <section className="py-24">
       <motion.h2
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{
@@ -16,11 +16,11 @@ export default function TeamGrid() {
           transition: { duration: 0.8 },
         }}
         viewport={{ once: true, amount: 0.7 }}
-        className="pb-16 text-center text-5xl font-bold"
+        className="pb-16 text-center text-4xl font-bold xs:text-2xl"
       >
         {"Who's Behind This ?"}
       </motion.h2>
-      <div className="grid grid-cols-3 place-items-center gap-5">
+      <div className="grid grid-cols-1 place-items-center gap-12 lg:grid-cols-3 lg:gap-5">
         {members.map((member) => (
           <motion.div
             initial={{ scale: 0, opacity: 0 }}

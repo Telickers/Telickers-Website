@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="pb-6 pt-14 text-center">
-      <Link href="/" passhref>
+      <Link href="/">
         <img
           src="/general/telickers-logo-dark.svg"
           alt="Telickers Logo"
