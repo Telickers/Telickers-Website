@@ -82,6 +82,13 @@ export const work = [
     bgColor: "bg-yellow-500",
   },
   {
+    name: "K&H Painting",
+    imageSrc: "/projects/kh-painting.png",
+    link: "https://paintingkh.ca",
+    category: "Landing Page",
+    bgColor: "bg-yellow-500",
+  },
+  {
     name: "Valeo",
     imageSrc: "/projects/valeo.png",
     link: "https://valeo.care",
