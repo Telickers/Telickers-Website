@@ -39,7 +39,7 @@ export default function Projects() {
       </motion.h3>
       <section
         aria-labelledby="projects-grid"
-        className="grid grid-cols-1 place-items-center gap-12 md:grid-cols-2 lg:grid-cols-3"
+        className="grid grid-cols-1 place-items-center gap-12 gap-y-20 md:grid-cols-2 md:gap-y-12 lg:grid-cols-3"
       >
         {work.map((project) => (
           <div

@@ -75,6 +75,13 @@ export const work = [
     bgColor: "bg-blue-600",
   },
   {
+    name: "Third Home",
+    imageSrc: "/projects/3rd-home.png",
+    link: "https://3rdhome.org",
+    category: "Landing Page",
+    bgColor: "bg-yellow-500",
+  },
+  {
     name: "K&H Basements",
     imageSrc: "/projects/khbasements.png",
     link: "https://khbasementrenos.ca",
@@ -89,11 +96,32 @@ export const work = [
     bgColor: "bg-yellow-500",
   },
   {
+    name: "Al-Amir Juice",
+    imageSrc: "/projects/al-amir.png",
+    link: "https://al-amir-menu.telickers.net",
+    category: "Digital Menu",
+    bgColor: "bg-orange-500",
+  },
+  {
+    name: "Safawi Jewelry",
+    imageSrc: "/projects/safawi.png",
+    link: "https://safawijewelry.com",
+    category: "E-Commerce",
+    bgColor: "bg-green-500",
+  },
+  {
     name: "Valeo",
     imageSrc: "/projects/valeo.png",
     link: "https://valeo.care",
     category: "Landing Page",
     bgColor: "bg-yellow-500",
+  },
+  {
+    name: "Figs & Olives",
+    imageSrc: "/projects/fopublications.png",
+    link: "https://fopublications.com/",
+    category: "Educational",
+    bgColor: "bg-indigo-600",
   },
   {
     name: "A2Solution",
@@ -110,24 +138,10 @@ export const work = [
     bgColor: "bg-yellow-500",
   },
   {
-    name: "Al-Amir Juice",
-    imageSrc: "/projects/al-amir.png",
-    link: "https://al-amir-menu.telickers.net",
-    category: "Digital Menu",
-    bgColor: "bg-orange-500",
-  },
-  {
     name: "Tortilla House",
     imageSrc: "/projects/tortilla.png",
     link: "https://tortilla-house.telickers.net",
     category: "Digital Menu",
     bgColor: "bg-orange-500",
-  },
-  {
-    name: "Figs & Olives",
-    imageSrc: "/projects/fopublications.png",
-    link: "https://fopublications.com/",
-    category: "Educational",
-    bgColor: "bg-indigo-500",
   },
 ];
