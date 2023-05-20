@@ -110,6 +110,13 @@ export const work = [
     bgColor: "bg-orange-500",
   },
   {
+    name: "Carinos",
+    imageSrc: "/projects/carinos.png",
+    link: "https://carinos.smartvillagelb.com",
+    category: "Digital Menu",
+    bgColor: "bg-orange-500",
+  },
+  {
     name: "Valeo",
     imageSrc: "/projects/valeo.png",
     link: "https://valeo.care",
