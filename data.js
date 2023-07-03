@@ -42,7 +42,6 @@ export const services = [
       "Designing modern-look web user interfaces.",
       "Creating wireframes & Low-Fidelity prototypes.",
       "Testing & analyzing user experience design.",
-      "Designing 3D graphics on the web with Blender & Threejs.",
       "Custom website design with Figma.",
       "Interactive website animations.",
       "Responsive web design.",
@@ -61,7 +60,7 @@ export const services = [
       "Custom website development with modern tech.",
       "Blog websites for content creators.",
       "Complex Dashboards and business management systems.",
-      "Rebuilding & Improving bad websites.",
+      "Rebuilding & Improving poor websites.",
     ],
   },
 ];
@@ -73,6 +72,13 @@ export const work = [
     link: "https://3rdhome.org",
     category: "Landing Page",
     bgColor: "bg-yellow-500",
+  },
+  {
+    name: "Samana Land",
+    imageSrc: "/projects/samana.png",
+    link: "https://samana.land",
+    category: "Real Estate",
+    bgColor: "bg-green-600",
   },
   {
     name: "Nazar Construction",
@@ -116,13 +122,13 @@ export const work = [
     category: "Digital Menu",
     bgColor: "bg-orange-500",
   },
-  {
-    name: "Valeo",
-    imageSrc: "/projects/valeo.png",
-    link: "https://valeo.care",
-    category: "Landing Page",
-    bgColor: "bg-yellow-500",
-  },
+  // {
+  //   name: "Valeo",
+  //   imageSrc: "/projects/valeo.png",
+  //   link: "https://valeo.care",
+  //   category: "Landing Page",
+  //   bgColor: "bg-yellow-500",
+  // },
   {
     name: "Tortilla House",
     imageSrc: "/projects/tortilla.png",
