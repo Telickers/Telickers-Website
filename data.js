@@ -67,13 +67,6 @@ export const services = [
 
 export const work = [
   {
-    name: "Third Home",
-    imageSrc: "/projects/3rd-home.png",
-    link: "https://3rdhome.org",
-    category: "Landing Page",
-    bgColor: "bg-yellow-500",
-  },
-  {
     name: "Samana Land",
     imageSrc: "/projects/samana.png",
     link: "https://samana.land",
