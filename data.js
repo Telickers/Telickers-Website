@@ -84,7 +84,7 @@ export const work = [
     name: "Figs & Olives",
     imageSrc: "/projects/fopublications.png",
     link: "https://fopublications.com/",
-    category: "E-commmerce",
+    category: "E-commerce",
     bgColor: "bg-pink-600",
   },
   {
