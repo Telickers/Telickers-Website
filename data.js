@@ -81,6 +81,13 @@ export const work = [
     bgColor: "bg-indigo-500",
   },
   {
+    name: "Figs & Olives",
+    imageSrc: "/projects/fopublications.png",
+    link: "https://fopublications.com/",
+    category: "E-commmerce",
+    bgColor: "bg-pink-600",
+  },
+  {
     name: "Nazar Construction",
     imageSrc: "/projects/nazar.png",
     link: "https://nazarconstruction.com",
@@ -100,13 +107,6 @@ export const work = [
     link: "https://a2solution.ca",
     category: "Landing Page",
     bgColor: "bg-yellow-500",
-  },
-  {
-    name: "Figs & Olives",
-    imageSrc: "/projects/fopublications.png",
-    link: "https://fopublications.com/",
-    category: "Educational",
-    bgColor: "bg-pink-600",
   },
   {
     name: "Al-Amir Juice",
