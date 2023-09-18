@@ -74,6 +74,13 @@ export const work = [
     bgColor: "bg-green-600",
   },
   {
+    name: "Smart Village",
+    imageSrc: "/projects/smart-village.png",
+    link: "https://smartvillage.net",
+    category: "Community",
+    bgColor: "bg-indigo-500",
+  },
+  {
     name: "Nazar Construction",
     imageSrc: "/projects/nazar.png",
     link: "https://nazarconstruction.com",
@@ -99,7 +106,7 @@ export const work = [
     imageSrc: "/projects/fopublications.png",
     link: "https://fopublications.com/",
     category: "Educational",
-    bgColor: "bg-indigo-600",
+    bgColor: "bg-pink-600",
   },
   {
     name: "Al-Amir Juice",
