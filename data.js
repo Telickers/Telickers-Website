@@ -4,8 +4,8 @@ import { BsPaletteFill } from "react-icons/bs";
 export const members = [
   {
     name: "Mohamad Nouredeen",
-    role: "UI/UX Designer",
-    bio: "UI/UX Designer | Web Design & Graphics Expert.",
+    role: "UI/UX Designer & Developer",
+    bio: "UI/UX Designer & Developer | Web Design & Front-End Enthusiast.",
     image: "/team/jawad.jpg",
     facebookUrl: "https://www.facebook.com/mohammad.jawadnouredine.7",
     instagramUrl: "https://www.instagram.com/jawad.n2022/",
@@ -14,7 +14,7 @@ export const members = [
   {
     name: "Hussein Hassan",
     role: "Full-Stack Web Developer",
-    bio: "Full-Stack Web Developer | Nextjs & Serverless Expert.",
+    bio: "Full-Stack Web Developer | Nextjs & Serverless Enthusiast.",
     image: "/team/husn.jpg",
     facebookUrl: "https://www.facebook.com/profile.php?id=100062471768466",
     instagramUrl: "https://www.instagram.com/developer_husn_hsn/",
@@ -22,8 +22,8 @@ export const members = [
   },
   {
     name: "Abed Al-Hussein Saade",
-    role: "Front-End Web Developer",
-    bio: "Front-end Web Developer | React & JavaScript Expert.",
+    role: "Full-Stack Web Developer",
+    bio: "Full-Stack Web Developer | React & JavaScript Enthusiast.",
     image: "/team/abed.jpg",
     facebookUrl: "https://www.facebook.com/profile.php?id=100009450997072",
     instagramUrl: "https://www.instagram.com/abedalhussain_saade/",
@@ -77,13 +77,20 @@ export const work = [
     name: "Smart Village",
     imageSrc: "/projects/smart-village.png",
     link: "https://smartvillage.net",
-    category: "Community",
+    category: "Village Platform",
     bgColor: "bg-indigo-500",
   },
   {
     name: "Figs & Olives",
     imageSrc: "/projects/fopublications.png",
     link: "https://fopublications.com/",
+    category: "E-commerce",
+    bgColor: "bg-pink-600",
+  },
+  {
+    name: "Deebee Store",
+    imageSrc: "/projects/deebee.png",
+    link: "https://deebeelb.store/",
     category: "E-commerce",
     bgColor: "bg-pink-600",
   },
@@ -122,13 +129,6 @@ export const work = [
     category: "Digital Menu",
     bgColor: "bg-orange-500",
   },
-  // {
-  //   name: "Valeo",
-  //   imageSrc: "/projects/valeo.png",
-  //   link: "https://valeo.care",
-  //   category: "Landing Page",
-  //   bgColor: "bg-yellow-500",
-  // },
   {
     name: "Tortilla House",
     imageSrc: "/projects/tortilla.png",
