@@ -100,8 +100,6 @@ export const metadata = {
   applicationName: "Telickers",
   referrer: "origin-when-crossorigin",
   authors: [{ name: "Telickers", url: "https://Telickers.net" }],
-  themeColor: "telickersTight",
-  colorScheme: "light",
   creator: "Telickers",
   copyright: "Telickers",
   publisher: "Telickers",

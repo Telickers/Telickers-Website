@@ -122,11 +122,4 @@ export const work = [
     category: "Landing Page",
     bgColor: "bg-yellow-500",
   },
-  {
-    name: "Al-Amir Juice",
-    imageSrc: "/projects/al-amir.png",
-    link: "https://al-amir-menu.telickers.net",
-    category: "Digital Menu",
-    bgColor: "bg-orange-500",
-  },
 ];
