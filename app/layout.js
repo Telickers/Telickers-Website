@@ -1,6 +1,7 @@
 import WhatsappCTA from "@/components/WhatsappCTA";
 import Footer from "@/components/Layout/Footer";
 import "@/styles/globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function RootLayout({ children }) {
   return (
@@ -10,6 +11,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
         <WhatsappCTA />
+        <Analytics />
       </body>
     </html>
   );
