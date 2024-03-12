@@ -67,18 +67,18 @@ export const services = [
 
 export const work = [
   {
-    name: "Samana Land",
-    imageSrc: "/projects/samana.png",
-    link: "https://samana.land",
-    category: "Real Estate",
-    bgColor: "bg-green-600",
+    name: "Stellarco",
+    imageSrc: "/projects/stellarco.png",
+    link: "https://stellar-co.com",
+    category: "Portfolio",
+    bgColor: "bg-indigo-500",
   },
   {
-    name: "Smart Village",
-    imageSrc: "/projects/smart-village.png",
-    link: "https://smartvillage.net",
-    category: "Marketplace",
-    bgColor: "bg-yellow-500",
+    name: "Lotuslb",
+    imageSrc: "/projects/lotuslb.jpeg",
+    link: "https://lotuslb.org",
+    category: "Portfolio",
+    bgColor: "bg-indigo-500",
   },
   {
     name: "Figs & Olives",
@@ -88,18 +88,48 @@ export const work = [
     bgColor: "bg-pink-600",
   },
   {
-    name: "Stellarco",
-    imageSrc: "/projects/stellarco.png",
-    link: "https://stellar-co.com",
-    category: "Portfolio",
-    bgColor: "bg-indigo-500",
-  },
-  {
     name: "Third Home",
     imageSrc: "/projects/3rd-home.png",
     link: "https://3rdhome.org",
     category: "Portfolio",
     bgColor: "bg-indigo-500",
+  },
+  {
+    name: "Samana Land",
+    imageSrc: "/projects/samana.png",
+    link: "https://samana.land",
+    category: "Real Estate",
+    bgColor: "bg-green-600",
+  },
+
+  {
+    name: "A2solution",
+    imageSrc: "/projects/a2solution.png",
+    link: "https://a2solution.ca",
+    category: "Portfolio",
+    bgColor: "bg-indigo-500",
+  },
+  {
+    name: "Deebee",
+    imageSrc: "/projects/deebee.png",
+    link: "https://deebeelb.store",
+    category: "E-commerce",
+    bgColor: "bg-pink-600",
+  },
+  {
+    name: "KH Basements",
+    imageSrc: "/projects/khbasements.png",
+    link: "https://khbasementrenos.ca",
+    category: "Portfolio",
+    bgColor: "bg-indigo-500",
+  },
+
+  {
+    name: "Smart Village",
+    imageSrc: "/projects/smart-village.png",
+    link: "https://smartvillage.net",
+    category: "Marketplace",
+    bgColor: "bg-yellow-500",
   },
   {
     name: "Nazar Construction",
